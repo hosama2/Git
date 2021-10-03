@@ -1,0 +1,6 @@
+{
+  "trytorecognizelimit" : false,
+  "enablefastlinkcheckforhostplugin" : false,
+  "preferhlsdownload" : false,
+  "preferredhttpquality" : "HIGH"
+}

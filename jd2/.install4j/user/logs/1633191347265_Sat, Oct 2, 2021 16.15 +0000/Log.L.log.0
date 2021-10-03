@@ -1,0 +1,23 @@
+------------------------Thread: 1:Log.L.log-----------------------
+--ID:1TS:1633191347324-10/2/21 4:15:47 PM -  [org.appwork.storage.config.handler.StorageHandler(<init>)] -> Init StorageHandler for Interface:org.jdownloader.updatev2.InternetConnectionSettings|Path:/home/gitpod/jd2/cfg/org.jdownloader.settings.InternetConnectionSettings
+--ID:1TS:1633191347345-10/2/21 4:15:47 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Load JSon Storage from Classpath url: jar:file:/workspace/mint/1.sh.5634.dir/user/JDownloader.jar!/cfg/updateclient/HttpSettings.json
+--ID:1TS:1633191347347-10/2/21 4:15:47 PM -  [org.appwork.storage.config.handler.StorageHandler(<init>)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.UpdateHttpClientOptions|Path:/workspace/mint/1.sh.5634.dir/user/cfg/updateclient/HttpSettings
+--ID:1TS:1633191347354-10/2/21 4:15:47 PM -  [org.appwork.storage.config.handler.StorageHandler(<init>)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.ProxySelectorSettings|Path:/workspace/mint/1.sh.5634.dir/user/cfg/ProxySelector
+------------------------Thread: 32:Log.L.log-----------------------
+--ID:32TS:1633191347390-10/2/21 4:15:47 PM -  [] -> java.lang.Exception: clearCache()->class org.appwork.install4j.donate.DonateLoadDetailsAction$1
+	at org.appwork.updatesys.client.defaultimpl.http.ProxySelectorImpl.clearCache(ProxySelectorImpl.java:324)
+	at org.appwork.updatesys.client.defaultimpl.http.ProxySelectorImpl.ensureInit(ProxySelectorImpl.java:314)
+	at org.appwork.updatesys.client.defaultimpl.http.ProxySelectorImpl.getProxies(ProxySelectorImpl.java:240)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.get(HttpClientImpl.java:275)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.get(HttpClientImpl.java:268)
+	at org.appwork.install4j.donate.DonateLoadDetailsAction$2.run(DonateLoadDetailsAction.java:116)
+
+--ID:32TS:1633191347390-10/2/21 4:15:47 PM -  [org.appwork.updatesys.client.defaultimpl.http.ProxySelectorImpl(initProxyVoleSelector)] -> Proxy Vole Update
+--ID:32TS:1633191347397-10/2/21 4:15:47 PM -  [org.appwork.updatesys.client.defaultimpl.http.ProxySelectorImpl(initProxyVoleSelector)] -> Proxy Vole Selector: null
+--ID:32TS:1633191347397-10/2/21 4:15:47 PM -  [org.appwork.updatesys.client.defaultimpl.http.ProxySelectorImpl(addCustomProxy)] -> Add Custom List Proxies: []
+--ID:32TS:1633191347397-10/2/21 4:15:47 PM -  [org.appwork.updatesys.client.defaultimpl.http.ProxySelectorImpl(getProxies)] -> Add PL List Proxies: []
+--ID:32TS:1633191347397-10/2/21 4:15:47 PM -  [org.appwork.updatesys.client.defaultimpl.http.ProxySelectorImpl(addProxyVoleList)] -> No proxy Vole Selector: https://payments.appwork.org/payment/getDonationScreenDetails?en&setup
+--ID:32TS:1633191347398-10/2/21 4:15:47 PM -  [org.appwork.updatesys.client.defaultimpl.http.ProxySelectorImpl(getProxies)] -> Add System Proxies: []
+--ID:32TS:1633191347398-10/2/21 4:15:47 PM -  [org.appwork.updatesys.client.defaultimpl.http.ProxySelectorImpl(getProxies)] -> Add none Proxy
+------------------------Thread: 31:Log.L.log-----------------------
+--ID:31TS:1633191347401-10/2/21 4:15:47 PM -  [org.appwork.txtresource.TranslationHandler(createTranslationResource)] -> Translation file missing:org/appwork/utils/locale/AWUTranslation.en.lngUse Annotation Dev fallback

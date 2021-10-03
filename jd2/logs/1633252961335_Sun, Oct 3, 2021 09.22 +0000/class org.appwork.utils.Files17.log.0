@@ -1,0 +1,4 @@
+------------------------Thread: 1816:class org.appwork.utils.Files17.log-----------------------
+--ID:1816TS:1633257371755-10/3/21 10:36:11 AM -  [org.appwork.utils.Files17(getFileStores)] -> getFileStores|duration:3|size:40
+------------------------Thread: 1967:class org.appwork.utils.Files17.log-----------------------
+--ID:1967TS:1633257439552-10/3/21 10:37:19 AM -  [org.appwork.utils.Files17(getFileStores)] -> getFileStores|cached|size:40

@@ -1,0 +1,63 @@
+{
+  "src" : -1,
+  "extensionsInstall" : [ ],
+  "extensionsUninstall" : [ ],
+  "extensions" : [ ],
+  "path" : "/workspace/mint/jd2/tmp/update/JD/updatePackage",
+  "dest" : 15756,
+  "hash" : "83d131109db9e15627703ddaab9c40d2d77b1fd79edda4e208a6ddcb6a837f9a",
+  "size" : 46214752,
+  "pkg" : {
+    "status" : "URL",
+    "timeStamp" : 1633116301459,
+    "destRevision" : 15756,
+    "hash" : "83d131109db9e15627703ddaab9c40d2d77b1fd79edda4e208a6ddcb6a837f9a",
+    "size" : 46214752,
+    "contentSize" : 69900200,
+    "encrypted" : true,
+    "urls" : [ {
+      "priority" : 80,
+      "url" : "http://cdn9.appwork.org/JD/15756/163310419587383d449d84c23247336f50fc93f1f41fa_0d433e48e9da1cf8aebe6b33b0fddd431529a5732-0"
+    }, {
+      "priority" : 80,
+      "url" : "http://cdn7.appwork.org/JD/15756/163310419587383d449d84c23247336f50fc93f1f41fa_0d433e48e9da1cf8aebe6b33b0fddd431529a5732-0"
+    }, {
+      "priority" : 80,
+      "url" : "http://cdn1.appwork.org/JD/15756/163310419587383d449d84c23247336f50fc93f1f41fa_0d433e48e9da1cf8aebe6b33b0fddd431529a5732-0"
+    }, {
+      "priority" : 80,
+      "url" : "http://cdn4.appwork.org/JD/15756/163310419587383d449d84c23247336f50fc93f1f41fa_0d433e48e9da1cf8aebe6b33b0fddd431529a5732-0"
+    }, {
+      "priority" : 80,
+      "url" : "http://cdn6.appwork.org/JD/15756/163310419587383d449d84c23247336f50fc93f1f41fa_0d433e48e9da1cf8aebe6b33b0fddd431529a5732-0"
+    }, {
+      "priority" : 80,
+      "url" : "http://cdn8.appwork.org/JD/15756/163310419587383d449d84c23247336f50fc93f1f41fa_0d433e48e9da1cf8aebe6b33b0fddd431529a5732-0"
+    }, {
+      "priority" : 80,
+      "url" : "http://cdn10.appwork.org/JD/15756/163310419587383d449d84c23247336f50fc93f1f41fa_0d433e48e9da1cf8aebe6b33b0fddd431529a5732-0"
+    }, {
+      "priority" : 80,
+      "url" : "http://cdn11.appwork.org/JD/15756/163310419587383d449d84c23247336f50fc93f1f41fa_0d433e48e9da1cf8aebe6b33b0fddd431529a5732-0"
+    }, {
+      "priority" : 80,
+      "url" : "http://cdn12.appwork.org/JD/15756/163310419587383d449d84c23247336f50fc93f1f41fa_0d433e48e9da1cf8aebe6b33b0fddd431529a5732-0"
+    } ],
+    "changeLogHash" : null,
+    "changeLogSize" : -1,
+    "changeLogContentSize" : -1,
+    "changeLogUrls" : null,
+    "changeLogText" : null,
+    "diskSpaceChanges" : {
+      "" : {
+        "required" : 68396902,
+        "changed" : 68396902
+      }
+    },
+    "updateFlags" : null,
+    "revisionName" : null,
+    "downloadID" : -1
+  },
+  "deduplicationMode" : "INTRA",
+  "jarDiff" : true
+}

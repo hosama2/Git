@@ -1,0 +1,5 @@
+------------------------Thread: 70:jd.controlling.downloadcontroller.DownloadController.log-----------------------
+--ID:70TS:1633192134943-10/2/21 4:28:54 PM -  [jd.controlling.downloadcontroller.DownloadController$7(run)] -> Init DownloadList
+--ID:70TS:1633192134943-10/2/21 4:28:54 PM -  [jd.controlling.downloadcontroller.DownloadController(findAvailableDownloadLists)] -> Collect Lists
+--ID:70TS:1633192134947-10/2/21 4:28:54 PM -  [jd.controlling.downloadcontroller.DownloadController(findAvailableDownloadLists)] -> Lists: []
+--ID:70TS:1633192134947-10/2/21 4:28:54 PM -  [jd.controlling.downloadcontroller.DownloadController$7(run)] -> LinkList empty!

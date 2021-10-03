@@ -1,0 +1,17 @@
+stun-servers = ["stun.l.google.com:19302", "stun1.l.google.com:19302", "stun2.l.google.com:19302"]
+traversal = "manual,upnp,holepunching"
+
+[ether]
+  [ether.client]
+    rpcl2 = ["https://mumbai1.mysterium.network/", "https://mumbai2.mysterium.network/"]
+
+[mmn]
+  api-key = "HUfbuI18TWKzulzbl9kxu9bJw59BAD6u6M1Rsd5o"
+
+[terms]
+  consumer-agreed = true
+  provider-agreed = true
+  version = "0.0.27"
+
+[udp]
+  ports = "10000:60000"

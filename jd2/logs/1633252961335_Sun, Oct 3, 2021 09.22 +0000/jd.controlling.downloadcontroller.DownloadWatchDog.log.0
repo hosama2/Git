@@ -1,0 +1,70 @@
+------------------------Thread: 36:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:36TS:1633252965051-10/3/21 9:22:45 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog(<init>)] -> USE_AVAILABLE_ACCOUNTS: true
+------------------------Thread: 47:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:47TS:1633257460108-10/3/21 10:37:40 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$25(execute)] -> DownloadWatchDog: start
+------------------------Thread: 2180:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:2180TS:1633257461370-10/3/21 10:37:41 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 3750 for new ActivationRequests
+--ID:2180TS:1633257462620-10/3/21 10:37:42 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 2500 for new ActivationRequests
+--ID:2180TS:1633257463871-10/3/21 10:37:43 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 1249 for new ActivationRequests
+--ID:2180TS:1633257465121-10/3/21 10:37:45 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 0 for new ActivationRequests
+--ID:2180TS:1633257465121-10/3/21 10:37:45 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Waited 5001 but no new ActivationRequests are available->Stop DownloadWatchDog
+--ID:2180TS:1633257465122-10/3/21 10:37:45 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopping
+--ID:2180TS:1633257465123-10/3/21 10:37:45 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopped
+------------------------Thread: 2237:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:2237TS:1633257466986-10/3/21 10:37:46 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$25(execute)] -> DownloadWatchDog: start
+------------------------Thread: 2271:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:2271TS:1633257466999-10/3/21 10:37:46 AM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/<jd:default>/[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip.part|Root(s):[/workspace]|Requestor:null|RequestedSpace:1.46 GB|UsableSpace:1.08 TB
+--ID:2271TS:1633257467002-10/3/21 10:37:47 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog(attach)] -> Start new Download: Use Premium: true Host:DownloadCandidate:[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip@http links|Host http links|Account:Plugin:http links|Version:45043|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}
+------------------------Thread: 2238:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:2238TS:1633257467007-10/3/21 10:37:47 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$26(run)] -> Download To: /workspace/mint/dl/<jd:default>/[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip
+------------------------Thread: 2271:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:2271TS:1633257768137-10/3/21 10:42:48 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog(setFinalLinkStatus)] -> DownloadCandidate:[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip@http links|Host http links|Account:Plugin:http links|Version:45043|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}->FINISHED
+--ID:2271TS:1633257769392-10/3/21 10:42:49 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 3750 for new ActivationRequests
+--ID:2271TS:1633257770642-10/3/21 10:42:50 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 2500 for new ActivationRequests
+--ID:2271TS:1633257771868-10/3/21 10:42:51 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog(deleteFile)] -> Deleted file: /workspace/mint/dl/<jd:default>/[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip for [AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip@http links
+--ID:2271TS:1633257771868-10/3/21 10:42:51 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 1376 for new ActivationRequests
+--ID:2271TS:1633257773119-10/3/21 10:42:53 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 126 for new ActivationRequests
+--ID:2271TS:1633257774369-10/3/21 10:42:54 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 0 for new ActivationRequests
+--ID:2271TS:1633257774369-10/3/21 10:42:54 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Waited 6124 but no new ActivationRequests are available->Stop DownloadWatchDog
+--ID:2271TS:1633257774369-10/3/21 10:42:54 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopping
+--ID:2271TS:1633257774370-10/3/21 10:42:54 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopped

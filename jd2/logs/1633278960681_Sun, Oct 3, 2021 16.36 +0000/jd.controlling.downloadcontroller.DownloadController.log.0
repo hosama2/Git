@@ -1,0 +1,7 @@
+------------------------Thread: 44:jd.controlling.downloadcontroller.DownloadController.log-----------------------
+--ID:44TS:1633278964181-10/3/21 4:36:04 PM -  [jd.controlling.downloadcontroller.DownloadController$7(run)] -> Init DownloadList
+--ID:44TS:1633278964181-10/3/21 4:36:04 PM -  [jd.controlling.downloadcontroller.DownloadController(findAvailableDownloadLists)] -> Collect Lists
+--ID:44TS:1633278964185-10/3/21 4:36:04 PM -  [jd.controlling.downloadcontroller.DownloadController(findAvailableDownloadLists)] -> Lists: [/workspace/mint/jd2/cfg/downloadList3.zip, /workspace/mint/jd2/cfg/downloadList2.zip, /workspace/mint/jd2/cfg/downloadList1.zip, /workspace/mint/jd2/cfg/downloadList.zip]
+--ID:44TS:1633278964185-10/3/21 4:36:04 PM -  [jd.controlling.downloadcontroller.DownloadController(loadFile)] -> Load List: /workspace/mint/jd2/cfg/downloadList3.zip
+--ID:44TS:1633278964234-10/3/21 4:36:04 PM -  [jd.controlling.downloadcontroller.DownloadController$7(run)] -> LinkList found: 1/1
+--ID:44TS:1633278964456-10/3/21 4:36:04 PM -  [org.jdownloader.plugins.controller.host.PluginFinder(assignHost)] -> Could not assign any host for: 1633278964234.com

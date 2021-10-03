@@ -1,0 +1,30 @@
+------------------------Thread: 36:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:36TS:1633252964905-10/3/21 9:22:44 AM -  [jd.controlling.linkcollector.LinkCollector(<init>)] -> LinkChecker Enabled:true
+------------------------Thread: 46:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:46TS:1633252964905-10/3/21 9:22:44 AM -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Collect Lists
+--ID:46TS:1633252964907-10/3/21 9:22:44 AM -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Lists: [/workspace/mint/jd2/cfg/linkcollector3.zip, /workspace/mint/jd2/cfg/linkcollector2.zip, /workspace/mint/jd2/cfg/linkcollector1.zip, /workspace/mint/jd2/cfg/linkcollector.zip]
+--ID:46TS:1633252964911-10/3/21 9:22:44 AM -  [jd.controlling.linkcollector.LinkCollector$17(run)] -> CollectorList found: 0/0
+------------------------Thread: 297:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:297TS:1633253019503-10/3/21 9:23:39 AM -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1633253019494|Origin:MYJD
+------------------------Thread: 415:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:415TS:1633253272529-10/3/21 9:27:52 AM -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1633253272525|Origin:MYJD
+------------------------Thread: 1055:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:1055TS:1633255969095-10/3/21 10:12:49 AM -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1633255969094|Origin:MYJD
+------------------------Thread: 1228:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:1228TS:1633256576939-10/3/21 10:22:56 AM -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1633256576939|Origin:MYJD
+------------------------Thread: 1508:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:1508TS:1633257211203-10/3/21 10:33:31 AM -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1633257211202|Origin:MYJD
+------------------------Thread: 1558:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:1558TS:1633257261957-10/3/21 10:34:21 AM -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1633257261956|Origin:MYJD
+------------------------Thread: 1673:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:1673TS:1633257348456-10/3/21 10:35:48 AM -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1633257348455|Origin:MYJD
+------------------------Thread: 1680:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:1680TS:1633257363757-10/3/21 10:36:03 AM -  [] -> Exception thrown at jd.controlling.packagecontroller.PackageController$4.run(PackageController.java:382):
+java.lang.Throwable: NO CONTROLLER!!!
+	at jd.controlling.packagecontroller.PackageController$4.run(PackageController.java:382)
+	at jd.controlling.packagecontroller.PackageController$4.run(PackageController.java:376)
+	at org.appwork.utils.event.queue.QueueAction.start(QueueAction.java:202)
+	at org.appwork.utils.event.queue.Queue.startItem(Queue.java:504)
+	at org.appwork.utils.event.queue.Queue.runQueue(Queue.java:437)
+	at org.appwork.utils.event.queue.QueueThread.run(QueueThread.java:64)
+

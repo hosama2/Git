@@ -1,0 +1,9 @@
+------------------------Thread: 74:org.jdownloader.extensions.ExtensionController.log-----------------------
+--ID:74TS:1633192135108-10/2/21 4:28:55 PM -  [org.jdownloader.extensions.ExtensionController(loadJared)] -> Extensions:[/workspace/mint/jd2/extensions/Extraction.jar, /workspace/mint/jd2/extensions/JDShutdown.jar]
+--ID:74TS:1633192135341-10/2/21 4:28:55 PM -  [org.jdownloader.extensions.ExtensionController(initModule)] -> Load Extension: extraction.ExtractionExtension
+--ID:74TS:1633192135432-10/2/21 4:28:55 PM -  [org.jdownloader.extensions.ExtensionController(initModule)] -> Loaded Extension: extraction.ExtractionExtension Load Duration:91ms
+--ID:74TS:1633192135434-10/2/21 4:28:55 PM -  [org.jdownloader.extensions.ExtensionController(initModule)] -> Load Extension: shutdown.ShutdownExtension
+--ID:74TS:1633192135482-10/2/21 4:28:55 PM -  [org.jdownloader.extensions.ExtensionController(initModule)] -> Loaded Extension: shutdown.ShutdownExtension Load Duration:48ms
+--ID:74TS:1633192135511-10/2/21 4:28:55 PM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController: init in407ms :2
+--ID:74TS:1633192135511-10/2/21 4:28:55 PM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController:Archive Extractor
+--ID:74TS:1633192135511-10/2/21 4:28:55 PM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController:JD Shutdown

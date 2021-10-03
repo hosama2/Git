@@ -1,0 +1,15 @@
+{
+  "uniquedeviceidsaltv2" : "5f974c5a334c042c8a11ad9b11ec570ec965a7d14d0bd52126bc3f1f6045fc11",
+  "autoconnectenabledv2" : true,
+  "debugenabled" : false,
+  "uniquedeviceid" : null,
+  "lastlocalport" : 41517,
+  "latesterror" : "NONE",
+  "manuallocalport" : 3129,
+  "password" : "431678aa",
+  "serverhost" : "api.jdownloader.org",
+  "directconnectmode" : "LAN",
+  "devicename" : "JDownloader@gitpod",
+  "uniquedeviceidv2" : "daae476f598b26b8f4a724b1fe155292",
+  "email" : "h.osamamm2@gmail.com"
+}

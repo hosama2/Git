@@ -1,0 +1,120 @@
+JarHandlerWorkaroundOracle:setURLStreamHandlerFactory
+JarHandlerWorkaroundOracle:replaceLauncherFactory
+JarHandlerWorkaroundOracle:replaceURLClassPath
+JarHandlerWorkaroundOracle:replacejarHandler
+JarHandlerWorkaroundOracle:replaceLoaders:2
+JarHandlerWorkaroundOracle:replaceLoader:0:handler
+JarHandlerWorkaroundOracle:replaceLoader:0:handler:jar:file:/workspace/mint/jd2/.install4j/i4jruntime.jar!/
+JarHandlerWorkaroundOracle:replaceLoader:1:handler
+JarHandlerWorkaroundOracle:replaceLoader:1:handler:jar:file:/workspace/mint/jd2/JDownloader.jar!/
+INFO >> sun.Desktop: null
+INFO >> XDG_CURRENT_DESKTOP: null
+INFO >> KDE_FULL_SESSION: null
+INFO >> KDE_SESSION_VERSION: null
+INFO >> DESKTOP_SESSION: null
+INFO >> GNOME_DESKTOP_SESSION_ID: null
+INFO >> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.appwork.utils.logging2.LogConfig.json
+SystemEntropyWorkaround:true
+Multiple LogControllers Detected: org.appwork.utils.logging2.extmanager.LoggerFactory|Mode:REPLACED
+Multiple LogControllers Detected: org.jdownloader.logging.LogController|org.jdownloader.logging.LogController@614c5515
+Start Update
+Update Message: Check for updates
+Update Progress: 3%
+Update Progress: -1%
+Update Message: Contact Server...
+UpdateClient Proxy Vole 6
+Update Message: Check for updates
+SevenZipJBinding: null
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/Core.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/Dynamics.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/Filters.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/JAntiCaptcha.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/JDGUI.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/JDHttp.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/JDUtils.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/UPNP/cling-core.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/UPNP/cling-support.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/UPNP/seamless-http.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/UPNP/seamless-util.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/UPNP/seamless-xml.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/bcpkix-jdk15on.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/bcprov-jdk15on.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/bctls-jdk15on.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/bcutil-jdk15on.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/brotli.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/cons.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/dbus/debug-disable.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/dbus/hexdump.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/dbus/libdbus-java.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/dbus/unix.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/htmlunit-core-js.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/image4j.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/jackson-annotations.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/jackson-core.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/jackson-databind.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/jna.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/jna_platform.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/js.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/jsyntaxpane.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/laf/synthetica.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/laf/syntheticaJDCustom.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/laf/syntheticaSimple2D.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/proxyVole.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/sevenzipjbinding.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/sevenzipjbindingLinux.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/svgSalamander.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/libs/zip4j.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/extensions/Extraction.jar
+Add via Application.addUrlToClassPath:file:/workspace/mint/jd2/extensions/JDShutdown.jar
+Successfully removed cryptography restrictions
+Start Update
+Update Message: Check for updates
+Update Progress: 3%
+Update Progress: -1%
+Update Message: Contact Server...
+Update Message: Check for updates
+JD2Setup x64 - 1633292947608
+JD2Setup x64 - 1633292947608
+JD2Setup x64 - 1633292947608
+JD2Setup x64 - 1633292947608
+ICONget {
+  "rsc" : [ {
+  "rsc" : [ {
+  "cls" : "tld",
+  "key" : "mega.co.nz"
+}, {
+  "key" : "download"
+} ],
+  "cls" : "Favit"
+} ],
+  "cls" : "ColMerge"
+}
+ICONget {
+  "rsc" : [ {
+  "cls" : "tld",
+  "key" : "mega.co.nz"
+}, {
+  "key" : "download"
+} ],
+  "cls" : "Favit"
+}
+ICONget {
+  "key" : "download"
+}
+JD2Setup x64 - 1633293405053
+JD2Setup x64 - 1633293405053
+JD2Setup x64 - 1633293405053
+JD2Setup x64 - 1633293405053
+JD2Setup x64 - 1633293405053
+JD2Setup x64 - 1633293405053
+JD2Setup x64 - 1633293405053
+JD2Setup x64 - 1633293405053
+JD2Setup x64 - 1633293405053
+JD2Setup x64 - 1633293405053
+JD2Setup x64 - 1633293611135
+JD2Setup x64 - 1633293611135
+JD2Setup x64 - 1633293630044
+JD2Setup x64 - 1633293630044
+JD2Setup x64 - 1633293915428
+JD2Setup x64 - 1633293961254
+JD2Setup x64 - 1633293961254

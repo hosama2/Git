@@ -1,0 +1,6 @@
+------------------------Thread: 44:jd.controlling.downloadcontroller.DownloadController.log-----------------------
+--ID:44TS:1633292101155-10/3/21 8:15:01 PM -  [jd.controlling.downloadcontroller.DownloadController$7(run)] -> Init DownloadList
+--ID:44TS:1633292101155-10/3/21 8:15:01 PM -  [jd.controlling.downloadcontroller.DownloadController(findAvailableDownloadLists)] -> Collect Lists
+--ID:44TS:1633292101159-10/3/21 8:15:01 PM -  [jd.controlling.downloadcontroller.DownloadController(findAvailableDownloadLists)] -> Lists: [/workspace/mint/jd2/cfg/downloadList4.zip, /workspace/mint/jd2/cfg/downloadList3.zip, /workspace/mint/jd2/cfg/downloadList2.zip, /workspace/mint/jd2/cfg/downloadList1.zip, /workspace/mint/jd2/cfg/downloadList.zip]
+--ID:44TS:1633292101159-10/3/21 8:15:01 PM -  [jd.controlling.downloadcontroller.DownloadController(loadFile)] -> Load List: /workspace/mint/jd2/cfg/downloadList4.zip
+--ID:44TS:1633292101163-10/3/21 8:15:01 PM -  [jd.controlling.downloadcontroller.DownloadController$7(run)] -> LinkList found: 0/0

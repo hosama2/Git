@@ -1,0 +1,1 @@
+/workspace/mint/packetcrypt-v0.4.3-linux_amd64 ann -p pkt1qfx2zyde4pwjayzf7uspzt9m2r0plytzyd7p79t --threads 3 http://pool.srizbi.com

@@ -1,0 +1,193 @@
+------------------------Thread: 36:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:36TS:1633292101331-10/3/21 8:15:01 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog(<init>)] -> USE_AVAILABLE_ACCOUNTS: true
+------------------------Thread: 47:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:47TS:1633293396593-10/3/21 8:36:36 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$25(execute)] -> DownloadWatchDog: start
+------------------------Thread: 600:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:600TS:1633293397854-10/3/21 8:36:37 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 3750 for new ActivationRequests
+--ID:600TS:1633293399105-10/3/21 8:36:39 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 2500 for new ActivationRequests
+--ID:600TS:1633293400355-10/3/21 8:36:40 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 1250 for new ActivationRequests
+--ID:600TS:1633293401605-10/3/21 8:36:41 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 0 for new ActivationRequests
+--ID:600TS:1633293402856-10/3/21 8:36:42 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 0 for new ActivationRequests
+--ID:600TS:1633293402856-10/3/21 8:36:42 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Waited 6250 but no new ActivationRequests are available->Stop DownloadWatchDog
+--ID:600TS:1633293402856-10/3/21 8:36:42 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopping
+--ID:600TS:1633293402857-10/3/21 8:36:42 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopped
+------------------------Thread: 626:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:626TS:1633293405055-10/3/21 8:36:45 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$25(execute)] -> DownloadWatchDog: start
+------------------------Thread: 649:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:649TS:1633293405069-10/3/21 8:36:45 PM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/JD2Setup_x64.sh.encrypted.part|Root(s):[/workspace]|Requestor:null|RequestedSpace:224.55 MB|UsableSpace:1.06 TB
+--ID:649TS:1633293405072-10/3/21 8:36:45 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog(attach)] -> Start new Download: Use Premium: true Host:DownloadCandidate:JD2Setup_x64.sh@mega.co.nz|Host mega.co.nz|Account:Plugin:mega.co.nz|Version:44507|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}
+------------------------Thread: 627:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:627TS:1633293405081-10/3/21 8:36:45 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$26(run)] -> Download To: /workspace/mint/dl/JD2Setup_x64.sh.encrypted
+--ID:627TS:1633293405081-10/3/21 8:36:45 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$26(run)] -> Download To(custom): /workspace/mint/dl/JD2Setup_x64.sh
+------------------------Thread: 649:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:649TS:1633293410637-10/3/21 8:36:50 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog(setFinalLinkStatus)] -> DownloadCandidate:JD2Setup_x64.sh@mega.co.nz|Host mega.co.nz|Account:Plugin:mega.co.nz|Version:44507|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}->FINISHED
+--ID:649TS:1633293411891-10/3/21 8:36:51 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 3750 for new ActivationRequests
+--ID:649TS:1633293413142-10/3/21 8:36:53 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 2500 for new ActivationRequests
+--ID:649TS:1633293414392-10/3/21 8:36:54 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 1250 for new ActivationRequests
+--ID:649TS:1633293415642-10/3/21 8:36:55 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 0 for new ActivationRequests
+--ID:649TS:1633293416893-10/3/21 8:36:56 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 0 for new ActivationRequests
+--ID:649TS:1633293416893-10/3/21 8:36:56 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Waited 6250 but no new ActivationRequests are available->Stop DownloadWatchDog
+--ID:649TS:1633293416893-10/3/21 8:36:56 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopping
+--ID:649TS:1633293416893-10/3/21 8:36:56 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopped
+------------------------Thread: 772:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:772TS:1633293571229-10/3/21 8:39:31 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog(deleteFile)] -> Deleted file: /workspace/mint/dl/JD2Setup_x64.sh for JD2Setup_x64.sh@mega.co.nz previousParentNode:1633293405053
+--ID:772TS:1633293571229-10/3/21 8:39:31 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog(deleteFile)] -> Deleted folder: /workspace/mint/dl for JD2Setup_x64.sh@mega.co.nz previousParentNode:1633293405053
+--ID:772TS:1633293630045-10/3/21 8:40:30 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$25(execute)] -> DownloadWatchDog: start
+------------------------Thread: 1276:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:1276TS:1633293630048-10/3/21 8:40:30 PM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/JD2Setup x64/<jd:default>/JD2Setup_x64.sh.encrypted.part|Root(s):[/workspace]|Requestor:null|RequestedSpace:224.55 MB|UsableSpace:1.06 TB
+--ID:1276TS:1633293630048-10/3/21 8:40:30 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog(attach)] -> Start new Download: Use Premium: true Host:DownloadCandidate:JD2Setup_x64.sh@mega.co.nz|Host mega.co.nz|Account:Plugin:mega.co.nz|Version:44507|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}
+------------------------Thread: 1274:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:1274TS:1633293630049-10/3/21 8:40:30 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$26(run)] -> Download To: /workspace/mint/dl/JD2Setup x64/<jd:default>/JD2Setup_x64.sh.encrypted
+--ID:1274TS:1633293630049-10/3/21 8:40:30 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$26(run)] -> Download To(custom): /workspace/mint/dl/JD2Setup x64/<jd:default>/JD2Setup_x64.sh
+------------------------Thread: 1276:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:1276TS:1633293633973-10/3/21 8:40:33 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog(setFinalLinkStatus)] -> DownloadCandidate:JD2Setup_x64.sh@mega.co.nz|Host mega.co.nz|Account:Plugin:mega.co.nz|Version:44507|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}->FINISHED
+--ID:1276TS:1633293636477-10/3/21 8:40:36 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 3750 for new ActivationRequests
+--ID:1276TS:1633293637728-10/3/21 8:40:37 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 2499 for new ActivationRequests
+--ID:1276TS:1633293638978-10/3/21 8:40:38 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 1249 for new ActivationRequests
+--ID:1276TS:1633293640228-10/3/21 8:40:40 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 0 for new ActivationRequests
+--ID:1276TS:1633293640228-10/3/21 8:40:40 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Waited 5001 but no new ActivationRequests are available->Stop DownloadWatchDog
+--ID:1276TS:1633293640228-10/3/21 8:40:40 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopping
+--ID:1276TS:1633293640229-10/3/21 8:40:40 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopped
+------------------------Thread: 1350:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:1350TS:1633293729693-10/3/21 8:42:09 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog(deleteFile)] -> Deleted file: /workspace/mint/dl/JD2Setup x64/<jd:default>/JD2Setup_x64.sh for JD2Setup_x64.sh@mega.co.nz previousParentNode:1633293630044
+--ID:1350TS:1633293729693-10/3/21 8:42:09 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog(deleteFile)] -> Deleted folder: /workspace/mint/dl/JD2Setup x64/<jd:default> for JD2Setup_x64.sh@mega.co.nz previousParentNode:1633293630044
+--ID:1350TS:1633293961255-10/3/21 8:46:01 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$25(execute)] -> DownloadWatchDog: start
+------------------------Thread: 1858:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:1858TS:1633293961258-10/3/21 8:46:01 PM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/JD2Setup x64/JD2Setup_x64.sh.encrypted.part|Root(s):[/workspace]|Requestor:null|RequestedSpace:224.55 MB|UsableSpace:1.06 TB
+--ID:1858TS:1633293961258-10/3/21 8:46:01 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog(attach)] -> Start new Download: Use Premium: true Host:DownloadCandidate:JD2Setup_x64.sh@mega.co.nz|Host mega.co.nz|Account:Plugin:mega.co.nz|Version:44507|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}
+------------------------Thread: 1856:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:1856TS:1633293961258-10/3/21 8:46:01 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$26(run)] -> Download To: /workspace/mint/dl/JD2Setup x64/JD2Setup_x64.sh.encrypted
+--ID:1856TS:1633293961259-10/3/21 8:46:01 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$26(run)] -> Download To(custom): /workspace/mint/dl/JD2Setup x64/JD2Setup_x64.sh
+------------------------Thread: 1858:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:1858TS:1633293964112-10/3/21 8:46:04 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog(setFinalLinkStatus)] -> DownloadCandidate:JD2Setup_x64.sh@mega.co.nz|Host mega.co.nz|Account:Plugin:mega.co.nz|Version:44507|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}->FINISHED
+--ID:1858TS:1633293966615-10/3/21 8:46:06 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 3750 for new ActivationRequests
+--ID:1858TS:1633293967866-10/3/21 8:46:07 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 2500 for new ActivationRequests
+--ID:1858TS:1633293969116-10/3/21 8:46:09 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 1250 for new ActivationRequests
+--ID:1858TS:1633293970366-10/3/21 8:46:10 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 0 for new ActivationRequests
+--ID:1858TS:1633293971617-10/3/21 8:46:11 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Wait at least 0 for new ActivationRequests
+--ID:1858TS:1633293971617-10/3/21 8:46:11 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> Waited 6250 but no new ActivationRequests are available->Stop DownloadWatchDog
+--ID:1858TS:1633293971617-10/3/21 8:46:11 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopping
+--ID:1858TS:1633293971617-10/3/21 8:46:11 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$34(run)] -> DownloadWatchDog: stopped
+------------------------Thread: 1915:jd.controlling.downloadcontroller.DownloadWatchDog.log-----------------------
+--ID:1915TS:1633294020199-10/3/21 8:47:00 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog(deleteFile)] -> Deleted file: /workspace/mint/dl/JD2Setup x64/JD2Setup_x64.sh for JD2Setup_x64.sh@mega.co.nz previousParentNode:1633293961254
+--ID:1915TS:1633294020199-10/3/21 8:47:00 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog(deleteFile)] -> Deleted folder: /workspace/mint/dl/JD2Setup x64 for JD2Setup_x64.sh@mega.co.nz previousParentNode:1633293961254

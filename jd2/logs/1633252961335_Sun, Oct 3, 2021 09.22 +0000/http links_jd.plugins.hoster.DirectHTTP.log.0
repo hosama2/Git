@@ -1,0 +1,199 @@
+------------------------Thread: 2272:http links_jd.plugins.hoster.DirectHTTP-----------------------
+--ID:2272TS:1633257467008-10/3/21 10:37:47 AM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> StartDownloadMarker:1633257467008
+--ID:2272TS:1633257467009-10/3/21 10:37:47 AM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> Start Download of:http://kuro-veronica.animekaizoku.com/Airing/Life%20Lessons%20with%20Uramichi%20Oniisan/%5BAnimeKaizoku%5D%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20%5BApognwsi%5D.zip | ID:1633257467008
+--ID:2272TS:1633257467009-10/3/21 10:37:47 AM -  [jd.controlling.downloadcontroller.SingleDownloadController(download)] -> DownloadCandidate: DownloadCandidate:[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip@http links|Host http links|Account:Plugin:http links|Version:45043|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}
+------------------------Thread: 2271:http links_jd.plugins.hoster.DirectHTTP-----------------------
+--ID:2271TS:1633257467014-10/3/21 10:37:47 AM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/<jd:default>/[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip.part|Root(s):[/workspace]|Requestor:null|RequestedSpace:1.46 GB|UsableSpace:1.08 TB
+------------------------Thread: 2272:http links_jd.plugins.hoster.DirectHTTP-----------------------
+--ID:2272TS:1633257467152-10/3/21 10:37:47 AM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: org.jdownloader.plugins.components.antiDDoSForHost.openAntiDDoSRequestConnection(antiDDoSForHost.java:335)
+jd.plugins.hoster.DirectHTTP.prepareConnection(DirectHTTP.java:497)
+jd.plugins.hoster.DirectHTTP.requestFileInformation(DirectHTTP.java:668)
+jd.plugins.hoster.DirectHTTP.requestFileInformation(DirectHTTP.java:560)
+jd.plugins.hoster.DirectHTTP.handleFree(DirectHTTP.java:308)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:22|BrowserParentID:-1|RequestID:1|URL:http://kuro-veronica.animekaizoku.com/Airing/Life%20Lessons%20with%20Uramichi%20Oniisan/%5BAnimeKaizoku%5D%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20%5BApognwsi%5D.zip
+----------------Request Information-------------
+URL: http://kuro-veronica.animekaizoku.com/Airing/Life%20Lessons%20with%20Uramichi%20Oniisan/%5BAnimeKaizoku%5D%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20%5BApognwsi%5D.zip
+ConnectIP: kuro-veronica.animekaizoku.com/54.73.26.109:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+HEAD /Airing/Life%20Lessons%20with%20Uramichi%20Oniisan/%5BAnimeKaizoku%5D%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20%5BApognwsi%5D.zip HTTP/1.1
+Host: kuro-veronica.animekaizoku.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-gb, en;q=0.8
+Accept-Encoding: identity
+Cache-Control: no-cache
+
+----------------Response Information------------
+Connection-Time: 18ms
+Request-Time: 104ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Connection: keep-alive
+Server: nginx
+Date: Sun, 03 Oct 2021 10:37:47 GMT
+Content-Type: application/octet-stream
+Content-Length: 1438809852
+Accept-Ranges: bytes
+Set-Cookie: HFS_SID_=DlSfgRW35UAAAAC55OSPw; path=/; HttpOnly
+Etag: 8bd89ee5233fac30100067926568c802
+Last-Modified: Tue, 28 Sep 2021 16:02:11 GMT
+Content-Disposition: attachment; filename*=UTF-8''[AnimeKaizoku]%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20[Apognwsi].zip; filename=[AnimeKaizoku]%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20[Apognwsi].zip
+Via: 1.1 vegur
+------------------------------------------------
+
+
+--ID:2272TS:1633257467153-10/3/21 10:37:47 AM -  [jd.plugins.hoster.DirectHTTP(requestFileInformation)] -> looksLikeDownloadableContent result(0,1):true
+--ID:2272TS:1633257467154-10/3/21 10:37:47 AM -  [jd.http.Browser(loadConnection)] -> 
+BrowserID:22|RequestID:1|URL:http://kuro-veronica.animekaizoku.com/Airing/Life%20Lessons%20with%20Uramichi%20Oniisan/%5BAnimeKaizoku%5D%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20%5BApognwsi%5D.zip
+----------------Request Content-------------
+No htmlCode read
+
+--ID:2272TS:1633257467154-10/3/21 10:37:47 AM -  [jd.plugins.hoster.DirectHTTP(handleFree)] -> ServerComaptibleForByteRangeRequest:true
+--ID:2272TS:1633257467161-10/3/21 10:37:47 AM -  [jd.plugins.download.raf.OldRAFDownload(setResume)] -> Resumepoint not valid
+--ID:2272TS:1633257467161-10/3/21 10:37:47 AM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> Connect...
+--ID:2272TS:1633257467161-10/3/21 10:37:47 AM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> .....connectFirstRange
+--ID:2272TS:1633257467282-10/3/21 10:37:47 AM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.OldRAFDownload.connectFirstRange(OldRAFDownload.java:337)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:198)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:168)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:229)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:128)
+jd.plugins.hoster.DirectHTTP.handleFree(DirectHTTP.java:361)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:23|BrowserParentID:22|RequestID:1|URL:http://kuro-veronica.animekaizoku.com/Airing/Life%20Lessons%20with%20Uramichi%20Oniisan/%5BAnimeKaizoku%5D%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20%5BApognwsi%5D.zip
+----------------Request Information-------------
+URL: http://kuro-veronica.animekaizoku.com/Airing/Life%20Lessons%20with%20Uramichi%20Oniisan/%5BAnimeKaizoku%5D%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20%5BApognwsi%5D.zip
+ConnectIP: kuro-veronica.animekaizoku.com/54.73.26.109:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /Airing/Life%20Lessons%20with%20Uramichi%20Oniisan/%5BAnimeKaizoku%5D%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20%5BApognwsi%5D.zip HTTP/1.1
+Host: kuro-veronica.animekaizoku.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-gb, en;q=0.8
+Accept-Encoding: identity
+Cache-Control: no-cache
+Range: bytes=0-
+Cookie: HFS_SID_=DlSfgRW35UAAAAC55OSPw
+
+----------------Response Information------------
+Connection-Time: keep-Alive
+Request-Time: 121ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Connection: keep-alive
+Server: nginx
+Date: Sun, 03 Oct 2021 10:37:47 GMT
+Content-Type: application/octet-stream
+Content-Length: 1438809852
+Accept-Ranges: bytes
+Etag: 8bd89ee5233fac30100067926568c802
+Last-Modified: Tue, 28 Sep 2021 16:02:11 GMT
+Content-Disposition: attachment; filename*=UTF-8''[AnimeKaizoku]%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20[Apognwsi].zip; filename=[AnimeKaizoku]%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20[Apognwsi].zip
+Via: 1.1 vegur
+------------------------------------------------
+
+
+--ID:2272TS:1633257467283-10/3/21 10:37:47 AM -  [jd.plugins.download.raf.OldRAFDownload(connectFirstRange)] -> No Chunkload
+--ID:2272TS:1633257467283-10/3/21 10:37:47 AM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> 
+Caller: jd.plugins.download.raf.OldRAFDownload.connectFirstRange(OldRAFDownload.java:337)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:198)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:168)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:229)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:128)
+jd.plugins.hoster.DirectHTTP.handleFree(DirectHTTP.java:361)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:23|BrowserParentID:22|RequestID:1|URL:http://kuro-veronica.animekaizoku.com/Airing/Life%20Lessons%20with%20Uramichi%20Oniisan/%5BAnimeKaizoku%5D%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20%5BApognwsi%5D.zip
+----------------Request Information-------------
+URL: http://kuro-veronica.animekaizoku.com/Airing/Life%20Lessons%20with%20Uramichi%20Oniisan/%5BAnimeKaizoku%5D%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20%5BApognwsi%5D.zip
+ConnectIP: kuro-veronica.animekaizoku.com/54.73.26.109:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /Airing/Life%20Lessons%20with%20Uramichi%20Oniisan/%5BAnimeKaizoku%5D%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20%5BApognwsi%5D.zip HTTP/1.1
+Host: kuro-veronica.animekaizoku.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:76.0) Gecko/20100101 Firefox/76.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-gb, en;q=0.8
+Accept-Encoding: identity
+Cache-Control: no-cache
+Range: bytes=0-
+Cookie: HFS_SID_=DlSfgRW35UAAAAC55OSPw
+
+----------------Response Information------------
+Connection-Time: keep-Alive
+Request-Time: 121ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Connection: keep-alive
+Server: nginx
+Date: Sun, 03 Oct 2021 10:37:47 GMT
+Content-Type: application/octet-stream
+Content-Length: 1438809852
+Accept-Ranges: bytes
+Etag: 8bd89ee5233fac30100067926568c802
+Last-Modified: Tue, 28 Sep 2021 16:02:11 GMT
+Content-Disposition: attachment; filename*=UTF-8''[AnimeKaizoku]%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20[Apognwsi].zip; filename=[AnimeKaizoku]%20Life%20Lessons%20with%20Uramichi%20Oniisan%20720p%20Eng%20Sub%20[Apognwsi].zip
+Via: 1.1 vegur
+------------------------------------------------
+
+
+--ID:2272TS:1633257467283-10/3/21 10:37:47 AM -  [jd.plugins.download.raf.OldRAFDownload(startDownload)] -> Start Download
+------------------------Thread: 2271:http links_jd.plugins.hoster.DirectHTTP-----------------------
+--ID:2271TS:1633257467287-10/3/21 10:37:47 AM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/<jd:default>/[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip|Root(s):[/workspace]|Requestor:Thread[Download: [AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip_http links,1,main]|RequestedSpace:1.46 GB|UsableSpace:1.08 TB
+--ID:2271TS:1633257467287-10/3/21 10:37:47 AM -  [jd.plugins.download.raf.OldRAFDownload(createOutputChannel)] -> createOutputChannel for /workspace/mint/dl/<jd:default>/[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip
+------------------------Thread: 2272:http links_jd.plugins.hoster.DirectHTTP-----------------------
+--ID:2272TS:1633257467289-10/3/21 10:37:47 AM -  [jd.plugins.download.raf.OldRAFDownload(setupChunks)] -> Setup virgin download
+--ID:2272TS:1633257467289-10/3/21 10:37:47 AM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Start Download in 1 chunks. Chunksize: 1438809852
+--ID:2272TS:1633257467294-10/3/21 10:37:47 AM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 0: Thread[DownloadChunkRAF:[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip,1,main]
+--ID:2272TS:1633257467294-10/3/21 10:37:47 AM -  [jd.plugins.download.raf.OldRAFDownload(waitForChunks)] -> Wait for chunks
+------------------------Thread: 2282:http links_jd.plugins.hoster.DirectHTTP-----------------------
+--ID:2282TS:1633257467294-10/3/21 10:37:47 AM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 0 : 0 - -1
+--ID:2282TS:1633257467295-10/3/21 10:37:47 AM -  [jd.plugins.download.raf.RAFChunk(copyConnection)] -> Takeover connection(no range) for Start:0|End:-1
+--ID:2282TS:1633257768032-10/3/21 10:42:48 AM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:2282TS:1633257768032-10/3/21 10:42:48 AM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:2282TS:1633257768033-10/3/21 10:42:48 AM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 0 1438809852 bytes
+------------------------Thread: 2272:http links_jd.plugins.hoster.DirectHTTP-----------------------
+--ID:2272TS:1633257768034-10/3/21 10:42:48 AM -  [jd.plugins.download.raf.OldRAFDownload(onChunksReady)] -> All connections closed:00s
+--ID:2272TS:1633257768132-10/3/21 10:42:48 AM -  [jd.plugins.download.raf.OldRAFDownload(closeOutputChannel)] -> Buffers forced to disk:00s
+--ID:2272TS:1633257768133-10/3/21 10:42:48 AM -  [jd.plugins.download.raf.OldRAFDownload(closeOutputChannel)] -> File closed:00s
+--ID:2272TS:1633257768133-10/3/21 10:42:48 AM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> ExternalStop: false|VerifiedFilesize: 1438809852|FileSize: 1438809852|Loaded: 1438809852
+--ID:2272TS:1633257768133-10/3/21 10:42:48 AM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> VerifiedFilesize: 1438809852 Loaded: 1438809852
+--ID:2272TS:1633257768134-10/3/21 10:42:48 AM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> ExternalStop: false|VerifiedFilesize: 1438809852|FileSize: 1438809852|Loaded: 1438809852
+--ID:2272TS:1633257768134-10/3/21 10:42:48 AM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> VerifiedFilesize: 1438809852 Loaded: 1438809852
+--ID:2272TS:1633257768136-10/3/21 10:42:48 AM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> StopDownloadMarker:1633257467008
+------------------------Thread: 2271:http links_jd.plugins.hoster.DirectHTTP-----------------------
+--ID:2271TS:1633257768139-10/3/21 10:42:48 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Rename after Download?
+--ID:2271TS:1633257768139-10/3/21 10:42:48 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Desired Path: /workspace/mint/dl/<jd:default>/[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip
+--ID:2271TS:1633257768139-10/3/21 10:42:48 AM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Actually Used path: /workspace/mint/dl/<jd:default>/[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip

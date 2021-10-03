@@ -1,0 +1,813 @@
+
+THREAD: 1
+1|Log.L.log 10/3/21 8:14:57 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Application Root: /workspace/mint/jd2
+1|Log.L.log 10/3/21 8:14:57 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.update.lastchance.LastChanceConfig.json
+
+THREAD: 1
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.runtime.name: Java(TM) SE Runtime Environment
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: exe4j.moduleName: /workspace/mint/jd2/JDownloader2
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.boot.library.path: /workspace/mint/jd2/jre/lib/amd64
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.version: 25.66-b17
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.java2d.d3d: false
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.vendor: Oracle Corporation
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vendor.url: http://java.oracle.com/
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: path.separator: :
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.name: Java HotSpot(TM) 64-Bit Server VM
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: file.encoding.pkg: sun.io
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.country: US
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.java.launcher: SUN_STANDARD
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.os.patch.level: unknown
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: install4j.exeDir: /workspace/mint/jd2/
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: extlogmanager.avoidsystemclassloader.hack: sun.misc.Launcher$AppClassLoader@70dea4e
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.specification.name: Java Virtual Machine Specification
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.dir: /workspace/mint/jd2
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.runtime.version: 1.8.0_66-b17
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.awt.graphicsenv: sun.awt.X11GraphicsEnvironment
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: i4jv: 0
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.util.Arrays.useLegacyMergeSort: true
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.endorsed.dirs: /workspace/mint/jd2/jre/lib/endorsed
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: os.arch: amd64
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.io.tmpdir: /tmp
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: line.separator: 
+
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.specification.vendor: Oracle Corporation
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.util.logging.manager: org.appwork.utils.logging2.extmanager.ExtLogManager
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: os.name: Linux
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.jnu.encoding: UTF-8
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: install4j.launcherId: 5977
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.specification.name: Java Platform API Specification
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.class.version: 52.0
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: org.appwork.LoggerFactory: org.appwork.utils.logging2.LogSourceRedirector
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: os.version: 5.4.0-1051-gke
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: i4j.vpt: true
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: install4j.swt: false
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: classloader_00000001: org.jdownloader.update.launcher.CL2
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: classloader_00000000: org.jdownloader.update.launcher.ClassLoaderExtensionImpl
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.home: /home/gitpod
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.timezone: Etc/UTC
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.awt.printerjob: sun.print.PSPrinterJob
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: file.encoding: UTF-8
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: install4j.jvmDir: /workspace/mint/jd2/jre
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.specification.version: 1.8
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.class.path: /workspace/mint/jd2/.install4j/i4jruntime.jar:/workspace/mint/jd2/JDownloader.jar
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.name: gitpod
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.specification.version: 1.8
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.java.command: com.install4j.runtime.launcher.UnixLauncher launch 883f5673 /workspace/mint/jd2/error.log /workspace/mint/jd2/output.log org.jdownloader.update.launcher.JDLauncher
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.home: /workspace/mint/jd2/jre
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.arch.data.model: 64
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: user.language: en
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.specification.vendor: Oracle Corporation
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: awt.toolkit: sun.awt.X11.XToolkit
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vm.info: mixed mode
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.version: 1.8.0_66
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.ext.dirs: /workspace/mint/jd2/jre/lib/ext:/usr/java/packages/lib/ext
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.boot.class.path: /workspace/mint/jd2/jre/lib/resources.jar:/workspace/mint/jd2/jre/lib/rt.jar:/workspace/mint/jd2/jre/lib/sunrsasign.jar:/workspace/mint/jd2/jre/lib/jsse.jar:/workspace/mint/jd2/jre/lib/jce.jar:/workspace/mint/jd2/jre/lib/charsets.jar:/workspace/mint/jd2/jre/lib/jfr.jar:/workspace/mint/jd2/jre/classes
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: install4j.appDir: /workspace/mint/jd2/
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vendor: Oracle Corporation
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: file.separator: /
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: k: 0dd0ecf7f742873d745106adea00b64a
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: java.vendor.url.bug: http://bugreport.sun.com/bugreport/
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: LOG_INIT_DONE: 2 instances
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.io.unicode.encoding: UnicodeLittle
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.cpu.endian: little
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysProp: sun.cpu.isalist: 
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> AUTO_WRAPPED>
+SysEnv: PATH: /home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/workspace/.cargo/bin:/workspace/.pip-modules/bin:/workspace/.rvm/bin:/home/gitpod/.sdkman/candidates/maven/current/bin:/home/gitpod/.sdkman/candidates/java/current/bin:/home/gitpod/.sdkman/candidates/gradle/current/bin:/home/gitpod/.rvm/gems/ruby-2.7.3/bin:/home/gitpod/.rvm/gems/ruby-2.7.3@global/bin:/home/gitpod/.rvm/rubies/ruby-2.
+7.3/bin:/home/gitpod/.pyenv/plugins/pyenv-virtualenv/shims:/workspace/.cargo/bin:/workspace/.pip-modules/bin:/workspace/.rvm/bin:/ide/bin:/home/gitpod/.pyenv/bin:/home/gitpod/.pyenv/shims:/workspace/go/bin:/home/gitpod/go/bin:/home/gitpod/go-packages/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin/:/home/gitpod/.nvm/ve
+rsions/node/v14.17.4/bin:/home/gitpod/.cargo/bin:/usr/games:/usr/games:/home/gitpod/.nvm/versions/node/v14.17.4/bin:/home/gitpod/.rvm/bin:/home/gitpod/.nvm/versions/node/v14.17.4/bin:/home/gitpod/.nvm/versions/node/v14.17.4/bi
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: IRBRC: /home/gitpod/.rvm/rubies/ruby-2.7.3/.irbrc
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: PYENV_SHELL: bash
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SDKMAN_VERSION: 5.12.2
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SUPERVISOR_ADDR: localhost:22999
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: NODE_VERSION: 14.17.4
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_WORKSPACE_URL: https://lime-whitefish-aawylo9w.ws-eu18.gitpod.io
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: VSCODE_GIT_IPC_HANDLE: /tmp/vscode-git-be4386ae2d.sock
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: PS1: \[]0;\u \w\]\[[01;32m\]\u\[[00m\] \[[01;34m\]\w\[[00m\] \$ 
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_CLI_APITOKEN: zk4ZhbwLyiExScpciI4NPKUAFkjeR5XX
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_WORKSPACE_ID: lime-whitefish-aawylo9w
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_EXTERNAL_EXTENSIONS: []
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: TRIGGER_BREW_REBUILD: 2
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: MAVEN_HOME: /home/gitpod/.sdkman/candidates/maven/current
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_TASKS: []
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: COLORTERM: truecolor
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_HOST: https://gitpod.io
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_THEIA_PORT: 23000
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SDKMAN_DIR: /home/gitpod/.sdkman
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: NGINX_DOCROOT_IN_REPO: public
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: rvm_version: 1.29.12 (latest)
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: VSCODE_GIT_ASKPASS_NODE: /ide/node/bin/gitpod-node
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: PWD: /workspace/mint/jd2
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: TERM_PROGRAM_VERSION: 1.59.0
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: CARGO_HOME: /workspace/.cargo
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GIT_ASKPASS: /ide/extensions/git/dist/askpass.sh
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: INFOPATH: :/home/linuxbrew/.linuxbrew/share/info
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: PYENV_VIRTUALENV_INIT: 1
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SHELL: /bin/bash
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: LESSOPEN: | /usr/bin/lesspipe %s
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: APACHE_DOCROOT_IN_REPO: public
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_ANALYTICS_SEGMENT_KEY: bUY8IRdJ42KjLOBS9LoIHMYFBD8rSzjU
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SDKMAN_CANDIDATES_API: https://api.sdkman.io/2
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GP_OPEN_EDITOR: /ide/bin/code
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: PIPENV_VENV_IN_PROJECT: true
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: MY_RUBY_HOME: /home/gitpod/.rvm/rubies/ruby-2.7.3
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GOPATH: /workspace/go
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_ANALYTICS_WRITER: segment
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: VSX_REGISTRY_URL: https://open-vsx.gitpod.io
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: OLDPWD: /workspace/mint/jd2
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GEM_HOME: /workspace/.rvm
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: VISUAL: /ide/bin/code
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GO_VERSION: 1.16.7
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: THEIA_WEBVIEW_EXTERNAL_ENDPOINT: webview-{{hostname}}
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: rvm_path: /home/gitpod/.rvm
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GP_EXTERNAL_BROWSER: /ide/bin/code --openExternal
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: RUBY_VERSION: ruby-2.7.3
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_WORKSPACE_CONTEXT_URL: https://gitlab.com/ask14/mint
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> AUTO_WRAPPED>
+SysEnv: LS_COLORS: rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01
+;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;3
+5:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;3
+5:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> AUTO_WRAPPED>
+SysEnv: GITPOD_RESOLVED_EXTENSIONS: {"vscode.bat@1.44.2":{"fullPluginName":"vscode.bat@1.44.2","url":"local","kind":"builtin"},"vscode.clojure@1.44.2":{"fullPluginName":"vscode.clojure@1.44.2","url":"local","kind":"builtin"},"vscode.coffeescript@1.44.2":{"fullPluginName":"vscode.coffeescript@1.44.2","url":"local","kind":"builtin"},"vscode.cpp@1.44.2":{"fullPluginName":"vscode.cpp@1.44.2","url":"lo
+cal","kind":"builtin"},"vscode.csharp@1.44.2":{"fullPluginName":"vscode.csharp@1.44.2","url":"local","kind":"builtin"},"llvm-vs-code-extensions.vscode-clangd@0.1.5":{"fullPluginName":"llvm-vs-code-extensions.vscode-clangd@0.1.5","url":"local","kind":"builtin"},"vscode.css@1.51.1":{"fullPluginName":"vscode.css@1.51.1","url":"local","kind":"builtin"},"vscode.css-language-features@1.51.1":{"fullPlugi
+nName":"vscode.css-language-features@1.51.1","url":"local","kind":"builtin"},"vscode.debug-auto-launch@1.44.2":{"fullPluginName":"vscode.debug-auto-launch@1.44.2","url":"local","kind":"builtin"},"vscode.emmet@1.44.2":{"fullPluginName":"vscode.emmet@1.44.2","url":"local","kind":"builtin"},"vscode.fsharp@1.44.2":{"fullPluginName":"vscode.fsharp@1.44.2","url":"local","kind":"builtin"},"vscode.go@1.44
+.2":{"fullPluginName":"vscode.go@1.44.2","url":"local","kind":"builtin"},"vscode.groovy@1.44.2":{"fullPluginName":"vscode.groovy@1.44.2","url":"local","kind":"builtin"},"vscode.handlebars@1.44.2":{"fullPluginName":"vscode.handlebars@1.44.2","url":"local","kind":"builtin"},"vscode.hlsl@1.44.2":{"fullPluginName":"vscode.hlsl@1.44.2","url":"local","kind":"builtin"},"vscode.html@1.51.1":{"fullPluginNa
+me":"vscode.html@1.51.1","url":"local","kind":"builtin"},"vscode.html-language-features@1.51.1":{"fullPluginName":"vscode.html-language-features@1.51.1","url":"local","kind":"builtin"},"vscode.ini@1.44.2":{"fullPluginName":"vscode.ini@1.44.2","url":"local","kind":"builtin"},"vscode.java@1.53.2":{"fullPluginName":"vscode.java@1.53.2","url":"local","kind":"builtin"},"vscode.javascript@1.44.2":{"full
+PluginName":"vscode.javascript@1.44.2","url":"local","kind":"builtin"},"vscode.json@1.44.2":{"fullPluginName":"vscode.json@1.44.2","url":"local","kind":"builtin"},"vscode.json-language-features@1.46.1":{"fullPluginName":"vscode.json-language-features@1.46.1","url":"local","kind":"builtin"},"vscode.less@1.44.2":{"fullPluginName":"vscode.less@1.44.2","url":"local","kind":"builtin"},"vscode.log@1.44.
+2":{"fullPluginName":"vscode.log@1.44.2","url":"local","kind":"builtin"},"vscode.lua@1.44.2":{"fullPluginName":"vscode.lua@1.44.2","url":"local","kind":"builtin"},"vscode.make@1.44.2":{"fullPluginName":"vscode.make@1.44.2","url":"local","kind":"builtin"},"vscode.markdown@1.44.2":{"fullPluginName":"vscode.markdown@1.44.2","url":"local","kind":"builtin"},"vscode.npm@1.39.1":{"fullPluginName":"vscode
+.npm@1.39.1","url":"local","kind":"builtin"},"vscode.objective-c@1.44.2":{"fullPluginName":"vscode.objective-c@1.44.2","url":"local","kind":"builtin"},"vscode.perl@1.44.2":{"fullPluginName":"vscode.perl@1.44.2","url":"local","kind":"builtin"},"vscode.php@1.44.2":{"fullPluginName":"vscode.php@1.44.2","url":"local","kind":"builtin"},"vscode.powershell@1.44.2":{"fullPluginName":"vscode.powershell@1.4
+4.2","url":"local","kind":"builtin"},"vscode.pug@1.44.2":{"fullPluginName":"vscode.pug@1.44.2","url":"local","kind":"builtin"},"vscode.python@1.47.3":{"fullPluginName":"vscode.python@1.47.3","url":"local","kind":"builtin"},"vscode.r@1.44.2":{"fullPluginName":"vscode.r@1.44.2","url":"local","kind":"builtin"},"vscode.razor@1.44.2":{"fullPluginName":"vscode.razor@1.44.2","url":"local","kind":"builtin
+"},"vscode.ruby@1.44.2":{"fullPluginName":"vscode.ruby@1.44.2","url":"local","kind":"builtin"},"vscode.rust@1.44.2":{"fullPluginName":"vscode.rust@1.44.2","url":"local","kind":"builtin"},"vscode.scss@1.44.2":{"fullPluginName":"vscode.scss@1.44.2","url":"local","kind":"builtin"},"vscode.shaderlab@1.44.2":{"fullPluginName":"vscode.shaderlab@1.44.2","url":"local","kind":"builtin"},"vscode.shellscript
+@1.44.2":{"fullPluginName":"vscode.shellscript@1.44.2","url":"local","kind":"builtin"},"vscode.sql@1.44.2":{"fullPluginName":"vscode.sql@1.44.2","url":"local","kind":"builtin"},"vscode.swift@1.44.2":{"fullPluginName":"vscode.swift@1.44.2","url":"local","kind":"builtin"},"vscode.typescript@1.44.2":{"fullPluginName":"vscode.typescript@1.44.2","url":"local","kind":"builtin"},"vscode.typescript-langua
+ge-features@1.44.2":{"fullPluginName":"vscode.typescript-language-features@1.44.2","url":"local","kind":"builtin"},"vscode.vb@1.44.2":{"fullPluginName":"vscode.vb@1.44.2","url":"local","kind":"builtin"},"vscode.xml@1.44.2":{"fullPluginName":"vscode.xml@1.44.2","url":"local","kind":"builtin"},"vscode.yaml@1.44.2":{"fullPluginName":"vscode.yaml@1.44.2","url":"local","kind":"builtin"},"redhat.java@0.
+75.0":{"fullPluginName":"redhat.java@0.75.0","url":"local","kind":"builtin"},"vscjava.vscode-java-debug@0.27.1":{"fullPluginName":"vscjava.vscode-java-debug@0.27.1","url":"local","kind":"builtin"},"vscjava.vscode-java-dependency@0.18.0":{"fullPluginName":"vscjava.vscode-java-dependency@0.18.0","url":"local","kind":"builtin"},"ms-vscode.node-debug@1.38.4":{"fullPluginName":"ms-vscode.node-debug@1.3
+8.4","url":"local","kind":"builtin"},"ms-vscode.node-debug2@1.33.0":{"fullPluginName":"ms-vscode.node-debug2@1.33.0","url":"local","kind":"builtin"},"ms-python.python@2020.7.96456":{"fullPluginName":"ms-python.python@2020.7.96456","url":"local","kind":"builtin"},"golang.Go@0.14.4":{"fullPluginName":"golang.go@0.14.4","url":"local","kind":"builtin"},"redhat.vscode-xml@0.11.0":{"fullPluginName":"red
+hat.vscode-xml@0.11.0","url":"local","kind":"builtin"},"redhat.vscode-yaml@0.8.0":{"fullPluginName":"redhat.vscode-yaml@0.8.0","url":"local","kind":"builtin"},"bmewburn.vscode-intelephense-client@1.4.0":{"fullPluginName":"bmewburn.vscode-intelephense-client@1.4.0","url":"local","kind":"builtin"},"felixfbecker.php-debug@1.13.0":{"fullPluginName":"felixfbecker.php-debug@1.13.0","url":"local","kind":
+"builtin"},"rust-lang.rust@0.7.8":{"fullPluginName":"rust-lang.rust@0.7.8","url":"local","kind":"builtin"},"vscode.theme-abyss@1.44.2":{"fullPluginName":"vscode.theme-abyss@1.44.2","url":"local","kind":"builtin"},"vscode.theme-kimbie-dark@1.44.2":{"fullPluginName":"vscode.theme-kimbie-dark@1.44.2","url":"local","kind":"builtin"},"vscode.theme-monokai@1.44.2":{"fullPluginName":"vscode.theme-monokai
+@1.44.2","url":"local","kind":"builtin"},"vscode.theme-monokai-dimmed@1.44.2":{"fullPluginName":"vscode.theme-monokai-dimmed@1.44.2","url":"local","kind":"builtin"},"vscode.theme-quietlight@1.44.2":{"fullPluginName":"vscode.theme-quietlight@1.44.2","url":"local","kind":"builtin"},"vscode.theme-red@1.44.2":{"fullPluginName":"vscode.theme-red@1.44.2","url":"local","kind":"builtin"},"vscode.theme-sol
+arized-dark@1.44.2":{"fullPluginName":"vscode.theme-solarized-dark@1.44.2","url":"local","kind":"builtin"},"vscode.theme-solarized-light@1.44.2":{"fullPluginName":"vscode.theme-solarized-light@1.44.2","url":"local","kind":"builtin"},"vscode.theme-tomorrow-night-blue@1.44.2":{"fullPluginName":"vscode.theme-tomorrow-night-blue@1.44.2","url":"local","kind":"builtin"},"vscode.vscode-theme-seti@1.44.2"
+:{"fullPluginName":"vscode.vscode-theme-seti@1.44.2","url":"local","kind":"builtin"},"vscode.merge-conflict@1.44.2":{"fullPluginName":"vscode.merge-conflict@1.44.2","url":"local","kind":"builtin"},"ms-vscode.references-view@0.0.47":{"fullPluginName":"ms-vscode.references-view@0.0.47","url":"local","kind":"builtin"},"EditorConfig.EditorConfig@0.15.1":{"fullPluginName":"editorconfig.editorconfig@0.1
+5.1","url":"local","kind":"builtin"},"vscode.docker@1.47.3":{"fullPluginName":"vscode.docker@1.47.3","url":"local","kind":"builtin"}
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_MEMORY: 1879
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: PYTHONUSERBASE: /workspace/.pip-modules
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SHLVL: 1
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: LESSCLOSE: /usr/bin/lesspipe %s %s
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_GIT_USER_NAME: Osama Osama
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: BROWSER: gp-preview
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: MANPATH: :/home/linuxbrew/.linuxbrew/share/man
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: rvm_bin_path: /home/gitpod/.rvm/bin
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: JAVA_HOME: /home/gitpod/.sdkman/candidates/java/current
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GIT_EDITOR: /ide/bin/code --wait
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: TERM: xterm-color
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: XFILESEARCHPATH: /usr/dt/app-defaults/%L/Dt
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_REPO_ROOT: /workspace/mint
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: rvm_prefix: /home/gitpod
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: LANG: en_US.UTF-8
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GRADLE_HOME: /home/gitpod/.sdkman/candidates/gradle/current
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: VSCODE_GIT_ASKPASS_MAIN: /ide/extensions/git/dist/askpass-main.js
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_WORKSPACE_CLUSTER_HOST: ws-eu18.gitpod.io
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GRADLE_USER_HOME: /workspace/.gradle/
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: JAVA_TOOL_OPTIONS: -Xmx1879m
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_WORKSPACE_CONTEXT: {"isFile":false,"path":"","title":"ask14/mint - main","ref":"main","revision":"c939905ea21ae48ac631a988ad46cdb0d4d8ed67","refType":"branch","repository":{"host":"gitlab.com","name":"mint","owner":"ask14","cloneUrl":"https://gitlab.com/ask14/mint.git","defaultBranch":"main","private":false}}
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SDKMAN_CANDIDATES_DIR: /home/gitpod/.sdkman/candidates
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: _: ./JDownloader2
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: NVM_DIR: /home/gitpod/.nvm
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: TERM_PROGRAM: vscode
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: HOMEBREW_NO_AUTO_UPDATE: 1
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: THEIA_RATELIMIT_LOG: 50
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_IDE_ALIAS: code
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_INTERVAL: 30000
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: SDKMAN_PLATFORM: linuxx64
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: USER: gitpod
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GOROOT: /home/gitpod/go
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_INSTANCE_ID: 7f152815-4e1c-444b-9c28-3b09898d3c18
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: THEIA_WORKSPACE_ROOT: /workspace/mint
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: EDITOR: /ide/bin/code
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: TRIGGER_REBUILD: 2
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GEM_PATH: /workspace/.rvm:/home/gitpod/.rvm/gems/ruby-2.7.3:/home/gitpod/.rvm/gems/ruby-2.7.3@global
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: THEIA_MINI_BROWSER_HOST_PATTERN: browser-{{hostname}}
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: HOSTNAME: ws-7f152815-4e1c-444b-9c28-3b09898d3c18
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: NLSPATH: /usr/dt/lib/nls/msg/%L/%N.cat
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: PIP_USER: yes
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GP_PREVIEW_BROWSER: /ide/bin/code --preview
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: GITPOD_GIT_USER_EMAIL: mivilef196@nnacell.com
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> SysEnv: HOME: /home/gitpod
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> jar:file:/workspace/mint/jd2/JDownloader.jar!/version.nfo:
+${updateclient.revision}
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.appwork.utils.Application(printSystemProperties) ] -> file:/workspace/mint/jd2/build.json:
+{"JDownloaderServerOptionsRevision":5095,"buildTimestamp":1633104077115,"UpdateClientV2Revision":1002,"JDownloaderUpdaterRevision":5413,"AppWorkUtilsRevision":3588,"JDBrowserRevision":44952,"JDClosedRevision":783,"MyJDownloaderClientRevision":44189,"buildDate":"Fri Oct 01 18:01:17 CEST 2021","JDownloaderRevision":45062}
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Args: []
+1|org.jdownloader.updatev2.restart.LinuxRestarter.log 10/3/21 8:14:57 PM - INFO [ org.jdownloader.updatev2.restart.Restarter(<init>) ] -> Create Restarter
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Restart Controller init done in 10
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Parse Arguments
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Parameter Parse done in 0
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Single Instance Controller
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Single Instance init done in 28
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:57 PM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Init UpdateManager
+1|Log.L.log 10/3/21 8:14:57 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.updatev2.UpdateSettings.json
+1|Log.L.log 10/3/21 8:14:57 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Load JSon Storage from Classpath url: jar:file:/workspace/mint/jd2/JDownloader.jar!/cfg/updateclient/Setup.json
+1|Log.L.log 10/3/21 8:14:57 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/updateclient/Setup.json
+1|Log.L.log 10/3/21 8:14:57 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.Setup|Path:/workspace/mint/jd2/cfg/updateclient/Setup
+1|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:57 PM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> ClientSetup 10
+
+THREAD: 29
+29|Log.L.log 10/3/21 8:14:57 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.settings.InternetConnectionSettings.json
+29|Log.L.log 10/3/21 8:14:57 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.jdownloader.updatev2.InternetConnectionSettings|Path:/workspace/mint/jd2/cfg/org.jdownloader.settings.InternetConnectionSettings
+29|Log.L.log 10/3/21 8:14:57 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Load JSon Storage from Classpath url: jar:file:/workspace/mint/jd2/JDownloader.jar!/cfg/updateclient/HttpSettings.json
+29|Log.L.log 10/3/21 8:14:57 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /workspace/mint/jd2/cfg/updateclient/HttpSettings.json
+29|Log.L.log 10/3/21 8:14:57 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.UpdateHttpClientOptions|Path:/workspace/mint/jd2/cfg/updateclient/HttpSettings
+29|Log.L.log 10/3/21 8:14:57 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /workspace/mint/jd2/cfg/ProxySelector.json
+29|Log.L.log 10/3/21 8:14:57 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.ProxySelectorSettings|Path:/workspace/mint/jd2/cfg/ProxySelector
+29|Log.L.log 10/3/21 8:14:57 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/ProxySelector.proxies.json
+29|Log.L.log 10/3/21 8:14:58 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(URL): jar:file:/workspace/mint/jd2/JDownloader.jar!/cfg/updateclient/Setup.updateservers.json
+29|Log.L.log 10/3/21 8:14:58 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /workspace/mint/jd2/update/versioninfo/JD/extensions.json
+29|Log.L.log 10/3/21 8:14:58 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/workspace/mint/jd2/update/versioninfo/JD/extensions
+
+THREAD: 29
+29|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Installed Extensions: []
+29|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Requested Extension Installations: []
+29|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Requested Extension Uninstalls: []
+29|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.jdownloader.update.JDUpdateClient$JDExtensionManager(init) ] -> Installed Extensions: []
+29|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.FileList(<init>) ] -> FileList at /workspace/mint/jd2/update/versioninfo/JD/filelist.txt Size: 511946
+29|Log.L.log 10/3/21 8:14:58 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.appwork.updatesys.client.tracker.TrackConfig.json
+
+THREAD: 1
+1|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> Client 51
+29|Log.L.log 10/3/21 8:14:58 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /workspace/mint/jd2/update/versioninfo/JDU/extensions.json
+29|Log.L.log 10/3/21 8:14:58 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/workspace/mint/jd2/update/versioninfo/JDU/extensions
+
+THREAD: 29
+29|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Installed Extensions: []
+29|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Requested Extension Installations: []
+29|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.extensions.ExtensionManager(init) ] -> Requested Extension Uninstalls: []
+29|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.FileList(<init>) ] -> FileList at /workspace/mint/jd2/update/versioninfo/JDU/filelist.txt Size: 97
+
+THREAD: 1
+1|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> selfUpdateClient 4
+1|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> LastChanceInit 0
+1|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> setUpdateOnExitFlag 0
+1|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> CreateGui 0
+1|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> DefaultHandler 1
+1|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> SetDefaultHandler 4
+1|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - FINE [ org.jdownloader.update.UpdateManager(<init>) ] -> ProxySelector 0
+1|org.jdownloader.update.launcher.SecondLevelLauncher.log 10/3/21 8:14:58 PM - INFO [ org.jdownloader.update.launcher.SecondLevelLauncher(init) ] -> Update Manager init done in 100
+
+THREAD: 30
+30|Log.L.log 10/3/21 8:14:58 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/updatev2/UpdaterTranslation.en.lng/null
+
+THREAD: 30
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.UpdateClient(getUpdateOptions) ] -> org.jdownloader.update.JDUpdateClient:getDefaultUpdateOptions:{
+ "retryCauses"       : null,
+ "jarDiffEnabled"    : true,
+ "deduplicationMode" : "INTRA"
+}
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.UpdateClient(batchRequest) ] -> [Update Client:JD@update.appwork.org] Batch Request ( 70 bytes):
+{
+ "jobs" : [
+           {
+            "json" : null,
+            "name" : "TIME_SYNC",
+            "id"   : 1633292098061
+           }
+          ]
+}
+30|Log.L.log 10/3/21 8:14:58 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.InternetConnectionSettings.customproxylist.json
+30|Log.L.log 10/3/21 8:14:58 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/workspace/mint/jd2/translations/org/appwork/utils/locale/AWUTranslation.en.lng/null
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info) ] -> GET http://update.appwork.org/jcgi/batch?jobs=TIME_SYNC&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=UBUNTU_FOCAL&arch=X86&os64=1&jvm64=1&java=18066017&uid=dnt_&hidAck=no&urev=15788&srev=15756&surev=15788&ct=Normal&1633292098063.1633292098064 via [Direct]
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info) ] -> Get Try with Proxy Direct
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - SEVERE [ org.jdownloader.update.UpdateManager.log ] -> Exception thrown at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:87):
+java.io.IOException: 400 Bad Request
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getInputStream(HTTPConnectionImpl.java:1413)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:82)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.checkResponseCode(BasicHTTP.java:101)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.postPage(BasicHTTP.java:724)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.internalPostWithProxy(HttpClientImpl.java:309)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.post(HttpClientImpl.java:369)
+	at org.appwork.updatesys.client.UpdateClient.batchRequest(UpdateClient.java:4972)
+	at org.appwork.updatesys.client.UpdateClient.ensureTimeSync(UpdateClient.java:2405)
+	at org.appwork.updatesys.client.UpdateClient.ensureSessionInit(UpdateClient.java:5063)
+	at org.appwork.updatesys.client.UpdateClient.get(UpdateClient.java:2273)
+	at org.appwork.updatesys.client.UpdateClient.downloadPackage(UpdateClient.java:4500)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:4417)
+	at org.appwork.updatesys.client.UpdateClient.runPackageRequestAndServerSelection(UpdateClient.java:4629)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:4561)
+	at org.jdownloader.update.UpdateManager.runUpdateLoop(UpdateManager.java:1016)
+	at org.jdownloader.update.PendingUpdate.run(PendingUpdate.java:19)
+	at org.jdownloader.update.UpdateManager$23.run(UpdateManager.java:1686)
+	at java.lang.Thread.run(Thread.java:745)
+
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.utils.net.BasicHTTP.BasicHTTP(log) ] -> ----------------Request Information-------------
+URL: http://update.appwork.org/jcgi/batch?jobs=TIME_SYNC&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=UBUNTU_FOCAL&arch=X86&os64=1&jvm64=1&java=18066017&uid=dnt_&hidAck=no&urev=15788&srev=15756&surev=15788&ct=Normal&1633292098063.1633292098064
+URL-Parameters:
+   jobs   : TIME_SYNC
+   st     : 0
+   rt     : SO
+   jn     : JDownloader.jar
+   pv     : 12
+   cv     : 20210716001
+   pkh    : 12f1848a883e733ed40fffff0dae2f35
+   app    : JD
+   os     : LINUX
+   osr    : UBUNTU_FOCAL
+   arch   : X86
+   os64   : 1
+   jvm64  : 1
+   java   : 18066017
+   uid    : dnt_
+   hidAck : no
+   urev   : 15788
+   srev   : 15756
+   surev  : 15788
+   ct     : Normal
+          : 1633292098063.1633292098064
+ConnectIP: update.appwork.org/176.9.34.43:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+POST /jcgi/batch?jobs=TIME_SYNC&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=UBUNTU_FOCAL&arch=X86&os64=1&jvm64=1&java=18066017&uid=dnt_&hidAck=no&urev=15788&srev=15756&surev=15788&ct=Normal&1633292098063.1633292098064 HTTP/1.1
+Host: update.appwork.org
+Accept-Language: en_US
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Content-Length: 70
+Accept-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 13ms
+Request-Time: 14ms
+----------------Response------------------------
+HTTP/1.1 400 Bad Request
+Server: nginx/1.15.12
+Date: Sun, 03 Oct 2021 20:14:58 GMT
+Content-Type: text/html
+Content-Length: 158
+Connection: close
+JCGI: 1
+------------------------------------------------
+
+
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp) ] -> Check if we can leave 
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp) ] -> Invalid Response Code: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(throwServerExceptions) ] -> Handle BasicHTTPException org.appwork.utils.net.BasicHTTP.BasicHTTPException: org.appwork.utils.net.BasicHTTP.ReadIOException: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.UpdateClient(ensureTimeSync) ] -> Time Sync: Unsupported Server:update.appwork.org
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.UpdateClient(batchRequest) ] -> [Update Client:JD@update.appwork.org] Batch Request ( 83 bytes):
+{
+ "jobs" : [
+           {
+            "json" : "null",
+            "name" : "SESSION_INIT",
+            "id"   : 1633292098163
+           }
+          ]
+}
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info) ] -> GET http://update.appwork.org/jcgi/batch?jobs=SESSION_INIT&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=UBUNTU_FOCAL&arch=X86&os64=1&jvm64=1&java=18066017&uid=dnt_&hidAck=no&urev=15788&srev=15756&surev=15788&ct=Normal&1633292098164.1633292098163 via [Direct]
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info) ] -> Get Try with Proxy Direct
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - SEVERE [ org.jdownloader.update.UpdateManager.log ] -> Exception thrown at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:87):
+java.io.IOException: 400 Bad Request
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.getInputStream(HTTPConnectionImpl.java:1413)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpBackend.createInvalidResponseCodeException(HttpBackend.java:82)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.checkResponseCode(BasicHTTP.java:101)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.postPage(BasicHTTP.java:724)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.internalPostWithProxy(HttpClientImpl.java:309)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.post(HttpClientImpl.java:369)
+	at org.appwork.updatesys.client.UpdateClient.batchRequest(UpdateClient.java:4972)
+	at org.appwork.updatesys.client.UpdateClient.ensureSessionInit(UpdateClient.java:5068)
+	at org.appwork.updatesys.client.UpdateClient.get(UpdateClient.java:2273)
+	at org.appwork.updatesys.client.UpdateClient.downloadPackage(UpdateClient.java:4500)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:4417)
+	at org.appwork.updatesys.client.UpdateClient.runPackageRequestAndServerSelection(UpdateClient.java:4629)
+	at org.appwork.updatesys.client.UpdateClient.runUpdateCheck(UpdateClient.java:4561)
+	at org.jdownloader.update.UpdateManager.runUpdateLoop(UpdateManager.java:1016)
+	at org.jdownloader.update.PendingUpdate.run(PendingUpdate.java:19)
+	at org.jdownloader.update.UpdateManager$23.run(UpdateManager.java:1686)
+	at java.lang.Thread.run(Thread.java:745)
+
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.utils.net.BasicHTTP.BasicHTTP(log) ] -> ----------------Request Information-------------
+URL: http://update.appwork.org/jcgi/batch?jobs=SESSION_INIT&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=UBUNTU_FOCAL&arch=X86&os64=1&jvm64=1&java=18066017&uid=dnt_&hidAck=no&urev=15788&srev=15756&surev=15788&ct=Normal&1633292098164.1633292098163
+URL-Parameters:
+   jobs   : SESSION_INIT
+   st     : 0
+   rt     : SO
+   jn     : JDownloader.jar
+   pv     : 12
+   cv     : 20210716001
+   pkh    : 12f1848a883e733ed40fffff0dae2f35
+   app    : JD
+   os     : LINUX
+   osr    : UBUNTU_FOCAL
+   arch   : X86
+   os64   : 1
+   jvm64  : 1
+   java   : 18066017
+   uid    : dnt_
+   hidAck : no
+   urev   : 15788
+   srev   : 15756
+   surev  : 15788
+   ct     : Normal
+          : 1633292098164.1633292098163
+ConnectIP: update.appwork.org/176.9.34.43:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+POST /jcgi/batch?jobs=SESSION_INIT&st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=UBUNTU_FOCAL&arch=X86&os64=1&jvm64=1&java=18066017&uid=dnt_&hidAck=no&urev=15788&srev=15756&surev=15788&ct=Normal&1633292098164.1633292098163 HTTP/1.1
+Host: update.appwork.org
+Accept-Language: en_US
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Content-Length: 83
+Accept-Encoding: gzip
+Content-Type: application/json; charset=utf-8
+Content-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 12ms
+Request-Time: 13ms
+----------------Response------------------------
+HTTP/1.1 400 Bad Request
+Server: nginx/1.15.12
+Date: Sun, 03 Oct 2021 20:14:58 GMT
+Content-Type: text/html
+Content-Length: 158
+Connection: close
+JCGI: 1
+------------------------------------------------
+
+
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp) ] -> Check if we can leave 
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(checkTryNextProxyOrGiveUp) ] -> Invalid Response Code: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(throwServerExceptions) ] -> Handle BasicHTTPException org.appwork.utils.net.BasicHTTP.BasicHTTPException: org.appwork.utils.net.BasicHTTP.ReadIOException: org.appwork.utils.net.BasicHTTP.InvalidResponseCode: Invalid ResponseCode: 400
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.UpdateClient(ensureSessionInit) ] -> Session Init: Unsupported Server:update.appwork.org
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info) ] -> GET http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=UBUNTU_FOCAL&arch=X86&os64=1&jvm64=1&java=18066017&uid=dnt_&hidAck=no&urev=15788&srev=15756&surev=15788&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=15756&1633292098198.1633292098197 via [Direct]
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info) ] -> Get Try with Proxy Direct
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.utils.net.BasicHTTP.BasicHTTP(log) ] -> ----------------Request Information-------------
+URL: http://update.appwork.org/jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=UBUNTU_FOCAL&arch=X86&os64=1&jvm64=1&java=18066017&uid=dnt_&hidAck=no&urev=15788&srev=15756&surev=15788&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=15756&1633292098198.1633292098197
+URL-Parameters:
+   st     : 0
+   rt     : SO
+   jn     : JDownloader.jar
+   pv     : 12
+   cv     : 20210716001
+   pkh    : 12f1848a883e733ed40fffff0dae2f35
+   app    : JD
+   os     : LINUX
+   osr    : UBUNTU_FOCAL
+   arch   : X86
+   os64   : 1
+   jvm64  : 1
+   java   : 18066017
+   uid    : dnt_
+   hidAck : no
+   urev   : 15788
+   srev   : 15756
+   surev  : 15788
+   ct     : Normal
+   dedup  : INTRA
+   awfcxz : 1
+   dst    : -1
+   lng    : en_US
+   chlg   : 0
+   jdiff  : 1
+   rev    : 15756
+          : 1633292098198.1633292098197
+ConnectIP: update.appwork.org/176.9.34.43:80
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /jcgi/pkg?st=0&rt=SO&jn=JDownloader.jar&pv=12&cv=20210716001&pkh=12f1848a883e733ed40fffff0dae2f35&app=JD&os=LINUX&osr=UBUNTU_FOCAL&arch=X86&os64=1&jvm64=1&java=18066017&uid=dnt_&hidAck=no&urev=15788&srev=15756&surev=15788&ct=Normal&dedup=INTRA&awfcxz=1&dst=-1&lng=en_US&chlg=0&jdiff=1&rev=15756&1633292098198.1633292098197 HTTP/1.1
+Host: update.appwork.org
+Accept-Language: en_US
+User-Agent: JDownloader/201707061810
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.3
+Connection: Close
+Cache-Control: no-cache, no-store
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Pragma: no-cache
+Accept-Encoding: gzip
+----------------Response Information------------
+Connection-Time: 12ms
+Request-Time: 14ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Date: Sun, 03 Oct 2021 20:14:58 GMT
+Content-Type: application/json; charset=UTF-8
+Content-Length: 163
+Connection: close
+Server: AppWork GmbH FcgiServer
+JCGI: 1
+UPD_SRV: 1
+------------------------------------------------
+
+
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl(info) ] -> Connection OK: 163 Bytes loaded
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.transport.Pkg(parseServerResponse) ] -> Serverresponse: {
+ "timeStamp"    : 1633292098219,
+ "uid"          : null,
+ "revisionName" : null,
+ "destRevision" : 15756,
+ "pong"         : null,
+ "status"       : "OK"
+}
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.servertime.ServerTimeHandler(sync) ] -> [Update Client:JD@update.appwork.org]: Sync offset: 12
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.servertime.ServerTimeHandler(sync) ] -> [Update Client:JD@update.appwork.org]: After: Sun Oct 03 20:14:58 UTC 2021 +00s = Sun Oct 03 20:14:58 UTC 2021.219 (SRV)
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.appwork.updatesys.client.servertime.ServerTimeHandler(sync) ] -> [Update Client:JD@update.appwork.org]: Diff: 12/-12
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.jdownloader.update.DefaultCallbackHandler(onResults) ] -> OnResult
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:58 PM - INFO [ org.jdownloader.update.DefaultCallbackHandler(onResults) ] -> Confirmed: false
+30|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:59 PM - INFO [ org.jdownloader.update.DefaultCallbackHandler(onResults) ] -> empty
+
+THREAD: 1
+1|org.jdownloader.update.UpdateManager.log 10/3/21 8:14:59 PM - INFO [ org.jdownloader.update.UpdateManager(setLaunchState) ] -> Launchstate: LAUNCHING_JD
+
+THREAD: 1
+1|Log.L.log 10/3/21 8:14:59 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Application Root: /workspace/mint/jd2
+1|Log.L.log 10/3/21 8:14:59 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Application Root: /workspace/mint/jd2
+1|Log.L.log 10/3/21 8:14:59 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.json
+1|Log.L.log 10/3/21 8:14:59 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/gui/translate/GuiTranslation.en.lng/null
+1|StartupParameterHandler.log 10/3/21 8:14:59 PM - INFO [ org.jdownloader.startup.ParameterHandler(onStartup) ] -> Startup: []
+1|StartupParameterHandler.log 10/3/21 8:14:59 PM - INFO [ org.jdownloader.startup.ParameterHandler(onStartup) ] -> Remove ConsoleHandler
+1|Log.L.log 10/3/21 8:14:59 PM - FINER [ org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger) ] -> Ignored: disabled
+1|Log.L.log 10/3/21 8:14:59 PM - FINER [ org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger) ] -> Ignored: jdk.internal.dynalink.support.Guards
+1|Log.L.log 10/3/21 8:15:00 PM - INFO [ jd.SecondLevelLaunch(mainStart) ] -> setExecutable:true
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> LOG_INIT_DONE=2 instances
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> awt.toolkit=sun.awt.X11.XToolkit
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> classloader_00000000=org.jdownloader.update.launcher.ClassLoaderExtensionImpl
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> classloader_00000001=org.jdownloader.update.launcher.CL2
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> exe4j.moduleName=/workspace/mint/jd2/JDownloader2
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> extlogmanager.avoidsystemclassloader.hack=sun.misc.Launcher$AppClassLoader@70dea4e
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> file.encoding=UTF-8
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> file.encoding.pkg=sun.io
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> file.separator=/
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> ftpStyle=new
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> i4j.vpt=true
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> i4jv=0
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> install4j.appDir=/workspace/mint/jd2/
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> install4j.exeDir=/workspace/mint/jd2/
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> install4j.jvmDir=/workspace/mint/jd2/jre
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> install4j.launcherId=5977
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> install4j.swt=false
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.awt.printerjob=sun.print.PSPrinterJob
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.class.path=/workspace/mint/jd2/.install4j/i4jruntime.jar:/workspace/mint/jd2/JDownloader.jar
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.class.version=52.0
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.endorsed.dirs=/workspace/mint/jd2/jre/lib/endorsed
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.ext.dirs=/workspace/mint/jd2/jre/lib/ext:/usr/java/packages/lib/ext
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.home=/workspace/mint/jd2/jre
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.io.tmpdir=/tmp
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.runtime.name=Java(TM) SE Runtime Environment
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.runtime.version=1.8.0_66-b17
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.specification.name=Java Platform API Specification
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.specification.vendor=Oracle Corporation
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.specification.version=1.8
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.util.Arrays.useLegacyMergeSort=true
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.util.logging.manager=org.appwork.utils.logging2.extmanager.ExtLogManager
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vendor=Oracle Corporation
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vendor.url=http://java.oracle.com/
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.version=1.8.0_66
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vm.info=mixed mode
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vm.specification.name=Java Virtual Machine Specification
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vm.specification.vendor=Oracle Corporation
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vm.specification.version=1.8
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vm.vendor=Oracle Corporation
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> java.vm.version=25.66-b17
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.build.builddate=Fri Oct 01 18:01:17 CEST 2021
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.build.buildtimestamp=1633104077115
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.randomNumber=-4486754888511665410
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.appworkutilsrevision=3588
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.jdbrowserrevision=44952
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.jdclosedrevision=783
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.jdownloaderrevision=45062
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.jdownloaderserveroptionsrevision=5095
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.jdownloaderupdaterrevision=5413
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.myjdownloaderclientrevision=44189
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> jd.revision.updateclientv2revision=1002
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> k=0dd0ecf7f742873d745106adea00b64a
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> line.separator=
+
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> org.appwork.LoggerFactory=org.appwork.utils.logging2.LogSourceRedirector
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> org.jdownloader.revision=JDownloader2
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> os.arch=amd64
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> os.name=Linux
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> os.version=5.4.0-1051-gke
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> path.separator=:
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.arch.data.model=64
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.boot.class.path=/workspace/mint/jd2/jre/lib/resources.jar:/workspace/mint/jd2/jre/lib/rt.jar:/workspace/mint/jd2/jre/lib/sunrsasign.jar:/workspace/mint/jd2/jre/lib/jsse.jar:/workspace/mint/jd2/jre/lib/jce.jar:/workspace/mint/jd2/jre/lib/charsets.jar:/workspace/mint/jd2/jre/lib/jfr.jar:/workspace/mint/jd2/jre/classes
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.boot.library.path=/workspace/mint/jd2/jre/lib/amd64
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.cpu.endian=little
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.cpu.isalist=
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.io.unicode.encoding=UnicodeLittle
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.java.command=com.install4j.runtime.launcher.UnixLauncher launch 883f5673 /workspace/mint/jd2/error.log /workspace/mint/jd2/output.log org.jdownloader.update.launcher.JDLauncher
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.java.launcher=SUN_STANDARD
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.java2d.d3d=false
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.jnu.encoding=UTF-8
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.os.patch.level=unknown
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> sun.swing.enableImprovedDragGesture=true
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> uid=1_Jv5y0opW4laVK3DTbW3I5vu5CjWPkISZ6zbBjKR/XvA=
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> user.country=US
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> user.dir=/workspace/mint/jd2
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> user.home=/home/gitpod
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> user.language=en
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> user.name=gitpod
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> user.timezone=Etc/UTC
+1|Log.L.log 10/3/21 8:15:00 PM - INFO [ jd.SecondLevelLaunch(mainStart) ] -> OS:LINUX|UBUNTU_FOCAL|64bit:true
+1|Log.L.log 10/3/21 8:15:00 PM - INFO [ jd.SecondLevelLaunch(mainStart) ] -> CPU:X86|64bit:true
+1|Log.L.log 10/3/21 8:15:00 PM - INFO [ jd.SecondLevelLaunch(mainStart) ] -> JVM:18066017|1.8.0_66-b17|64bit:true
+1|Log.L.log 10/3/21 8:15:00 PM - FINER [ jd.SecondLevelLaunch(mainStart) ] -> VMArgs: [-Xmx1879m, -Dinstall4j.jvmDir=/workspace/mint/jd2/jre, -Dexe4j.moduleName=/workspace/mint/jd2/JDownloader2, -Dinstall4j.launcherId=5977, -Dinstall4j.swt=false, -Di4jv=0, -Di4jv=0, -Di4jv=0, -Di4jv=0, -Di4jv=0, -Xms64m, -Dsun.java2d.d3d=false, -Di4j.vpt=true]
+1|Log.L.log 10/3/21 8:15:00 PM - INFO [ jd.SecondLevelLaunch(mainStart) ] -> MaxMemory=1752694784bytes (1671Megabytes)
+1|Log.L.log 10/3/21 8:15:00 PM - INFO [ jd.SecondLevelLaunch(mainStart) ] -> JDownloader2
+1|Log.L.log 10/3/21 8:15:00 PM - INFO [ jd.SecondLevelLaunch(go) ] -> Initialize JDownloader2
+1|Log.L.log 10/3/21 8:15:00 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.settings.SilentModeSettings.json
+
+THREAD: 34
+34|Log.L.log 10/3/21 8:15:00 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.json
+34|Log.L.log 10/3/21 8:15:00 PM - INFO [ jd.SecondLevelLaunch$7(run) ] -> Use 'AUTO' for default SSLSocketStreamFactory because: JSSE missing TLSv1.3 support! Java-18066017
+34|Log.L.log 10/3/21 8:15:00 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.browsercommandline.json
+
+THREAD: 1
+1|Log.L.log 10/3/21 8:15:00 PM - INFO [ jd.SecondLevelLaunch(go) ] -> Initialisation finished
+
+THREAD: 36
+36|Log.L.log 10/3/21 8:15:00 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.controlling.packagizer.PackagizerSettings.json
+36|Log.L.log 10/3/21 8:15:00 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.controlling.packagizer.PackagizerSettings.rulelist.json
+36|Log.L.log 10/3/21 8:15:01 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/translate/JdownloaderTranslation.en.lng/null
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/jd.controlling.downloadcontroller.DownloadControllerConfig.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.gui.views.linkgrabber.addlinksdialog.LinkgrabberSettings.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/jd.controlling.linkcollector.LinkCollectorConfig.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /session = interface org.appwork.utils.net.httpserver.session.LoginAPIInterface
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.api.RemoteAPIConfig.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /events = interface org.appwork.remoteapi.events.EventsAPIInterface
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.api.captcha.CaptchaMyJDownloaderRemoteSolverSettings.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.controlling.filter.LinkFilterSettings.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.settings.AccountSettings.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/jd.controlling.linkchecker.LinkCheckerConfig.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/jd.controlling.linkcrawler.LinkCrawlerConfig.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/jd.controlling.reconnect.ReconnectConfig.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.controlling.ffmpeg.FFmpegSetup.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.gui.shortcuts.ShortcutSettings.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.settings.RtmpdumpSettings.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.updatev2.LastChanceSettings.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.appwork.utils.swing.dialog.ExtFileSystemViewSettings.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/jd.controlling.faviconcontroller.FavIconsConfig.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.settings.SoundSettings.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.gui.notify.gui.BubbleNotifyConfig.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/jd.controlling.captcha.CaptchaSettings.json
+36|Log.L.log 10/3/21 8:15:01 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/jd.controlling.captcha.CaptchaSettings.qualityensurancerules.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /captcha = interface org.jdownloader.api.captcha.CaptchaAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /captchaforward = interface org.jdownloader.captcha.api.CaptchaForwarderAPIInterface
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /jd = interface org.jdownloader.api.jd.JDAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /downloads = interface org.jdownloader.api.downloads.DownloadsAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /downloadsV2 = interface org.jdownloader.api.downloads.v2.DownloadsAPIV2
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /downloadcontroller = interface org.jdownloader.api.downloads.v2.DownloadWatchdogAPI
+36|Log.L.log 10/3/21 8:15:01 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.domainrules.json
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /config = interface org.jdownloader.api.config.AdvancedConfigManagerAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /toolbar = interface org.jdownloader.api.toolbar.JDownloaderToolBarAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /accounts = interface org.jdownloader.api.accounts.AccountAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /accountsV2 = interface org.jdownloader.api.accounts.v2.AccountAPIV2
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /system = interface org.jdownloader.api.system.SystemAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /linkcollector = interface org.jdownloader.api.linkcollector.LinkCollectorAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /linkgrabberv2 = interface org.jdownloader.api.linkcollector.v2.LinkCollectorAPIV2
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /content = interface org.jdownloader.api.content.ContentAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /contentV2 = interface org.jdownloader.api.content.v2.ContentAPIV2
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /ui = interface org.jdownloader.api.ui.UIAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /polling = interface org.jdownloader.api.polling.PollingAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /extraction = interface org.jdownloader.api.extraction.ExtractionAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /linkcrawler = interface org.jdownloader.api.linkcrawler.LinkCrawlerAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /plugins = interface org.jdownloader.api.plugins.PluginsAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace / = interface org.jdownloader.api.cnl2.Cnl2APIBasics
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /flash = interface org.jdownloader.api.cnl2.Cnl2APIFlash
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /downloadevents = interface org.jdownloader.api.downloads.DownloadControllerEventPublisherInterface
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /extensions = interface org.jdownloader.api.extensions.ExtensionsAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /update = interface org.jdownloader.api.update.UpdateAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /device = interface org.jdownloader.api.device.DeviceAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /reconnect = interface org.jdownloader.api.reconnect.ReconnectAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /log = interface org.jdownloader.api.logs.LogAPI
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /dialogs = interface org.jdownloader.api.dialog.DialogApiInterface
+36|Log.L.log 10/3/21 8:15:01 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.deviceconnectports.json
+
+THREAD: 52
+52|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace / = interface org.jdownloader.api.cnl2.Cnl2APIBasics
+52|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Try to register API namespace /flash = interface org.jdownloader.api.cnl2.Cnl2APIFlash
+
+THREAD: 55
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.jac.JACSolverConfig.json
+
+THREAD: 36
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ jd.controlling.DelayWriteController(init) ] -> DelayWriteMode: AUTO
+36|Log.L.log 10/3/21 8:15:01 PM - INFO [ jd.controlling.DelayWriteController(init) ] -> DelayedWrites auto enabled because JDownloader is running in headless mode!
+
+THREAD: 54
+54|Log.L.log 10/3/21 8:15:01 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.AccountSettings.accounts.ejs
+
+THREAD: 55
+55|Log.L.log 10/3/21 8:15:01 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.jac.JACSolverConfig.jacthreshold.json
+
+THREAD: 53
+53|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.jdownloader.extensions.LazyExtension(getClassLoader) ] -> Use /workspace/mint/jd2/extensions/Extraction.jar classloader
+53|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.extensions.extraction.ExtractionExtension.json
+
+THREAD: 52
+52|Log.L.log 10/3/21 8:15:01 PM - FINE [ org.appwork.loggingv3.LogV3(fine) ] -> Start HTTP Server. 9666->9666|LocalHost:true
+
+THREAD: 55
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.dbc.DeathByCaptchaSettings.json
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.dbc.DeathByCaptchaSettings.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.imagetyperz.ImageTyperzConfigInterface.json
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.imagetyperz.ImageTyperzConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.cheapcaptcha.CheapCaptchaConfigInterface.json
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.cheapcaptcha.CheapCaptchaConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.captchasolutions.CaptchaSolutionsConfigInterface.json
+
+THREAD: 53
+53|Log.L.log 10/3/21 8:15:01 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/extensions/extraction/translate/ExtractionTranslation.en.lng/null
+
+THREAD: 55
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.captchasolutions.CaptchaSolutionsConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.twocaptcha.TwoCaptchaConfigInterface.json
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.twocaptcha.TwoCaptchaConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.antiCaptchaCom.AntiCaptchaComConfigInterface.json
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.antiCaptchaCom.AntiCaptchaComConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.endcaptcha.EndCaptchaConfigInterface.json
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.endcaptcha.EndCaptchaConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.solver9kw.Captcha9kwSettings.json
+55|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.loggingv3.LogV3(info) ] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.solver9kw.Captcha9kwSettings.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+
+THREAD: 54
+54|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/ddownload.com.json
+54|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/drop.download.json
+
+THREAD: 53
+53|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.jdownloader.extensions.LazyExtension(getClassLoader) ] -> Use /workspace/mint/jd2/extensions/JDShutdown.jar classloader
+53|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.extensions.shutdown.ShutdownExtension.json
+53|Log.L.log 10/3/21 8:15:01 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/extensions/shutdown/translate/ShutdownTranslation.en.lng/null
+
+THREAD: 54
+54|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/vidlox.me.json
+54|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.VKontakteRuHoster has static immutable field: PROPERTY_GENERAL_TITLE
+54|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.VKontakteRuHoster has static immutable field: PROPERTY_GENERAL_TITLE_PLAIN
+54|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.VKontakteRuHoster has static immutable field: PROPERTY_GENERAL_DATE
+54|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.VKontakteRuHoster has static immutable field: PROPERTY_GENERAL_UPLOADER
+54|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.VKontakteRuHoster has static immutable field: PROPERTY_GENERAL_wall_post_id
+54|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.VKontakteRuHoster has static immutable field: PROPERTY_VIDEO_LIST_ID
+54|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields) ] -> Class jd.plugins.hoster.VKontakteRuHoster has static immutable field: PROPERTY_VIDEO_SELECTED_QUALITY
+54|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/vupload.com.json
+54|Log.L.log 10/3/21 8:15:01 PM - INFO [ org.appwork.storage.JsonKeyValueStorage(<init>) ] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/wolfstream.tv.json
+
+THREAD: 68
+68|Log.L.log 10/3/21 8:15:04 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.customdeviceips.json
+
+THREAD: 338
+338|Log.L.log 10/3/21 8:28:19 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.gui.views.linkgrabber.addlinksdialog.LinkgrabberSettings.downloaddestinationhistory.json
+
+THREAD: 366
+366|Log.L.log 10/3/21 8:29:07 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.crawlerhostpluginblacklist.json
+366|Log.L.log 10/3/21 8:29:07 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.crawlercrawlerpluginblacklist.json
+
+THREAD: 370
+370|Log.L.log 10/3/21 8:29:07 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/jd.controlling.linkcrawler.LinkCrawlerConfig.linkcrawlerrules.json
+
+THREAD: 374
+374|Log.L.log 10/3/21 8:29:07 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.controlling.filter.LinkFilterSettings.filterlist.json
+374|Log.L.log 10/3/21 8:29:07 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.urlorder.json
+374|Log.L.log 10/3/21 8:29:07 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.urldisplayorder.json
+
+THREAD: 414
+414|Log.L.log 10/3/21 8:29:20 PM - FINER [ org.appwork.loggingv3.LogV3(finer) ] -> Read Config(File): /workspace/mint/jd2/cfg/jd.controlling.faviconcontroller.FavIconsConfig.failedhosts.json
+
+THREAD: 47
+47|Log.L.log 10/3/21 8:36:36 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed IDLE--1(2068294636) -> RUNNING--1(1044724448)
+
+THREAD: 626
+626|Log.L.log 10/3/21 8:36:42 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed RUNNING--1(1044724448) -> STOPPING--1(1683137181)
+626|Log.L.log 10/3/21 8:36:42 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed STOPPING--1(1683137181) -> STOPPED_STATE--1(1856686573)
+626|Log.L.log 10/3/21 8:36:45 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed (reset) STOPPED_STATE--1(1856686573) -> IDLE--1(2068294636)
+626|Log.L.log 10/3/21 8:36:45 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed IDLE--1(2068294636) -> RUNNING--1(1044724448)
+
+THREAD: 772
+772|Log.L.log 10/3/21 8:36:56 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed RUNNING--1(1044724448) -> STOPPING--1(1683137181)
+772|Log.L.log 10/3/21 8:36:56 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed STOPPING--1(1683137181) -> STOPPED_STATE--1(1856686573)
+772|Log.L.log 10/3/21 8:40:30 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed (reset) STOPPED_STATE--1(1856686573) -> IDLE--1(2068294636)
+772|Log.L.log 10/3/21 8:40:30 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed IDLE--1(2068294636) -> RUNNING--1(1044724448)
+
+THREAD: 1350
+1350|Log.L.log 10/3/21 8:40:40 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed RUNNING--1(1044724448) -> STOPPING--1(1683137181)
+1350|Log.L.log 10/3/21 8:40:40 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed STOPPING--1(1683137181) -> STOPPED_STATE--1(1856686573)
+1350|Log.L.log 10/3/21 8:46:01 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed (reset) STOPPED_STATE--1(1856686573) -> IDLE--1(2068294636)
+1350|Log.L.log 10/3/21 8:46:01 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed IDLE--1(2068294636) -> RUNNING--1(1044724448)
+
+THREAD: 1915
+1915|Log.L.log 10/3/21 8:46:11 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed RUNNING--1(1044724448) -> STOPPING--1(1683137181)
+1915|Log.L.log 10/3/21 8:46:11 PM - FINEST [ org.appwork.loggingv3.LogV3(finest) ] -> jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae State changed STOPPING--1(1683137181) -> STOPPED_STATE--1(1856686573)

@@ -1,0 +1,22 @@
+------------------------Thread: 33:Gui.log-----------------------
+--ID:33TS:1633192133100-10/2/21 4:28:53 PM -  [jd.gui.swing.jdgui.JDGui(internalInitLocationAndDimension)] -> Check if Screen Location are ok java.awt.Point[x=438,y=236] - java.awt.Dimension[width=1024,height=728]
+------------------------Thread: 55:Gui.log-----------------------
+--ID:55TS:1633192133164-10/2/21 4:28:53 PM -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Update bug Finder
+--ID:55TS:1633192133164-10/2/21 4:28:53 PM -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Find Counter
+--ID:55TS:1633192133164-10/2/21 4:28:53 PM -  [jd.gui.swing.jdgui.JDGui$27(run)] -> /workspace/mint/jd2/JDownloader.jar
+--ID:55TS:1633192133164-10/2/21 4:28:53 PM -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Done: 1
+--ID:55TS:1633192134164-10/2/21 4:28:54 PM -  [jd.gui.swing.jdgui.JDGui$27(run)] -> Gogogo 1
+------------------------Thread: 33:Gui.log-----------------------
+--ID:33TS:1633192202399-10/2/21 4:30:02 PM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:33TS:1633192223117-10/2/21 4:30:23 PM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:33TS:1633192236904-10/2/21 4:30:36 PM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:33TS:1633192334659-10/2/21 4:32:14 PM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:33TS:1633192334989-10/2/21 4:32:14 PM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: No SilentMode. Active Window: org.appwork.utils.swing.dialog.AbstractDialog$10[Rule: ,508,139,884x922,invalid,layout=java.awt.BorderLayout,MODELESS,title=Rule: ,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,5,5,878x916,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@f60947,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+--ID:33TS:1633192388775-10/2/21 4:33:08 PM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:33TS:1633192878636-10/2/21 4:41:18 PM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:33TS:1633192880678-10/2/21 4:41:20 PM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: No SilentMode. Active Window: org.appwork.utils.swing.dialog.AbstractDialog$10[Analyse and Add Links,587,397,700x300,invalid,layout=java.awt.BorderLayout,MODELESS,title=Analyse and Add Links,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,5,5,694x294,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@3ec40be9,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+--ID:33TS:1633192986509-10/2/21 4:43:06 PM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:33TS:1633192986510-10/2/21 4:43:06 PM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:33TS:1633193215713-10/2/21 4:46:55 PM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:33TS:1633193295580-10/2/21 4:48:15 PM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 
+--ID:33TS:1633193295581-10/2/21 4:48:15 PM -  [jd.gui.swing.jdgui.JDGui$24(edtRun)] -> SilentMode: Mainframe has Focus: 

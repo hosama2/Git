@@ -1,0 +1,6 @@
+------------------------Thread: 53:ExtractionExtension.log-----------------------
+--ID:53TS:1633278964777-10/3/21 4:36:04 PM -  [org.jdownloader.extensions.extraction.multi.Multi(checkLibraries)] -> Try LibIDs: [Linux-amd64]
+--ID:53TS:1633278964777-10/3/21 4:36:04 PM -  [org.jdownloader.extensions.extraction.multi.Multi(initLibrary)] -> LibID found: Linux-amd64
+--ID:53TS:1633278964779-10/3/21 4:36:04 PM -  [org.jdownloader.extensions.extraction.multi.Multi(initLibrary)] -> Try LibID(Linux-amd64) Path: /workspace/mint/jd2/tmp/7zip->true
+--ID:53TS:1633278964818-10/3/21 4:36:04 PM -  [org.jdownloader.extensions.extraction.multi.Multi(isAvailable)] -> Supported SevenZipJBinding|LibID=Linux-amd64|Version=16.02-2.01|RAR5=true|CPU_ARCH=X86|OS_FAM=LINUX|OS=UBUNTU_FOCAL|64Bit_JVM=true|64Bit_ARCH=true|HW:null
+--ID:53TS:1633278964818-10/3/21 4:36:04 PM -  [org.jdownloader.extensions.AbstractExtension(init)] -> Init Duration: 69

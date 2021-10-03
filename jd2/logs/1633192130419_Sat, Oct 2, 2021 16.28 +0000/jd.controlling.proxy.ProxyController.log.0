@@ -1,0 +1,36 @@
+------------------------Thread: 37:jd.controlling.proxy.ProxyController.log-----------------------
+--ID:37TS:1633192132411-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Load Proxy Settings
+--ID:37TS:1633192132412-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Customs: 0
+--ID:37TS:1633192132412-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Init Proxy Controller fresh
+--ID:37TS:1633192132425-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController$4(log)] -> Detecting platform. Name is: Linux
+--ID:37TS:1633192132425-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController$4(log)] -> Detected Linux platform: Linux
+--ID:37TS:1633192132427-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Selector: com.btr.proxy.search.desktop.DesktopProxySearchStrategy@6b761a6b
+--ID:37TS:1633192132427-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController$4(log)] -> Detecting platform. Name is: Linux
+--ID:37TS:1633192132427-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController$4(log)] -> Detected Linux platform: Linux
+--ID:37TS:1633192132427-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController$4(log)] -> Detecting platform. Name is: Linux
+--ID:37TS:1633192132427-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController$4(log)] -> Detected Linux platform: Linux
+--ID:37TS:1633192132427-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController$4(log)] -> Detected Unknown desktop
+--ID:37TS:1633192132428-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController$4(log)] -> Detecting system settings.
+--ID:37TS:1633192132428-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Selector: com.btr.proxy.search.browser.firefox.FirefoxProxySearchStrategy@35a10d38
+--ID:37TS:1633192132428-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController$4(log)] -> Detecting Firefox settings.
+--ID:37TS:1633192132428-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController$4(log)] -> Firefox settings folder not found!
+--ID:37TS:1633192132429-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController$4(log)] -> Error parsing settings
+--ID:37TS:1633192132429-10/2/21 4:28:52 PM -  [] -> Exception thrown at jd.controlling.proxy.ProxyController.loadProxySettings(ProxyController.java:718):
+com.btr.proxy.util.ProxyException: java.io.FileNotFoundException: prefs.js (No such file or directory)
+	at com.btr.proxy.search.browser.firefox.FirefoxProxySearchStrategy.readSettings(FirefoxProxySearchStrategy.java:148)
+	at com.btr.proxy.search.browser.firefox.FirefoxProxySearchStrategy.getProxySelector(FirefoxProxySearchStrategy.java:92)
+	at jd.controlling.proxy.ProxyController.loadProxySettings(ProxyController.java:631)
+	at jd.controlling.proxy.ProxyController.<init>(ProxyController.java:168)
+	at jd.controlling.proxy.ProxyController.<clinit>(ProxyController.java:119)
+	at jd.SecondLevelLaunch$7.run(SecondLevelLaunch.java:637)
+Caused by: java.io.FileNotFoundException: prefs.js (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.btr.proxy.search.browser.firefox.FirefoxSettingParser.parseSettings(FirefoxSettingParser.java:41)
+	at com.btr.proxy.search.browser.firefox.FirefoxProxySearchStrategy.readSettings(FirefoxProxySearchStrategy.java:144)
+	... 5 more
+
+--ID:37TS:1633192132429-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Selector: com.btr.proxy.search.env.EnvProxySearchStrategy@7f2dc332
+--ID:37TS:1633192132429-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController$4(log)] -> Inspecting environment variables.
+--ID:37TS:1633192132429-10/2/21 4:28:52 PM -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Selector: com.btr.proxy.search.java.JavaProxySearchStrategy@7dc33832

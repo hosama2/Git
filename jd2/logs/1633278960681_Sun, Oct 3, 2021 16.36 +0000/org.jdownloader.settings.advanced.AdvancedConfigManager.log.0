@@ -1,0 +1,41 @@
+------------------------Thread: 36:org.jdownloader.settings.advanced.AdvancedConfigManager.log-----------------------
+--ID:36TS:1633278964256-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.settings.GeneralSettings
+--ID:36TS:1633278964261-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.controlling.filter.LinkFilterSettings
+--ID:36TS:1633278964261-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.updatev2.InternetConnectionSettings
+--ID:36TS:1633278964269-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.api.myjdownloader.MyJDownloaderSettings
+--ID:36TS:1633278964277-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.settings.AccountSettings
+--ID:36TS:1633278964277-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.settings.GraphicalUserInterfaceSettings
+--ID:36TS:1633278964279-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface jd.controlling.linkchecker.LinkCheckerConfig
+--ID:36TS:1633278964279-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface jd.controlling.linkcrawler.LinkCrawlerConfig
+--ID:36TS:1633278964279-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface jd.controlling.downloadcontroller.DownloadControllerConfig
+--ID:36TS:1633278964279-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.gui.views.linkgrabber.addlinksdialog.LinkgrabberSettings
+--ID:36TS:1633278964280-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface jd.controlling.linkcollector.LinkCollectorConfig
+--ID:36TS:1633278964286-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface jd.controlling.reconnect.ReconnectConfig
+--ID:36TS:1633278964286-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.api.RemoteAPIConfig
+--ID:36TS:1633278964286-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.controlling.packagizer.PackagizerSettings
+--ID:36TS:1633278964294-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.controlling.ffmpeg.FFmpegSetup
+--ID:36TS:1633278964294-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.appwork.utils.logging2.LogConfig
+--ID:36TS:1633278964297-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.gui.shortcuts.ShortcutSettings
+--ID:36TS:1633278964299-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.settings.RtmpdumpSettings
+--ID:36TS:1633278964299-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.updatev2.UpdateSettings
+--ID:36TS:1633278964300-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.updatev2.LastChanceSettings
+--ID:36TS:1633278964308-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.appwork.utils.swing.dialog.ExtFileSystemViewSettings
+--ID:36TS:1633278964311-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface jd.controlling.faviconcontroller.FavIconsConfig
+--ID:36TS:1633278964312-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.settings.SoundSettings
+--ID:36TS:1633278964320-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.gui.notify.gui.BubbleNotifyConfig
+--ID:36TS:1633278964324-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface jd.controlling.captcha.CaptchaSettings
+--ID:36TS:1633278964324-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.settings.SilentModeSettings
+--ID:36TS:1633278964324-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.api.captcha.CaptchaMyJDownloaderRemoteSolverSettings
+------------------------Thread: 55:org.jdownloader.settings.advanced.AdvancedConfigManager.log-----------------------
+--ID:55TS:1633278964713-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.captcha.v2.solver.jac.JACSolverConfig
+--ID:55TS:1633278964725-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.captcha.v2.solver.dbc.DeathByCaptchaSettings
+--ID:55TS:1633278964730-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.captcha.v2.solver.imagetyperz.ImageTyperzConfigInterface
+--ID:55TS:1633278964735-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.captcha.v2.solver.cheapcaptcha.CheapCaptchaConfigInterface
+------------------------Thread: 53:org.jdownloader.settings.advanced.AdvancedConfigManager.log-----------------------
+--ID:53TS:1633278964737-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.extensions.extraction.ExtractionConfig
+------------------------Thread: 55:org.jdownloader.settings.advanced.AdvancedConfigManager.log-----------------------
+--ID:55TS:1633278964745-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.captcha.v2.solver.captchasolutions.CaptchaSolutionsConfigInterface
+--ID:55TS:1633278964752-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.captcha.v2.solver.twocaptcha.TwoCaptchaConfigInterface
+--ID:55TS:1633278964761-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.captcha.v2.solver.antiCaptchaCom.AntiCaptchaComConfigInterface
+--ID:55TS:1633278964766-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.captcha.v2.solver.endcaptcha.EndCaptchaConfigInterface
+--ID:55TS:1633278964778-10/3/21 4:36:04 PM -  [org.jdownloader.settings.advanced.AdvancedConfigManager(register)] -> Register interface org.jdownloader.captcha.v2.solver.solver9kw.Captcha9kwSettings

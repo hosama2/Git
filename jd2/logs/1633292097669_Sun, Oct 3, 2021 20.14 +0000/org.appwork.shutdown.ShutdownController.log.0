@@ -1,0 +1,15 @@
+------------------------Thread: 36:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:36TS:1633292101181-10/3/21 8:15:01 PM -  [org.appwork.shutdown.ShutdownController(log)] -> Add ShutdownVetoListener:jd.controlling.linkcollector.LinkCollector@2cef8386:true
+--ID:36TS:1633292101334-10/3/21 8:15:01 PM -  [org.appwork.shutdown.ShutdownController(log)] -> Add ShutdownVetoListener:jd.controlling.downloadcontroller.DownloadWatchDog@9f385ae:true
+--ID:36TS:1633292101612-10/3/21 8:15:01 PM -  [org.appwork.shutdown.ShutdownController(log)] -> Add ShutdownVetoListener:org.jdownloader.api.myjdownloader.MyJDownloaderController@197f1fe1:true
+------------------------Thread: 53:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:53TS:1633292101769-10/3/21 8:15:01 PM -  [org.appwork.shutdown.ShutdownController(log)] -> Add ShutdownVetoListener:org.jdownloader.extensions.extraction.ExtractionExtension$3@7ae2cdb3:true
+------------------------Thread: 650:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:650TS:1633293410361-10/3/21 8:36:50 PM -  [org.appwork.shutdown.ShutdownController(log)] -> Add ShutdownVetoListener:jd.plugins.hoster.MegaConz$2@3d37ab8f:true
+--ID:650TS:1633293410634-10/3/21 8:36:50 PM -  [org.appwork.shutdown.ShutdownController(log)] -> Remove ShutdownVetoListener:jd.plugins.hoster.MegaConz$2@3d37ab8f:true
+------------------------Thread: 1278:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:1278TS:1633293633713-10/3/21 8:40:33 PM -  [org.appwork.shutdown.ShutdownController(log)] -> Add ShutdownVetoListener:jd.plugins.hoster.MegaConz$2@11264741:true
+--ID:1278TS:1633293633973-10/3/21 8:40:33 PM -  [org.appwork.shutdown.ShutdownController(log)] -> Remove ShutdownVetoListener:jd.plugins.hoster.MegaConz$2@11264741:true
+------------------------Thread: 1860:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:1860TS:1633293963820-10/3/21 8:46:03 PM -  [org.appwork.shutdown.ShutdownController(log)] -> Add ShutdownVetoListener:jd.plugins.hoster.MegaConz$2@2fbfe21f:true
+--ID:1860TS:1633293964112-10/3/21 8:46:04 PM -  [org.appwork.shutdown.ShutdownController(log)] -> Remove ShutdownVetoListener:jd.plugins.hoster.MegaConz$2@2fbfe21f:true

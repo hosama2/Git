@@ -1,0 +1,14 @@
+------------------------Thread: 36:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:36TS:1633292101184-10/3/21 8:15:01 PM -  [jd.controlling.linkcollector.LinkCollector(<init>)] -> LinkChecker Enabled:true
+------------------------Thread: 46:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:46TS:1633292101185-10/3/21 8:15:01 PM -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Collect Lists
+--ID:46TS:1633292101186-10/3/21 8:15:01 PM -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Lists: [/workspace/mint/jd2/cfg/linkcollector9.zip, /workspace/mint/jd2/cfg/linkcollector8.zip, /workspace/mint/jd2/cfg/linkcollector7.zip, /workspace/mint/jd2/cfg/linkcollector6.zip, /workspace/mint/jd2/cfg/linkcollector5.zip, /workspace/mint/jd2/cfg/linkcollector4.zip]
+--ID:46TS:1633292101189-10/3/21 8:15:01 PM -  [jd.controlling.linkcollector.LinkCollector$17(run)] -> CollectorList found: 0/0
+------------------------Thread: 366:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:366TS:1633292947048-10/3/21 8:29:07 PM -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1633292947040|Origin:MYJD
+------------------------Thread: 1226:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:1226TS:1633293610947-10/3/21 8:40:10 PM -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1633293610946|Origin:MYJD
+------------------------Thread: 1677:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:1677TS:1633293914308-10/3/21 8:45:14 PM -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1633293914307|Origin:MYJD
+------------------------Thread: 1798:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:1798TS:1633293946073-10/3/21 8:45:46 PM -  [jd.controlling.linkcollector.LinkCollector(newJobLinkCrawler)] -> Added CrawlerJob:ID:1633293946072|Origin:MYJD

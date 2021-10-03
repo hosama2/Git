@@ -1,0 +1,10 @@
+------------------------Thread: 29:org.jdownloader.plugins.controller.host.HostPluginController$2.log-----------------------
+--ID:29TS:1633192133154-10/2/21 4:28:53 PM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> HostPluginController: init
+--ID:29TS:1633192133159-10/2/21 4:28:53 PM -  [org.jdownloader.plugins.controller.PluginScannerNIO(scan)] -> @PluginController(NIO): no plugin cache available|LastModified:-1
+--ID:29TS:1633192134073-10/2/21 4:28:54 PM -  [org.jdownloader.plugins.controller.PluginScannerNIO(scan)] -> @PluginController(NIO): scan took 915ms for 1251
+--ID:29TS:1633192134689-10/2/21 4:28:54 PM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPluginController: update took 1533ms for 3791|LastModified:1633191440000
+--ID:29TS:1633192134692-10/2/21 4:28:54 PM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPluginController: sort took 3ms for 3791
+--ID:29TS:1633192134693-10/2/21 4:28:54 PM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPlugin keep:DailyMotionComV2@40286|3:40286 instead DailyMotionCom@44410|2:44410
+--ID:29TS:1633192134693-10/2/21 4:28:54 PM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPlugin replaced:FeimaoyunCom@44163|2:44163 with XueqiupanCom@44163|2:44163
+--ID:29TS:1633192134695-10/2/21 4:28:54 PM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPluginController: mapping took 3ms for 3791
+--ID:29TS:1633192134695-10/2/21 4:28:54 PM -  [org.jdownloader.plugins.controller.host.HostPluginController$2(run)] -> @HostPluginController: init took 1541ms for 3788

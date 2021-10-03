@@ -1,0 +1,3 @@
+------------------------Thread: 1:StartupParameterHandler.log-----------------------
+--ID:1TS:1633292099630-10/3/21 8:14:59 PM -  [org.jdownloader.startup.ParameterHandler(onStartup)] -> Startup: []
+--ID:1TS:1633292099630-10/3/21 8:14:59 PM -  [org.jdownloader.startup.ParameterHandler(onStartup)] -> Remove ConsoleHandler

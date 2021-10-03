@@ -1,0 +1,790 @@
+------------------------Thread: 1:Log.L.log-----------------------
+--ID:1TS:1633192130546-10/2/21 4:28:50 PM -  [org.appwork.loggingv3.LogV3(info)] -> Application Root: /workspace/mint/jd2
+--ID:1TS:1633192130598-10/2/21 4:28:50 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.update.lastchance.LastChanceConfig.json
+--ID:1TS:1633192130673-10/2/21 4:28:50 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.updatev2.UpdateSettings.json
+--ID:1TS:1633192130701-10/2/21 4:28:50 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Load JSon Storage from Classpath url: jar:file:/workspace/mint/jd2/JDownloader.jar!/cfg/updateclient/Setup.json
+--ID:1TS:1633192130710-10/2/21 4:28:50 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/updateclient/Setup.json
+--ID:1TS:1633192130710-10/2/21 4:28:50 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.Setup|Path:/workspace/mint/jd2/cfg/updateclient/Setup
+------------------------Thread: 29:Log.L.log-----------------------
+--ID:29TS:1633192130724-10/2/21 4:28:50 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.settings.InternetConnectionSettings.json
+--ID:29TS:1633192130724-10/2/21 4:28:50 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.jdownloader.updatev2.InternetConnectionSettings|Path:/workspace/mint/jd2/cfg/org.jdownloader.settings.InternetConnectionSettings
+--ID:29TS:1633192130740-10/2/21 4:28:50 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Load JSon Storage from Classpath url: jar:file:/workspace/mint/jd2/JDownloader.jar!/cfg/updateclient/HttpSettings.json
+--ID:29TS:1633192130741-10/2/21 4:28:50 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/updateclient/HttpSettings.json
+--ID:29TS:1633192130741-10/2/21 4:28:50 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.UpdateHttpClientOptions|Path:/workspace/mint/jd2/cfg/updateclient/HttpSettings
+--ID:29TS:1633192130746-10/2/21 4:28:50 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/ProxySelector.json
+--ID:29TS:1633192130746-10/2/21 4:28:50 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.ProxySelectorSettings|Path:/workspace/mint/jd2/cfg/ProxySelector
+--ID:29TS:1633192130762-10/2/21 4:28:50 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(URL): jar:file:/workspace/mint/jd2/JDownloader.jar!/cfg/updateclient/Setup.updateservers.json
+--ID:29TS:1633192130763-10/2/21 4:28:50 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/update/versioninfo/JD/extensions.json
+--ID:29TS:1633192130764-10/2/21 4:28:50 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/workspace/mint/jd2/update/versioninfo/JD/extensions
+--ID:29TS:1633192130771-10/2/21 4:28:50 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.appwork.updatesys.client.tracker.TrackConfig.json
+--ID:29TS:1633192130774-10/2/21 4:28:50 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/update/versioninfo/JDU/extensions.json
+--ID:29TS:1633192130775-10/2/21 4:28:50 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/workspace/mint/jd2/update/versioninfo/JDU/extensions
+------------------------Thread: 1:Log.L.log-----------------------
+--ID:1TS:1633192130831-10/2/21 4:28:50 PM -  [org.appwork.loggingv3.LogV3(info)] -> Application Root: /workspace/mint/jd2
+--ID:1TS:1633192130856-10/2/21 4:28:50 PM -  [org.appwork.loggingv3.LogV3(info)] -> Application Root: /workspace/mint/jd2
+--ID:1TS:1633192130873-10/2/21 4:28:50 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.json
+--ID:1TS:1633192130901-10/2/21 4:28:50 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/gui/translate/GuiTranslation.en.lng/null
+--ID:1TS:1633192131243-10/2/21 4:28:51 PM -  [org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger)] -> Ignored: disabled
+--ID:1TS:1633192131284-10/2/21 4:28:51 PM -  [org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger)] -> Ignored: jdk.internal.dynalink.support.Guards
+--ID:1TS:1633192131569-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> setExecutable:true
+--ID:1TS:1633192131570-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> LOG_INIT_DONE=2 instances
+--ID:1TS:1633192131570-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> awt.toolkit=sun.awt.X11.XToolkit
+--ID:1TS:1633192131570-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> classloader_00000000=org.jdownloader.update.launcher.ClassLoaderExtensionImpl
+--ID:1TS:1633192131570-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> classloader_00000001=org.jdownloader.update.launcher.CL2
+--ID:1TS:1633192131570-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> exe4j.moduleName=/workspace/mint/jd2/JDownloader2
+--ID:1TS:1633192131570-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> extlogmanager.avoidsystemclassloader.hack=sun.misc.Launcher$AppClassLoader@70dea4e
+--ID:1TS:1633192131570-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> file.encoding=UTF-8
+--ID:1TS:1633192131570-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> file.encoding.pkg=sun.io
+--ID:1TS:1633192131571-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> file.separator=/
+--ID:1TS:1633192131571-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> ftpStyle=new
+--ID:1TS:1633192131571-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> i4j.vpt=true
+--ID:1TS:1633192131571-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> i4jv=0
+--ID:1TS:1633192131571-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> install4j.appDir=/workspace/mint/jd2/
+--ID:1TS:1633192131571-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> install4j.exeDir=/workspace/mint/jd2/
+--ID:1TS:1633192131571-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> install4j.jvmDir=/workspace/mint/jd2/jre
+--ID:1TS:1633192131571-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> install4j.launcherId=5977
+--ID:1TS:1633192131571-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> install4j.swt=false
+--ID:1TS:1633192131571-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+--ID:1TS:1633192131571-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.awt.printerjob=sun.print.PSPrinterJob
+--ID:1TS:1633192131571-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.class.path=/workspace/mint/jd2/.install4j/i4jruntime.jar:/workspace/mint/jd2/JDownloader.jar
+--ID:1TS:1633192131571-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.class.version=52.0
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.endorsed.dirs=/workspace/mint/jd2/jre/lib/endorsed
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.ext.dirs=/workspace/mint/jd2/jre/lib/ext:/usr/java/packages/lib/ext
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.home=/workspace/mint/jd2/jre
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.io.tmpdir=/tmp
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.runtime.name=Java(TM) SE Runtime Environment
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.runtime.version=1.8.0_66-b17
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.specification.name=Java Platform API Specification
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.specification.vendor=Oracle Corporation
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.specification.version=1.8
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.util.Arrays.useLegacyMergeSort=true
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.util.logging.manager=org.appwork.utils.logging2.extmanager.ExtLogManager
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.vendor=Oracle Corporation
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.vendor.url=http://java.oracle.com/
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.version=1.8.0_66
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.vm.info=mixed mode
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.vm.specification.name=Java Virtual Machine Specification
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.vm.specification.vendor=Oracle Corporation
+--ID:1TS:1633192131572-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.vm.specification.version=1.8
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.vm.vendor=Oracle Corporation
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> java.vm.version=25.66-b17
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> jd.build.builddate=Fri Oct 01 18:01:17 CEST 2021
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> jd.build.buildtimestamp=1633104077115
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> jd.randomNumber=-2235840271394058092
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.appworkutilsrevision=3588
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.jdbrowserrevision=44952
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.jdclosedrevision=783
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.jdownloaderrevision=45062
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.jdownloaderserveroptionsrevision=5095
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.jdownloaderupdaterrevision=5413
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.myjdownloaderclientrevision=44189
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.updateclientv2revision=1002
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> k=0dd0ecf7f742873d745106adea00b64a
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> line.separator=
+
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> org.appwork.LoggerFactory=org.appwork.utils.logging2.LogSourceRedirector
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> org.jdownloader.revision=JDownloader2
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> os.arch=amd64
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> os.name=Linux
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> os.version=5.4.0-1051-gke
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> path.separator=:
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.arch.data.model=64
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.awt.enableExtraMouseButtons=true
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.boot.class.path=/workspace/mint/jd2/jre/lib/resources.jar:/workspace/mint/jd2/jre/lib/rt.jar:/workspace/mint/jd2/jre/lib/sunrsasign.jar:/workspace/mint/jd2/jre/lib/jsse.jar:/workspace/mint/jd2/jre/lib/jce.jar:/workspace/mint/jd2/jre/lib/charsets.jar:/workspace/mint/jd2/jre/lib/jfr.jar:/workspace/mint/jd2/jre/classes
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.boot.library.path=/workspace/mint/jd2/jre/lib/amd64
+--ID:1TS:1633192131573-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.cpu.endian=little
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.cpu.isalist=
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.font.fontmanager=sun.awt.X11FontManager
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.io.unicode.encoding=UnicodeLittle
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.java.command=com.install4j.runtime.launcher.UnixLauncher launch 883f5673 /workspace/mint/jd2/error.log /workspace/mint/jd2/output.log org.jdownloader.update.launcher.JDLauncher
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.java.launcher=SUN_STANDARD
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.java2d.d3d=false
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.jnu.encoding=UTF-8
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.os.patch.level=unknown
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> sun.swing.enableImprovedDragGesture=true
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> uid=1_Jv5y0opW4laVK3DTbW3I5vu5CjWPkISZ6zbBjKR/XvA=
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> user.country=US
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> user.dir=/workspace/mint/jd2
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> user.home=/home/gitpod
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> user.language=en
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> user.name=gitpod
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> user.timezone=Etc/UTC
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> OS:LINUX|UBUNTU_FOCAL|64bit:true
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> CPU:X86|64bit:true
+--ID:1TS:1633192131574-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> JVM:18066017|1.8.0_66-b17|64bit:true
+--ID:1TS:1633192131583-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> VMArgs: [-Xmx1879m, -Dinstall4j.jvmDir=/workspace/mint/jd2/jre, -Dexe4j.moduleName=/workspace/mint/jd2/JDownloader2, -Dinstall4j.launcherId=5977, -Dinstall4j.swt=false, -Di4jv=0, -Di4jv=0, -Di4jv=0, -Di4jv=0, -Di4jv=0, -Xms64m, -Dsun.java2d.d3d=false, -Di4j.vpt=true]
+--ID:1TS:1633192131583-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> MaxMemory=1752694784bytes (1671Megabytes)
+--ID:1TS:1633192131583-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(mainStart)] -> JDownloader2
+--ID:1TS:1633192131583-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch(go)] -> Initialize JDownloader2
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192131810-10/2/21 4:28:51 PM -  [jd.SecondLevelLaunch$8(edtRun)] -> LAF INIT
+------------------------Thread: 1:Log.L.log-----------------------
+--ID:1TS:1633192131811-10/2/21 4:28:51 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.settings.SilentModeSettings.json
+------------------------Thread: 37:Log.L.log-----------------------
+--ID:37TS:1633192131812-10/2/21 4:28:51 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.json
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192131819-10/2/21 4:28:51 PM -  [jd.gui.swing.laf.LookAndFeelController(setUIManager)] -> Use Look & Feel: org.jdownloader.gui.laf.jddefault.JDDefaultLookAndFeel
+--ID:33TS:1633192131826-10/2/21 4:28:51 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/laf/JDDefaultLookAndFeel.json
+--ID:33TS:1633192131857-10/2/21 4:28:51 PM -  [org.appwork.loggingv3.LogV3(info)] -> LaF init: org.jdownloader.gui.laf.jddefault.JDDefaultLookAndFeel
+--ID:33TS:1633192131860-10/2/21 4:28:51 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/org/appwork/swing/synthetica/LanguageFileSetup.en.lng/null
+--ID:33TS:1633192131874-10/2/21 4:28:51 PM -  [org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger)] -> Ignored: de.javasoft.plaf.synthetica.SyntheticaLookAndFeel
+--ID:33TS:1633192131882-10/2/21 4:28:51 PM -  [org.jdownloader.gui.laf.jddefault.JDDefaultLookAndFeel(load)] -> Custom LAF XML: /workspace/mint/jd2/cfg/laf/JDDefaultLookAndFeel.xml
+--ID:33TS:1633192132128-10/2/21 4:28:52 PM -  [org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger)] -> Ignored: de.javasoft.plaf.synthetica.painter.ImagePainter
+------------------------Thread: 37:Log.L.log-----------------------
+--ID:37TS:1633192132339-10/2/21 4:28:52 PM -  [jd.SecondLevelLaunch$7(run)] -> Use 'AUTO' for default SSLSocketStreamFactory because: JSSE missing TLSv1.3 support! Java-18066017
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192132444-10/2/21 4:28:52 PM -  [org.appwork.loggingv3.LogV3(info)] -> LAF Init duration: 587ms
+--ID:33TS:1633192132446-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/ExtTooltipSettings_default.json
+--ID:33TS:1633192132448-10/2/21 4:28:52 PM -  [jd.gui.swing.laf.LookAndFeelController(setUIManager)] -> LAF init: 630
+--ID:33TS:1633192132448-10/2/21 4:28:52 PM -  [jd.SecondLevelLaunch$11(edtRun)] -> InitGUI->1359
+--ID:33TS:1633192132488-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/jd.controlling.captcha.CaptchaSettings.json
+--ID:33TS:1633192132534-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/jd.controlling.reconnect.ReconnectConfig.json
+--ID:33TS:1633192132551-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/jd.controlling.downloadcontroller.DownloadControllerConfig.json
+--ID:33TS:1633192132782-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/ExtTable_downloadstable3.json
+--ID:33TS:1633192132833-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/menus_v2/DownloadTabBottomBar.json
+--ID:33TS:1633192132866-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.gui.jdtrayicon.TrayExtension.json
+--ID:33TS:1633192132868-10/2/21 4:28:52 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/gui/jdtrayicon/translate/TrayiconTranslation.en.lng/null
+--ID:33TS:1633192132875-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.controlling.filter.LinkFilterSettings.json
+--ID:33TS:1633192132881-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.json
+--ID:33TS:1633192132885-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.settings.AccountSettings.json
+--ID:33TS:1633192132892-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/jd.controlling.linkchecker.LinkCheckerConfig.json
+--ID:33TS:1633192132894-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/jd.controlling.linkcrawler.LinkCrawlerConfig.json
+--ID:33TS:1633192132899-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.gui.views.linkgrabber.addlinksdialog.LinkgrabberSettings.json
+--ID:33TS:1633192132909-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/jd.controlling.linkcollector.LinkCollectorConfig.json
+--ID:33TS:1633192132911-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.api.RemoteAPIConfig.json
+--ID:33TS:1633192132914-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.controlling.packagizer.PackagizerSettings.json
+--ID:33TS:1633192132916-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.controlling.ffmpeg.FFmpegSetup.json
+--ID:33TS:1633192132922-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.gui.shortcuts.ShortcutSettings.json
+--ID:33TS:1633192132925-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.settings.RtmpdumpSettings.json
+--ID:33TS:1633192132927-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.updatev2.LastChanceSettings.json
+--ID:33TS:1633192132928-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.appwork.utils.swing.dialog.ExtFileSystemViewSettings.json
+--ID:33TS:1633192132930-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/jd.controlling.faviconcontroller.FavIconsConfig.json
+--ID:33TS:1633192132932-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.settings.SoundSettings.json
+--ID:33TS:1633192132934-10/2/21 4:28:52 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.gui.notify.gui.BubbleNotifyConfig.json
+--ID:33TS:1633192132978-10/2/21 4:28:52 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/translate/JdownloaderTranslation.en.lng/null
+--ID:33TS:1633192133083-10/2/21 4:28:53 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/org/appwork/utils/locale/AWUTranslation.en.lng/null
+--ID:33TS:1633192133097-10/2/21 4:28:53 PM -  [jd.SecondLevelLaunch$11(edtRun)] -> GUIDONE->2008
+------------------------Thread: 1:Log.L.log-----------------------
+--ID:1TS:1633192133163-10/2/21 4:28:53 PM -  [jd.SecondLevelLaunch(go)] -> Initialisation finished
+------------------------Thread: 55:Log.L.log-----------------------
+--ID:55TS:1633192133164-10/2/21 4:28:53 PM -  [org.appwork.loggingv3.LogV3(info)] -> jar:file:/workspace/mint/jd2/JDownloader.jar!/org/appwork/Counter.class
+------------------------Thread: 1:Log.L.log-----------------------
+--ID:1TS:1633192133170-10/2/21 4:28:53 PM -  [jd.SecondLevelLaunch(go)] -> fileChooserComboBoxFolders 2|1
+--ID:1TS:1633192133173-10/2/21 4:28:53 PM -  [org.jdownloader.update.launcher.SecondLevelLauncher(updateUninstallerCode)] -> Fix Uninstaller
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192133255-10/2/21 4:28:53 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/ExtTable_LinkGrabberTableModel.json
+--ID:33TS:1633192133274-10/2/21 4:28:53 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/menus_v2/LinkgrabberTabBottomBar.json
+--ID:33TS:1633192133363-10/2/21 4:28:53 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/ExtTable_FilterTableModel.json
+--ID:33TS:1633192133398-10/2/21 4:28:53 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/quickfilters.json
+--ID:33TS:1633192133427-10/2/21 4:28:53 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/menus_v2/LinkgrabberContext.json
+------------------------Thread: 29:Log.L.log-----------------------
+--ID:29TS:1633192134099-10/2/21 4:28:54 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/vupload.com.json
+--ID:29TS:1633192134162-10/2/21 4:28:54 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/drop.download.json
+--ID:29TS:1633192134261-10/2/21 4:28:54 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/upstream.to.json
+--ID:29TS:1633192134268-10/2/21 4:28:54 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/vidlox.me.json
+--ID:29TS:1633192134335-10/2/21 4:28:54 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/ddownload.com.json
+--ID:29TS:1633192134338-10/2/21 4:28:54 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/wolfstream.tv.json
+--ID:29TS:1633192134512-10/2/21 4:28:54 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/mixloads.com.json
+--ID:29TS:1633192134525-10/2/21 4:28:54 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/hotlink.cc.json
+--ID:29TS:1633192134547-10/2/21 4:28:54 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/proleech.link.json
+--ID:29TS:1633192134616-10/2/21 4:28:54 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/supervideo.tv.json
+--ID:29TS:1633192134627-10/2/21 4:28:54 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/cloudvideo.tv.json
+--ID:29TS:1633192134667-10/2/21 4:28:54 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/deltabit.co.json
+------------------------Thread: 54:Log.L.log-----------------------
+--ID:54TS:1633192134962-10/2/21 4:28:54 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /session = interface org.appwork.utils.net.httpserver.session.LoginAPIInterface
+--ID:54TS:1633192134969-10/2/21 4:28:54 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /events = interface org.appwork.remoteapi.events.EventsAPIInterface
+--ID:54TS:1633192134976-10/2/21 4:28:54 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.api.captcha.CaptchaMyJDownloaderRemoteSolverSettings.json
+--ID:54TS:1633192134980-10/2/21 4:28:54 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /captcha = interface org.jdownloader.api.captcha.CaptchaAPI
+--ID:54TS:1633192134983-10/2/21 4:28:54 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /captchaforward = interface org.jdownloader.captcha.api.CaptchaForwarderAPIInterface
+--ID:54TS:1633192134984-10/2/21 4:28:54 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /jd = interface org.jdownloader.api.jd.JDAPI
+--ID:54TS:1633192134987-10/2/21 4:28:54 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /downloads = interface org.jdownloader.api.downloads.DownloadsAPI
+--ID:54TS:1633192134997-10/2/21 4:28:54 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /downloadsV2 = interface org.jdownloader.api.downloads.v2.DownloadsAPIV2
+--ID:54TS:1633192135000-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /downloadcontroller = interface org.jdownloader.api.downloads.v2.DownloadWatchdogAPI
+--ID:54TS:1633192135003-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /config = interface org.jdownloader.api.config.AdvancedConfigManagerAPI
+--ID:54TS:1633192135015-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /toolbar = interface org.jdownloader.api.toolbar.JDownloaderToolBarAPI
+--ID:54TS:1633192135024-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /accounts = interface org.jdownloader.api.accounts.AccountAPI
+--ID:54TS:1633192135028-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /accountsV2 = interface org.jdownloader.api.accounts.v2.AccountAPIV2
+--ID:54TS:1633192135030-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /system = interface org.jdownloader.api.system.SystemAPI
+--ID:54TS:1633192135033-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /linkcollector = interface org.jdownloader.api.linkcollector.LinkCollectorAPI
+--ID:54TS:1633192135041-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /linkgrabberv2 = interface org.jdownloader.api.linkcollector.v2.LinkCollectorAPIV2
+--ID:54TS:1633192135045-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /content = interface org.jdownloader.api.content.ContentAPI
+--ID:54TS:1633192135048-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /contentV2 = interface org.jdownloader.api.content.v2.ContentAPIV2
+--ID:54TS:1633192135049-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /ui = interface org.jdownloader.api.ui.UIAPI
+--ID:54TS:1633192135051-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /polling = interface org.jdownloader.api.polling.PollingAPI
+--ID:54TS:1633192135053-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /extraction = interface org.jdownloader.api.extraction.ExtractionAPI
+--ID:54TS:1633192135055-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /linkcrawler = interface org.jdownloader.api.linkcrawler.LinkCrawlerAPI
+--ID:54TS:1633192135057-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /plugins = interface org.jdownloader.api.plugins.PluginsAPI
+--ID:54TS:1633192135062-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace / = interface org.jdownloader.api.cnl2.Cnl2APIBasics
+--ID:54TS:1633192135062-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /flash = interface org.jdownloader.api.cnl2.Cnl2APIFlash
+--ID:54TS:1633192135072-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /downloadevents = interface org.jdownloader.api.downloads.DownloadControllerEventPublisherInterface
+--ID:54TS:1633192135073-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /extensions = interface org.jdownloader.api.extensions.ExtensionsAPI
+--ID:54TS:1633192135075-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /update = interface org.jdownloader.api.update.UpdateAPI
+--ID:54TS:1633192135088-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /device = interface org.jdownloader.api.device.DeviceAPI
+--ID:54TS:1633192135088-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /reconnect = interface org.jdownloader.api.reconnect.ReconnectAPI
+--ID:54TS:1633192135093-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /log = interface org.jdownloader.api.logs.LogAPI
+--ID:54TS:1633192135098-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /dialogs = interface org.jdownloader.api.dialog.DialogApiInterface
+------------------------Thread: 73:Log.L.log-----------------------
+--ID:73TS:1633192135104-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace / = interface org.jdownloader.api.cnl2.Cnl2APIBasics
+--ID:73TS:1633192135105-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /flash = interface org.jdownloader.api.cnl2.Cnl2APIFlash
+------------------------Thread: 54:Log.L.log-----------------------
+--ID:54TS:1633192135125-10/2/21 4:28:55 PM -  [jd.controlling.DelayWriteController(init)] -> DelayWriteMode: AUTO
+--ID:54TS:1633192135126-10/2/21 4:28:55 PM -  [jd.controlling.DelayWriteController(init)] -> DelayedWrites disabled!
+------------------------Thread: 77:Log.L.log-----------------------
+--ID:77TS:1633192135126-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.jac.JACSolverConfig.json
+--ID:77TS:1633192135155-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.dbc.DeathByCaptchaSettings.json
+--ID:77TS:1633192135156-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.dbc.DeathByCaptchaSettings.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+------------------------Thread: 73:Log.L.log-----------------------
+--ID:73TS:1633192135160-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(fine)] -> Start HTTP Server. 9666->9666|LocalHost:true
+------------------------Thread: 77:Log.L.log-----------------------
+--ID:77TS:1633192135163-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.imagetyperz.ImageTyperzConfigInterface.json
+--ID:77TS:1633192135163-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.imagetyperz.ImageTyperzConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+--ID:77TS:1633192135168-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.cheapcaptcha.CheapCaptchaConfigInterface.json
+--ID:77TS:1633192135168-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.cheapcaptcha.CheapCaptchaConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+--ID:77TS:1633192135172-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.captchasolutions.CaptchaSolutionsConfigInterface.json
+--ID:77TS:1633192135172-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.captchasolutions.CaptchaSolutionsConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+--ID:77TS:1633192135176-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.twocaptcha.TwoCaptchaConfigInterface.json
+--ID:77TS:1633192135177-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.twocaptcha.TwoCaptchaConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+--ID:77TS:1633192135180-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.antiCaptchaCom.AntiCaptchaComConfigInterface.json
+--ID:77TS:1633192135181-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.antiCaptchaCom.AntiCaptchaComConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+--ID:77TS:1633192135184-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.endcaptcha.EndCaptchaConfigInterface.json
+--ID:77TS:1633192135184-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.endcaptcha.EndCaptchaConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+--ID:77TS:1633192135190-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.solver9kw.Captcha9kwSettings.json
+--ID:77TS:1633192135192-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.solver9kw.Captcha9kwSettings.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+--ID:77TS:1633192135203-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.gui.DialogCaptchaSolverConfig.json
+--ID:77TS:1633192135208-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.browser.BrowserCaptchaSolverConfig.json
+------------------------Thread: 74:Log.L.log-----------------------
+--ID:74TS:1633192135351-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.extensions.extraction.ExtractionExtension.json
+--ID:74TS:1633192135358-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/extensions/extraction/translate/ExtractionTranslation.en.lng/null
+--ID:74TS:1633192135426-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/menus_v2/DownloadTableContext.json
+--ID:74TS:1633192135429-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/menus_v2/MainMenu.json
+--ID:74TS:1633192135430-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/menus_v2/MainToolbar.json
+--ID:74TS:1633192135438-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.extensions.shutdown.ShutdownExtension.json
+--ID:74TS:1633192135439-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/extensions/shutdown/translate/ShutdownTranslation.en.lng/null
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192135445-10/2/21 4:28:55 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/ExtTable_ExtractionJobTableModel4.json
+------------------------Thread: 81:Log.L.log-----------------------
+--ID:81TS:1633192135517-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/updatev2/UpdaterTranslation.en.lng/null
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192135545-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(warning)] -> Default missing for: public abstract java.lang.String org.jdownloader.gui.translate.GuiTranslation.action_help_tooltip()
+--ID:33TS:1633192135546-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(warning)] -> Default missing for: public abstract java.lang.String org.jdownloader.gui.translate.GuiTranslation.action_changelog_tooltip()
+--ID:33TS:1633192135684-10/2/21 4:28:55 PM -  [org.appwork.loggingv3.LogV3(warning)] -> Default missing for: public abstract java.lang.String org.jdownloader.gui.translate.GuiTranslation.action_addcontainer_tooltip()
+------------------------Thread: 44:Log.L.log-----------------------
+--ID:44TS:1633192137439-10/2/21 4:28:57 PM -  [jd.config.SubConfiguration(save)] -> Save Name:imgur.com|SetMark:2|File:/workspace/mint/jd2/cfg/subconf_imgur.com.ejs
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192146891-10/2/21 4:29:06 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/FILECHOOSER.ejs
+--ID:33TS:1633192146970-10/2/21 4:29:06 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/jd.controlling.reconnect.pluginsinc.upnp.UPUPReconnectSettings.json
+--ID:33TS:1633192146975-10/2/21 4:29:06 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/jd.controlling.reconnect.pluginsinc.liveheader.LiveHeaderReconnectSettings.json
+--ID:33TS:1633192146981-10/2/21 4:29:06 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/jd.controlling.reconnect.pluginsinc.speedporthybrid.SpeedPortHybridReconnectConfig.ejs
+--ID:33TS:1633192146983-10/2/21 4:29:06 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/jd.controlling.reconnect.pluginsinc.easybox804.EasyBox804ReconnectConfig.ejs
+--ID:33TS:1633192146986-10/2/21 4:29:06 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/jd/controlling/reconnect/pluginsinc/liveheader/translate/LiveheaderTranslation.en.lng/null
+--ID:33TS:1633192147058-10/2/21 4:29:07 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/ExtTable_proxyTable3.json
+--ID:33TS:1633192147086-10/2/21 4:29:07 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/ExtTable_HosterRuleTableModel.json
+--ID:33TS:1633192147121-10/2/21 4:29:07 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/ExtTable_PremiumAccountTableModel2.json
+--ID:33TS:1633192147152-10/2/21 4:29:07 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/ExtTable_AuthTableModel.json
+--ID:33TS:1633192147155-10/2/21 4:29:07 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/jd.controlling.authentication.AuthenticationControllerSettings.json
+--ID:33TS:1633192147201-10/2/21 4:29:07 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/ExtTable_SolverOrderTableModel.json
+--ID:33TS:1633192147204-10/2/21 4:29:07 PM -  [org.appwork.loggingv3.LogV3(severe)] -> Bad Column Implementation: jd.gui.swing.jdgui.views.settings.panels.anticaptcha.SolverOrderTableModel/Timeouts Min: 15 Max: 2147483647
+--ID:33TS:1633192147238-10/2/21 4:29:07 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/ExtTable_UrlOrderTableModel.json
+--ID:33TS:1633192147341-10/2/21 4:29:07 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/ExtTable_FilterTable2.json
+--ID:33TS:1633192147351-10/2/21 4:29:07 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/ExtTable_ExceptionsTableModel.json
+--ID:33TS:1633192147378-10/2/21 4:29:07 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/ExtTable_PackagizerFilterTable.json
+--ID:33TS:1633192147428-10/2/21 4:29:07 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/ExtTable_AdvancedTable.json
+------------------------Thread: 87:Log.L.log-----------------------
+--ID:87TS:1633192147434-10/2/21 4:29:07 PM -  [org.jdownloader.extensions.LazyExtension(getClassLoader)] -> Use /workspace/mint/jd2/extensions/JDShutdown.jar classloader
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192202397-10/2/21 4:30:02 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT)] -> Force Dummy Init
+--ID:33TS:1633192202399-10/2/21 4:30:02 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT)] -> Reset Dummy Info
+--ID:33TS:1633192202399-10/2/21 4:30:02 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(displayDialog)] -> Display Dialog: org.jdownloader.gui.views.DownloadFolderChooserDialog: dialog_Choose_directory
+--ID:33TS:1633192202440-10/2/21 4:30:02 PM -  [org.appwork.utils.swing.dialog.ExtFileChooserDialog(layoutDialogContent)] -> Given presel: /home/gitpod/Downloads
+--ID:33TS:1633192202441-10/2/21 4:30:02 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Get Roots
+--ID:33TS:1633192202441-10/2/21 4:30:02 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Listed Base folders 0|1
+--ID:33TS:1633192202442-10/2/21 4:30:02 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Basefolder:  - / - Linux
+--ID:33TS:1633192202442-10/2/21 4:30:02 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Roots: 1
+------------------------Thread: 114:Log.L.log-----------------------
+--ID:114TS:1633192202530-10/2/21 4:30:02 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> org.getFiles(dir, useFileHiding);
+--ID:114TS:1633192202531-10/2/21 4:30:02 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles: ms:0 /home/gitpod|2
+--ID:114TS:1633192202531-10/2/21 4:30:02 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> Return Files for /home/gitpod(true): 2
+--ID:114TS:1633192202531-10/2/21 4:30:02 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles(end): ms:1 /home/gitpod
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192207870-10/2/21 4:30:07 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Get Roots
+------------------------Thread: 116:Log.L.log-----------------------
+--ID:116TS:1633192207872-10/2/21 4:30:07 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> org.getFiles(dir, useFileHiding);
+--ID:116TS:1633192207873-10/2/21 4:30:07 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles: ms:1 /|23
+--ID:116TS:1633192207873-10/2/21 4:30:07 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> Return Files for /(true): 23
+--ID:116TS:1633192207873-10/2/21 4:30:07 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles(end): ms:1 /
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192210889-10/2/21 4:30:10 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Get Roots
+------------------------Thread: 117:Log.L.log-----------------------
+--ID:117TS:1633192210891-10/2/21 4:30:10 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> org.getFiles(dir, useFileHiding);
+--ID:117TS:1633192210891-10/2/21 4:30:10 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles: ms:0 /workspace|2
+--ID:117TS:1633192210891-10/2/21 4:30:10 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> Return Files for /workspace(true): 2
+--ID:117TS:1633192210891-10/2/21 4:30:10 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles(end): ms:0 /workspace
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192212653-10/2/21 4:30:12 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Get Roots
+------------------------Thread: 118:Log.L.log-----------------------
+--ID:118TS:1633192212655-10/2/21 4:30:12 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> org.getFiles(dir, useFileHiding);
+--ID:118TS:1633192212655-10/2/21 4:30:12 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles: ms:0 /workspace/mint|16
+--ID:118TS:1633192212655-10/2/21 4:30:12 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> Return Files for /workspace/mint(true): 16
+--ID:118TS:1633192212655-10/2/21 4:30:12 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles(end): ms:0 /workspace/mint
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192214941-10/2/21 4:30:14 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Get Roots
+------------------------Thread: 119:Log.L.log-----------------------
+--ID:119TS:1633192214943-10/2/21 4:30:14 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> org.getFiles(dir, useFileHiding);
+--ID:119TS:1633192214943-10/2/21 4:30:14 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles: ms:0 /workspace/mint/jd2|30
+--ID:119TS:1633192214943-10/2/21 4:30:14 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> Return Files for /workspace/mint/jd2(true): 30
+--ID:119TS:1633192214943-10/2/21 4:30:14 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles(end): ms:0 /workspace/mint/jd2
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192217516-10/2/21 4:30:17 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Get Roots
+------------------------Thread: 120:Log.L.log-----------------------
+--ID:120TS:1633192217518-10/2/21 4:30:17 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> org.getFiles(dir, useFileHiding);
+--ID:120TS:1633192217518-10/2/21 4:30:17 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles: ms:0 /workspace/mint|16
+--ID:120TS:1633192217519-10/2/21 4:30:17 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> Return Files for /workspace/mint(true): 16
+--ID:120TS:1633192217519-10/2/21 4:30:17 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles(end): ms:1 /workspace/mint
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192219139-10/2/21 4:30:19 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Get Roots
+------------------------Thread: 121:Log.L.log-----------------------
+--ID:121TS:1633192219141-10/2/21 4:30:19 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> org.getFiles(dir, useFileHiding);
+--ID:121TS:1633192219142-10/2/21 4:30:19 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles: ms:1 /workspace/mint/dl|0
+--ID:121TS:1633192219142-10/2/21 4:30:19 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> Return Files for /workspace/mint/dl(true): 0
+--ID:121TS:1633192219142-10/2/21 4:30:19 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles(end): ms:1 /workspace/mint/dl
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192220812-10/2/21 4:30:20 PM -  [org.appwork.utils.swing.dialog.ExtFileChooserDialog(actionPerformed)] -> Answer: Button<OK:Save>
+--ID:33TS:1633192220813-10/2/21 4:30:20 PM -  [org.appwork.utils.swing.dialog.ExtFileChooserDialog$1(actionPerformed)] -> Answer: FC APPROVE>
+--ID:33TS:1633192220817-10/2/21 4:30:20 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/FileChooser/null.ejs
+--ID:33TS:1633192220832-10/2/21 4:30:20 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Get Roots
+------------------------Thread: 125:Log.L.log-----------------------
+--ID:125TS:1633192220836-10/2/21 4:30:20 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> org.getFiles(dir, useFileHiding);
+--ID:125TS:1633192220836-10/2/21 4:30:20 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles: ms:0 /workspace/mint|16
+--ID:125TS:1633192220836-10/2/21 4:30:20 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> Return Files for /workspace/mint(true): 16
+--ID:125TS:1633192220836-10/2/21 4:30:20 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles(end): ms:0 /workspace/mint
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192223117-10/2/21 4:30:23 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT)] -> Force Dummy Init
+--ID:33TS:1633192223117-10/2/21 4:30:23 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT)] -> Reset Dummy Info
+--ID:33TS:1633192223117-10/2/21 4:30:23 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(displayDialog)] -> Display Dialog: org.jdownloader.gui.views.DownloadFolderChooserDialog: dialog_Choose_directory
+--ID:33TS:1633192223134-10/2/21 4:30:23 PM -  [org.appwork.utils.swing.dialog.ExtFileChooserDialog(layoutDialogContent)] -> Given presel: /workspace/mint/dl
+--ID:33TS:1633192223134-10/2/21 4:30:23 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Get Roots
+--ID:33TS:1633192223134-10/2/21 4:30:23 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Listed Base folders 0|1
+--ID:33TS:1633192223134-10/2/21 4:30:23 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Basefolder:  - / - Linux
+--ID:33TS:1633192223135-10/2/21 4:30:23 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Roots: 1
+------------------------Thread: 126:Log.L.log-----------------------
+--ID:126TS:1633192223213-10/2/21 4:30:23 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> org.getFiles(dir, useFileHiding);
+--ID:126TS:1633192223213-10/2/21 4:30:23 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles: ms:0 /workspace/mint/dl|0
+--ID:126TS:1633192223213-10/2/21 4:30:23 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> Return Files for /workspace/mint/dl(true): 0
+--ID:126TS:1633192223213-10/2/21 4:30:23 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles(end): ms:0 /workspace/mint/dl
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192227238-10/2/21 4:30:27 PM -  [org.appwork.utils.swing.dialog.ExtFileChooserDialog(actionPerformed)] -> Answer: Button<OK:Save>
+--ID:33TS:1633192227238-10/2/21 4:30:27 PM -  [org.appwork.utils.swing.dialog.ExtFileChooserDialog$1(actionPerformed)] -> Answer: FC APPROVE>
+--ID:33TS:1633192227246-10/2/21 4:30:27 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Get Roots
+------------------------Thread: 127:Log.L.log-----------------------
+--ID:127TS:1633192227248-10/2/21 4:30:27 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> org.getFiles(dir, useFileHiding);
+--ID:127TS:1633192227248-10/2/21 4:30:27 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles: ms:0 /workspace/mint|16
+--ID:127TS:1633192227248-10/2/21 4:30:27 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> Return Files for /workspace/mint(true): 16
+--ID:127TS:1633192227248-10/2/21 4:30:27 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles(end): ms:0 /workspace/mint
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192236904-10/2/21 4:30:36 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT)] -> Force Dummy Init
+--ID:33TS:1633192236904-10/2/21 4:30:36 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT)] -> Reset Dummy Info
+--ID:33TS:1633192236904-10/2/21 4:30:36 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(displayDialog)] -> Display Dialog: org.jdownloader.gui.views.DownloadFolderChooserDialog: dialog_Choose_directory
+--ID:33TS:1633192236922-10/2/21 4:30:36 PM -  [org.appwork.utils.swing.dialog.ExtFileChooserDialog(layoutDialogContent)] -> Given presel: /workspace/mint/dl
+--ID:33TS:1633192236923-10/2/21 4:30:36 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Get Roots
+--ID:33TS:1633192236923-10/2/21 4:30:36 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Listed Base folders 0|1
+--ID:33TS:1633192236923-10/2/21 4:30:36 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Basefolder:  - / - Linux
+--ID:33TS:1633192236923-10/2/21 4:30:36 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Roots: 0
+------------------------Thread: 128:Log.L.log-----------------------
+--ID:128TS:1633192237002-10/2/21 4:30:37 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> org.getFiles(dir, useFileHiding);
+--ID:128TS:1633192237002-10/2/21 4:30:37 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles: ms:1 /workspace/mint/dl|0
+--ID:128TS:1633192237002-10/2/21 4:30:37 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> Return Files for /workspace/mint/dl(true): 0
+--ID:128TS:1633192237002-10/2/21 4:30:37 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles(end): ms:1 /workspace/mint/dl
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192239869-10/2/21 4:30:39 PM -  [org.appwork.utils.swing.dialog.ExtFileChooserDialog(actionPerformed)] -> Answer: Button<OK:Save>
+--ID:33TS:1633192239870-10/2/21 4:30:39 PM -  [org.appwork.utils.swing.dialog.ExtFileChooserDialog$1(actionPerformed)] -> Answer: FC APPROVE>
+--ID:33TS:1633192239877-10/2/21 4:30:39 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getRoots)] -> Get Roots
+------------------------Thread: 130:Log.L.log-----------------------
+--ID:130TS:1633192239879-10/2/21 4:30:39 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> org.getFiles(dir, useFileHiding);
+--ID:130TS:1633192239879-10/2/21 4:30:39 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles: ms:0 /workspace/mint|16
+--ID:130TS:1633192239880-10/2/21 4:30:39 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> Return Files for /workspace/mint(true): 16
+--ID:130TS:1633192239880-10/2/21 4:30:39 PM -  [org.appwork.utils.swing.dialog.ExtFileSystemView(getFiles)] -> getFiles(end): ms:1 /workspace/mint
+------------------------Thread: 33:Log.L.log-----------------------
+--ID:33TS:1633192334658-10/2/21 4:32:14 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT)] -> Force Dummy Init
+--ID:33TS:1633192334660-10/2/21 4:32:14 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT)] -> Reset Dummy Info
+--ID:33TS:1633192334662-10/2/21 4:32:14 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(displayDialog)] -> Display Dialog: jd.gui.swing.jdgui.views.settings.panels.packagizer.PackagizerFilterRuleDialog: dialog_Rule__
+--ID:33TS:1633192334984-10/2/21 4:32:14 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Read Config: /workspace/mint/jd2/cfg/Dialogs.json
+--ID:33TS:1633192334985-10/2/21 4:32:14 PM -  [org.appwork.utils.swing.dialog.ConfirmDialog(<init>)] -> Dialog    [null][null]
+flag:  110000
+title: First Steps: Packagizer
+msg:   
+You really should know that...
+
+...You can automate almost everything using Packagizer rules. Most of the rule setup is self-explaining.
+However, it is important to note, that you can use "*" placeholders in many conditions.
+These placeholders can be used in the "then" blocks afterwards. Just rightlick in the textfields to see all available dynamic variables.
+--ID:33TS:1633192334985-10/2/21 4:32:14 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT)] -> Force Dummy Init
+--ID:33TS:1633192334986-10/2/21 4:32:14 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT)] -> Reset Dummy Info
+--ID:33TS:1633192334987-10/2/21 4:32:14 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT)] -> Force Dummy Init
+--ID:33TS:1633192334989-10/2/21 4:32:14 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT)] -> Reset Dummy Info
+--ID:33TS:1633192334989-10/2/21 4:32:14 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(displayDialog)] -> Display Dialog: org.jdownloader.gui.helpdialogs.HelpDialog$1: dialog_First_Steps__Packagizer_You_really_should_know_that__________You_can_automate_almost_everything_using_Packagizer_rules__Most_of_the_rule_setup_is_self_explaining___However__it_is_important_to_note__that_you_can_use_____placeholders_in_many_conditions___These_placeholders_can_be_used_in_the__then__blocks_afterwards__Just_rightlick_in_the_textfields_to_see_all_available_dynamic_variables_
+--ID:33TS:1633192338479-10/2/21 4:32:18 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(actionPerformed)] -> Answer: Button<OK:Ok>
+--ID:33TS:1633192357857-10/2/21 4:32:37 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(actionPerformed)] -> Answer: Button<CANCEL:Cancel>
+--ID:33TS:1633192364888-10/2/21 4:32:44 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/1fichier.com.json
+--ID:33TS:1633192388774-10/2/21 4:33:08 PM -  [org.appwork.utils.swing.dialog.ConfirmDialog(<init>)] -> Dialog    [null][null]
+flag:  110000
+title: If there ever has been any warranty for anything, it ends here!
+msg:   
+You really should know that...
+
+...These advanced settings should not be modified unless you know what you are doing. 
+Changing them may affect stability, security and performance of JDownloader.
+You have been warned.
+--ID:33TS:1633192388774-10/2/21 4:33:08 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT)] -> Force Dummy Init
+--ID:33TS:1633192388774-10/2/21 4:33:08 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT)] -> Reset Dummy Info
+--ID:33TS:1633192388774-10/2/21 4:33:08 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT)] -> Force Dummy Init
+--ID:33TS:1633192388775-10/2/21 4:33:08 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT)] -> Reset Dummy Info
+--ID:33TS:1633192388775-10/2/21 4:33:08 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(displayDialog)] -> Display Dialog: org.jdownloader.gui.helpdialogs.HelpDialog$1: dialog_If_there_ever_has_been_any_warranty_for_anything__it_ends_here__You_really_should_know_that__________These_advanced_settings_should_not_be_modified_unless_you_know_what_you_are_doing____Changing_them_may_affect_stability__security_and_performance_of_JDownloader___You_have_been_warned_
+--ID:33TS:1633192388795-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/adulttime.com.json
+--ID:33TS:1633192388806-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/alldebrid.com.json
+--ID:33TS:1633192388807-10/2/21 4:33:08 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.AllDebridCom$AlldebridComConfig|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/alldebrid.com
+--ID:33TS:1633192388808-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/pervcity.com.json
+--ID:33TS:1633192388813-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/anonfiles.com.json
+--ID:33TS:1633192388815-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/br-online.de.json
+--ID:33TS:1633192388817-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/chip.de.json
+--ID:33TS:1633192388818-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/czechav.com.json
+--ID:33TS:1633192388820-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/datafilehost.com.json
+--ID:33TS:1633192388822-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/debrid-link.fr.json
+--ID:33TS:1633192388825-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/deluxemusic.tv.json
+--ID:33TS:1633192388826-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/douyin.com.json
+--ID:33TS:1633192388828-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/drive.google.com.json
+--ID:33TS:1633192388831-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/dropbox.com.json
+--ID:33TS:1633192388832-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/eporner.com.json
+--ID:33TS:1633192388836-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/evilangel.com.json
+--ID:33TS:1633192388837-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/facebook.com.json
+--ID:33TS:1633192388838-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/fileboom.me.json
+--ID:33TS:1633192388840-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/free-mp3-download.net.json
+--ID:33TS:1633192388842-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/fshare.vn.json
+--ID:33TS:1633192388845-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/gfycat.com.json
+--ID:33TS:1633192388849-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/hitfile.net.json
+--ID:33TS:1633192388850-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/issuu.com.json
+--ID:33TS:1633192388854-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/julesjordan.com.json
+--ID:33TS:1633192388854-10/2/21 4:33:08 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.JulesjordanCom$JulesjordanComConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/julesjordan.com
+--ID:33TS:1633192388860-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/keep2share.cc.json
+--ID:33TS:1633192388871-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/linksnappy.com.json
+--ID:33TS:1633192388871-10/2/21 4:33:08 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.LinkSnappyCom$LinkSnappyComConfig|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/linksnappy.com
+--ID:33TS:1633192388873-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/metart.com.json
+--ID:33TS:1633192388876-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/my.mail.ru.json
+--ID:33TS:1633192388878-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/nitroflare.com.json
+--ID:33TS:1633192388893-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/offcloud.com.json
+--ID:33TS:1633192388893-10/2/21 4:33:08 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.OffCloudCom$OffCloudComPluginConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/offcloud.com
+--ID:33TS:1633192388895-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/ok.ru.json
+--ID:33TS:1633192388900-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/otr.datenkeller.net.json
+--ID:33TS:1633192388900-10/2/21 4:33:08 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.OtrDatenkellerNet$OtrDatenKellerInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/otr.datenkeller.net
+--ID:33TS:1633192388901-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/pixiv.net.json
+--ID:33TS:1633192388903-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/CRAWLER/pluralsight.com.json
+--ID:33TS:1633192388903-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/my.mail.ru.json
+--ID:33TS:1633192388905-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/porndoe.com.json
+--ID:33TS:1633192388907-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/pornerone.com.json
+--ID:33TS:1633192388909-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/porntrex.com.json
+--ID:33TS:1633192388911-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/publish2.me.json
+--ID:33TS:1633192388912-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/rapidgator.net.json
+--ID:33TS:1633192388914-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/real-debrid.com.json
+--ID:33TS:1633192388927-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/redtube.com.json
+--ID:33TS:1633192388931-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/rtbf.be.json
+--ID:33TS:1633192388931-10/2/21 4:33:08 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.RtbfBe$RtbfBeConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/rtbf.be
+--ID:33TS:1633192388933-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/rule34video.com.json
+--ID:33TS:1633192388936-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/slideshare.net.json
+--ID:33TS:1633192388936-10/2/21 4:33:08 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.SlideShareNet$SlideshareNetConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/slideshare.net
+--ID:33TS:1633192388938-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/tele5.de.json
+--ID:33TS:1633192388938-10/2/21 4:33:08 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.TeleFiveDe$Tele5DeConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/tele5.de
+--ID:33TS:1633192388940-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/tezfiles.com.json
+--ID:33TS:1633192388941-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/tiktok.com.json
+--ID:33TS:1633192388943-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/tumblr.com.json
+--ID:33TS:1633192388944-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/turbobit.net.json
+--ID:33TS:1633192388946-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/tvnow.de.json
+--ID:33TS:1633192388953-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/twitter.com.json
+--ID:33TS:1633192388953-10/2/21 4:33:08 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.TwitterCom$TwitterConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/twitter.com
+--ID:33TS:1633192388954-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/uploaded.net.json
+--ID:33TS:1633192388956-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/uptobox.com.json
+--ID:33TS:1633192388960-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/vidcloud.ru.json
+--ID:33TS:1633192388960-10/2/21 4:33:08 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.VidcloudCo$VidcloudConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/vidcloud.ru
+--ID:33TS:1633192388961-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/viki.com.json
+--ID:33TS:1633192388965-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/x-art.com.json
+--ID:33TS:1633192388966-10/2/21 4:33:08 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.XArtCom$XArtConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/x-art.com
+--ID:33TS:1633192388968-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/xnxx.gold.json
+--ID:33TS:1633192388972-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/xvideos.com.json
+--ID:33TS:1633192388974-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/xvideosharing.com.json
+--ID:33TS:1633192388975-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/youjizz.com.json
+--ID:33TS:1633192388981-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/youku.com.json
+--ID:33TS:1633192388981-10/2/21 4:33:08 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.YoukuCom$YoukuComConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/youku.com
+--ID:33TS:1633192388984-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/youporn.com.json
+--ID:33TS:1633192388987-10/2/21 4:33:08 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/youtube/Youtube.json
+--ID:33TS:1633192389009-10/2/21 4:33:09 PM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/zdf.de.json
+--ID:33TS:1633192389009-10/2/21 4:33:09 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.ZdfDeMediathek$ZdfmediathekConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/zdf.de
+--ID:33TS:1633192392434-10/2/21 4:33:12 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(actionPerformed)] -> Answer: Button<OK:Ok>
+--ID:33TS:1633192751144-10/2/21 4:39:11 PM -  [] -> Exception thrown at org.appwork.loggingv3.LogV3.log(LogV3.java:94):
+java.io.IOException: Unsupported OpenBrowser:http://update3.jdownloader.org/jdserv/BuyPremiumInterface/redirect?https%3A%2F%2Fuploaded.net%2F&Banner12072017%2F02102021_1639
+	at org.appwork.utils.os.CrossSystem.openUrlOrThrowException(CrossSystem.java:413)
+	at org.appwork.utils.os.CrossSystem.openURL(CrossSystem.java:1506)
+	at jd.controlling.AccountController.openAfflink(AccountController.java:869)
+	at org.jdownloader.premium.OpenURLAction.actionPerformed(OpenURLAction.java:51)
+	at org.jdownloader.gui.sponsor.BannerRotation$AvailableBanner$1.runInEDT(BannerRotation.java:164)
+	at org.appwork.utils.swing.EDTRunner.edtRun(EDTRunner.java:54)
+	at org.appwork.utils.swing.EDTHelper.run(EDTHelper.java:119)
+	at org.appwork.utils.swing.EDTHelper.start(EDTHelper.java:154)
+	at org.appwork.utils.swing.EDTHelper.start(EDTHelper.java:139)
+	at org.appwork.utils.swing.EDTRunner.<init>(EDTRunner.java:45)
+	at org.jdownloader.gui.sponsor.BannerRotation$AvailableBanner$1.<init>(BannerRotation.java:161)
+	at org.jdownloader.gui.sponsor.BannerRotation$AvailableBanner.onClick(BannerRotation.java:161)
+	at org.jdownloader.gui.sponsor.BannerRotation.onClicked(BannerRotation.java:893)
+	at jd.gui.swing.jdgui.MainTabbedPane.mouseClicked(MainTabbedPane.java:542)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:269)
+	at java.awt.Component.processMouseEvent(Component.java:6538)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at jd.gui.swing.jdgui.interfaces.JDMouseAdapter.forwardEvent(JDMouseAdapter.java:57)
+	at jd.gui.swing.jdgui.maintab.TabHeader$1.mouseClicked(TabHeader.java:95)
+	at java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:270)
+	at java.awt.Component.processMouseEvent(Component.java:6538)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4534)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+--ID:33TS:1633192768052-10/2/21 4:39:28 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.AllDebridCom$AlldebridComConfig|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/alldebrid.com
+--ID:33TS:1633192768056-10/2/21 4:39:28 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.JulesjordanCom$JulesjordanComConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/julesjordan.com
+--ID:33TS:1633192768060-10/2/21 4:39:28 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.LinkSnappyCom$LinkSnappyComConfig|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/linksnappy.com
+--ID:33TS:1633192768067-10/2/21 4:39:28 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.OffCloudCom$OffCloudComPluginConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/offcloud.com
+--ID:33TS:1633192768069-10/2/21 4:39:28 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.OtrDatenkellerNet$OtrDatenKellerInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/otr.datenkeller.net
+--ID:33TS:1633192768071-10/2/21 4:39:28 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.RtbfBe$RtbfBeConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/rtbf.be
+--ID:33TS:1633192768074-10/2/21 4:39:28 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.SlideShareNet$SlideshareNetConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/slideshare.net
+--ID:33TS:1633192768075-10/2/21 4:39:28 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.TeleFiveDe$Tele5DeConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/tele5.de
+--ID:33TS:1633192768079-10/2/21 4:39:28 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.TwitterCom$TwitterConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/twitter.com
+--ID:33TS:1633192768081-10/2/21 4:39:28 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.VidcloudCo$VidcloudConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/vidcloud.ru
+--ID:33TS:1633192768083-10/2/21 4:39:28 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.XArtCom$XArtConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/x-art.com
+--ID:33TS:1633192768085-10/2/21 4:39:28 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.YoukuCom$YoukuComConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/youku.com
+--ID:33TS:1633192768088-10/2/21 4:39:28 PM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.ZdfDeMediathek$ZdfmediathekConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/zdf.de
+--ID:33TS:1633192878635-10/2/21 4:41:18 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT)] -> Force Dummy Init
+--ID:33TS:1633192878637-10/2/21 4:41:18 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT)] -> Reset Dummy Info
+--ID:33TS:1633192878638-10/2/21 4:41:18 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(displayDialog)] -> Display Dialog: org.jdownloader.gui.views.linkgrabber.addlinksdialog.AddLinksDialog: dialog_Analyse_and_Add_Links
+--ID:33TS:1633192880677-10/2/21 4:41:20 PM -  [org.appwork.utils.swing.dialog.ConfirmDialog(<init>)] -> Dialog    [null][null]
+flag:  110000
+title: Analyse and Add Links
+msg:   
+You really should know that...
+
+...JDownloader helps you to parse text or websites for links. Enter Links, URLs, Websites, or text below, 
+
+choose a Download Destination, and click 'Start Analyse'. 
+
+All 'downloadable' Files will be listed in the the Linkgrabber view afterwards.
+--ID:33TS:1633192880678-10/2/21 4:41:20 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT)] -> Force Dummy Init
+--ID:33TS:1633192880678-10/2/21 4:41:20 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT)] -> Reset Dummy Info
+--ID:33TS:1633192880678-10/2/21 4:41:20 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT)] -> Force Dummy Init
+--ID:33TS:1633192880678-10/2/21 4:41:20 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT)] -> Reset Dummy Info
+--ID:33TS:1633192880678-10/2/21 4:41:20 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(displayDialog)] -> Display Dialog: org.jdownloader.gui.helpdialogs.HelpDialog$1: dialog_Analyse_and_Add_Links_You_really_should_know_that__________JDownloader_helps_you_to_parse_text_or_websites_for_links__Enter_Links__URLs__Websites__or_text_below____choose_a_Download_Destination__and_click__Start_Analyse_____All__downloadable__Files_will_be_listed_in_the_the_Linkgrabber_view_afterwards_
+--ID:33TS:1633192892556-10/2/21 4:41:32 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(actionPerformed)] -> Answer: Button<OK:Ok>
+--ID:33TS:1633192986498-10/2/21 4:43:06 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(actionPerformed)] -> Answer: Button<OK:Continue>
+--ID:33TS:1633192986499-10/2/21 4:43:06 PM -  [] -> Exception thrown at org.appwork.loggingv3.LogV3.log(LogV3.java:94):
+java.lang.Exception: RememberRelativeDialogLocator-AddLinksDialog|Parent:jd.gui.swing.jdgui.JDownloaderMainFrame[MAINFRAME,425,183,1024x728,invalid,layout=java.awt.BorderLayout,title=JDownloader 2,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,25,8,998x719,invalid,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@29f788e9,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]=java.awt.Point[x=425,y=183]|Location:java.awt.Point[x=587,y=397]
+	at org.appwork.utils.swing.locator.RememberRelativeLocator.onClose(RememberRelativeLocator.java:142)
+	at org.appwork.utils.swing.dialog.locator.RememberRelativeDialogLocator.onClose(RememberRelativeDialogLocator.java:95)
+	at org.appwork.utils.swing.dialog.AbstractDialog$7.runInEDT(AbstractDialog.java:825)
+	at org.appwork.utils.swing.EDTRunner.edtRun(EDTRunner.java:54)
+	at org.appwork.utils.swing.EDTHelper.run(EDTHelper.java:119)
+	at org.appwork.utils.swing.EDTHelper.start(EDTHelper.java:154)
+	at org.appwork.utils.swing.EDTHelper.start(EDTHelper.java:139)
+	at org.appwork.utils.swing.EDTRunner.<init>(EDTRunner.java:45)
+	at org.appwork.utils.swing.dialog.AbstractDialog$7.<init>(AbstractDialog.java:796)
+	at org.appwork.utils.swing.dialog.AbstractDialog.dispose(AbstractDialog.java:796)
+	at org.jdownloader.gui.views.linkgrabber.addlinksdialog.AddLinksDialog.dispose(AddLinksDialog.java:252)
+	at org.appwork.utils.swing.dialog.AbstractDialog.actionPerformed(AbstractDialog.java:709)
+	at org.jdownloader.gui.views.linkgrabber.addlinksdialog.AddLinksDialog.actionPerformed(AddLinksDialog.java:367)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6535)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+--ID:33TS:1633192986508-10/2/21 4:43:06 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT)] -> Force Dummy Init
+--ID:33TS:1633192986511-10/2/21 4:43:06 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT)] -> Reset Dummy Info
+--ID:33TS:1633192986513-10/2/21 4:43:06 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(displayDialog)] -> Display Dialog: org.jdownloader.gui.views.linkgrabber.actions.AddLinksProgress: dialog_Crawling_for_Downloads
+--ID:33TS:1633193215711-10/2/21 4:46:55 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT)] -> Force Dummy Init
+--ID:33TS:1633193215713-10/2/21 4:46:55 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT)] -> Reset Dummy Info
+--ID:33TS:1633193215714-10/2/21 4:46:55 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(displayDialog)] -> Display Dialog: org.jdownloader.gui.views.linkgrabber.addlinksdialog.AddLinksDialog: dialog_Analyse_and_Add_Links
+--ID:33TS:1633193215730-10/2/21 4:46:55 PM -  [] -> Exception thrown at org.appwork.loggingv3.LogV3.log(LogV3.java:94):
+java.lang.Exception: RememberRelativeDialogLocator-AddLinksDialog|location:java.awt.Point[x=162,y=214]|type:relative|parentLocation:java.awt.Point[x=425,y=183]|ret:java.awt.Point[x=587,y=397]
+	at org.appwork.utils.swing.locator.RememberRelativeLocator.getLocationOnScreen(RememberRelativeLocator.java:104)
+	at org.appwork.utils.swing.dialog.locator.RememberRelativeDialogLocator.getLocationOnScreen(RememberRelativeDialogLocator.java:84)
+	at org.appwork.utils.swing.dialog.AbstractDialog._init(AbstractDialog.java:541)
+	at org.appwork.utils.swing.dialog.AbstractDialog.displayDialog(AbstractDialog.java:785)
+	at org.jdownloader.api.dialog.RemoteAPIIOHandlerWrapper$2.runInEDT(RemoteAPIIOHandlerWrapper.java:161)
+	at org.appwork.utils.swing.EDTRunner.edtRun(EDTRunner.java:54)
+	at org.appwork.utils.swing.EDTHelper.run(EDTHelper.java:119)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+--ID:33TS:1633193217732-10/2/21 4:46:57 PM -  [org.appwork.utils.swing.dialog.ConfirmDialog(<init>)] -> Dialog    [null][null]
+flag:  110000
+title: Analyse and Add Links
+msg:   
+You really should know that...
+
+...JDownloader helps you to parse text or websites for links. Enter Links, URLs, Websites, or text below, 
+
+choose a Download Destination, and click 'Start Analyse'. 
+
+All 'downloadable' Files will be listed in the the Linkgrabber view afterwards.
+--ID:33TS:1633193295572-10/2/21 4:48:15 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(actionPerformed)] -> Answer: Button<OK:Continue>
+--ID:33TS:1633193295573-10/2/21 4:48:15 PM -  [] -> Exception thrown at org.appwork.loggingv3.LogV3.log(LogV3.java:94):
+java.lang.Exception: RememberRelativeDialogLocator-AddLinksDialog|Parent:jd.gui.swing.jdgui.JDownloaderMainFrame[MAINFRAME,425,183,1024x728,invalid,layout=java.awt.BorderLayout,title=JDownloader 2,resizable,normal,defaultCloseOperation=DO_NOTHING_ON_CLOSE,rootPane=javax.swing.JRootPane[,25,8,998x719,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=javax.swing.plaf.synth.SynthBorder@29f788e9,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]=java.awt.Point[x=425,y=183]|Location:java.awt.Point[x=587,y=397]
+	at org.appwork.utils.swing.locator.RememberRelativeLocator.onClose(RememberRelativeLocator.java:142)
+	at org.appwork.utils.swing.dialog.locator.RememberRelativeDialogLocator.onClose(RememberRelativeDialogLocator.java:95)
+	at org.appwork.utils.swing.dialog.AbstractDialog$7.runInEDT(AbstractDialog.java:825)
+	at org.appwork.utils.swing.EDTRunner.edtRun(EDTRunner.java:54)
+	at org.appwork.utils.swing.EDTHelper.run(EDTHelper.java:119)
+	at org.appwork.utils.swing.EDTHelper.start(EDTHelper.java:154)
+	at org.appwork.utils.swing.EDTHelper.start(EDTHelper.java:139)
+	at org.appwork.utils.swing.EDTRunner.<init>(EDTRunner.java:45)
+	at org.appwork.utils.swing.dialog.AbstractDialog$7.<init>(AbstractDialog.java:796)
+	at org.appwork.utils.swing.dialog.AbstractDialog.dispose(AbstractDialog.java:796)
+	at org.jdownloader.gui.views.linkgrabber.addlinksdialog.AddLinksDialog.dispose(AddLinksDialog.java:252)
+	at org.appwork.utils.swing.dialog.AbstractDialog.actionPerformed(AbstractDialog.java:709)
+	at org.jdownloader.gui.views.linkgrabber.addlinksdialog.AddLinksDialog.actionPerformed(AddLinksDialog.java:367)
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2022)
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2348)
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)
+	at java.awt.Component.processMouseEvent(Component.java:6535)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6300)
+	at java.awt.Container.processEvent(Container.java:2236)
+	at java.awt.Component.dispatchEventImpl(Component.java:4891)
+	at java.awt.Container.dispatchEventImpl(Container.java:2294)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4888)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4525)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4466)
+	at java.awt.Container.dispatchEventImpl(Container.java:2280)
+	at java.awt.Window.dispatchEventImpl(Window.java:2750)
+	at java.awt.Component.dispatchEvent(Component.java:4713)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:758)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+	at java.awt.EventQueue$4.run(EventQueue.java:731)
+	at java.awt.EventQueue$4.run(EventQueue.java:729)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:728)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+--ID:33TS:1633193295580-10/2/21 4:48:15 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$8(runInEDT)] -> Force Dummy Init
+--ID:33TS:1633193295582-10/2/21 4:48:15 PM -  [org.appwork.utils.swing.dialog.AbstractDialog$12(runInEDT)] -> Reset Dummy Info
+--ID:33TS:1633193295584-10/2/21 4:48:15 PM -  [org.appwork.utils.swing.dialog.AbstractDialog(displayDialog)] -> Display Dialog: org.jdownloader.gui.views.linkgrabber.actions.AddLinksProgress: dialog_Crawling_for_Downloads
+--ID:33TS:1633193295591-10/2/21 4:48:15 PM -  [] -> Exception thrown at org.appwork.loggingv3.LogV3.log(LogV3.java:94):
+java.lang.Exception: RememberRelativeDialogLocator-AddLinksProgress|location:java.awt.Point[x=228,y=321]|type:relative|parentLocation:java.awt.Point[x=425,y=183]|ret:java.awt.Point[x=653,y=504]
+	at org.appwork.utils.swing.locator.RememberRelativeLocator.getLocationOnScreen(RememberRelativeLocator.java:104)
+	at org.appwork.utils.swing.dialog.locator.RememberRelativeDialogLocator.getLocationOnScreen(RememberRelativeDialogLocator.java:84)
+	at org.appwork.utils.swing.dialog.AbstractDialog._init(AbstractDialog.java:541)
+	at org.appwork.utils.swing.dialog.AbstractDialog.displayDialog(AbstractDialog.java:785)
+	at org.appwork.utils.swing.dialog.Dialog$4.runInEDT(Dialog.java:551)
+	at org.appwork.utils.swing.EDTRunner.edtRun(EDTRunner.java:54)
+	at org.appwork.utils.swing.EDTHelper.run(EDTHelper.java:119)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756)
+	at java.awt.EventQueue.access$500(EventQueue.java:97)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.awt.EventQueue$3.run(EventQueue.java:703)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:76)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+

@@ -1,0 +1,7 @@
+------------------------Thread: 34:jd.controlling.proxy.ProxyController.log-----------------------
+--ID:34TS:1633292100763-10/3/21 8:15:00 PM -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Load Proxy Settings
+--ID:34TS:1633292100763-10/3/21 8:15:00 PM -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Customs: 0
+--ID:34TS:1633292100763-10/3/21 8:15:00 PM -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Init Proxy Controller fresh
+--ID:34TS:1633292100764-10/3/21 8:15:00 PM -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Selector: com.btr.proxy.search.env.EnvProxySearchStrategy@490b7b76
+--ID:34TS:1633292100764-10/3/21 8:15:00 PM -  [jd.controlling.proxy.ProxyController$4(log)] -> Inspecting environment variables.
+--ID:34TS:1633292100764-10/3/21 8:15:00 PM -  [jd.controlling.proxy.ProxyController(loadProxySettings)] -> Selector: com.btr.proxy.search.java.JavaProxySearchStrategy@22d299a

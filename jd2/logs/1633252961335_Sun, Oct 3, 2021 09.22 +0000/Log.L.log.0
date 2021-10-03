@@ -1,0 +1,379 @@
+------------------------Thread: 1:Log.L.log-----------------------
+--ID:1TS:1633252961479-10/3/21 9:22:41 AM -  [org.appwork.loggingv3.LogV3(info)] -> Application Root: /workspace/mint/jd2
+--ID:1TS:1633252961541-10/3/21 9:22:41 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.update.lastchance.LastChanceConfig.json
+--ID:1TS:1633252961610-10/3/21 9:22:41 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.updatev2.UpdateSettings.json
+--ID:1TS:1633252961642-10/3/21 9:22:41 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Load JSon Storage from Classpath url: jar:file:/workspace/mint/jd2/JDownloader.jar!/cfg/updateclient/Setup.json
+--ID:1TS:1633252961643-10/3/21 9:22:41 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/updateclient/Setup.json
+--ID:1TS:1633252961644-10/3/21 9:22:41 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.Setup|Path:/workspace/mint/jd2/cfg/updateclient/Setup
+------------------------Thread: 29:Log.L.log-----------------------
+--ID:29TS:1633252961658-10/3/21 9:22:41 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.settings.InternetConnectionSettings.json
+--ID:29TS:1633252961658-10/3/21 9:22:41 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.jdownloader.updatev2.InternetConnectionSettings|Path:/workspace/mint/jd2/cfg/org.jdownloader.settings.InternetConnectionSettings
+--ID:29TS:1633252961672-10/3/21 9:22:41 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Load JSon Storage from Classpath url: jar:file:/workspace/mint/jd2/JDownloader.jar!/cfg/updateclient/HttpSettings.json
+--ID:29TS:1633252961672-10/3/21 9:22:41 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/updateclient/HttpSettings.json
+--ID:29TS:1633252961672-10/3/21 9:22:41 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.UpdateHttpClientOptions|Path:/workspace/mint/jd2/cfg/updateclient/HttpSettings
+--ID:29TS:1633252961676-10/3/21 9:22:41 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/ProxySelector.json
+--ID:29TS:1633252961676-10/3/21 9:22:41 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.defaultimpl.http.ProxySelectorSettings|Path:/workspace/mint/jd2/cfg/ProxySelector
+--ID:29TS:1633252961678-10/3/21 9:22:41 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/ProxySelector.proxies.json
+--ID:29TS:1633252961688-10/3/21 9:22:41 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(URL): jar:file:/workspace/mint/jd2/JDownloader.jar!/cfg/updateclient/Setup.updateservers.json
+--ID:29TS:1633252961690-10/3/21 9:22:41 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/update/versioninfo/JD/extensions.json
+--ID:29TS:1633252961690-10/3/21 9:22:41 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/workspace/mint/jd2/update/versioninfo/JD/extensions
+--ID:29TS:1633252961697-10/3/21 9:22:41 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.appwork.updatesys.client.tracker.TrackConfig.json
+--ID:29TS:1633252961701-10/3/21 9:22:41 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/update/versioninfo/JDU/extensions.json
+--ID:29TS:1633252961701-10/3/21 9:22:41 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:org.appwork.updatesys.client.extensions.ExtensionsStorage|Path:/workspace/mint/jd2/update/versioninfo/JDU/extensions
+------------------------Thread: 30:Log.L.log-----------------------
+--ID:30TS:1633252961713-10/3/21 9:22:41 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/updatev2/UpdaterTranslation.en.lng/null
+--ID:30TS:1633252961748-10/3/21 9:22:41 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.InternetConnectionSettings.customproxylist.json
+--ID:30TS:1633252961757-10/3/21 9:22:41 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/org/appwork/utils/locale/AWUTranslation.en.lng/null
+------------------------Thread: 1:Log.L.log-----------------------
+--ID:1TS:1633252962916-10/3/21 9:22:42 AM -  [org.appwork.loggingv3.LogV3(info)] -> Application Root: /workspace/mint/jd2
+--ID:1TS:1633252962946-10/3/21 9:22:42 AM -  [org.appwork.loggingv3.LogV3(info)] -> Application Root: /workspace/mint/jd2
+--ID:1TS:1633252962973-10/3/21 9:22:42 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.settings.GraphicalUserInterfaceSettings.json
+--ID:1TS:1633252963001-10/3/21 9:22:43 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/gui/translate/GuiTranslation.en.lng/null
+--ID:1TS:1633252963352-10/3/21 9:22:43 AM -  [org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger)] -> Ignored: disabled
+--ID:1TS:1633252963394-10/3/21 9:22:43 AM -  [org.appwork.utils.logging2.extmanager.ExtLogManager(getLogger)] -> Ignored: jdk.internal.dynalink.support.Guards
+--ID:1TS:1633252963761-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> setExecutable:true
+--ID:1TS:1633252963762-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> LOG_INIT_DONE=2 instances
+--ID:1TS:1633252963762-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> awt.toolkit=sun.awt.X11.XToolkit
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> classloader_00000000=org.jdownloader.update.launcher.ClassLoaderExtensionImpl
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> classloader_00000001=org.jdownloader.update.launcher.CL2
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> exe4j.moduleName=/workspace/mint/jd2/JDownloader2
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> extlogmanager.avoidsystemclassloader.hack=sun.misc.Launcher$AppClassLoader@70dea4e
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> file.encoding=UTF-8
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> file.encoding.pkg=sun.io
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> file.separator=/
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> ftpStyle=new
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> i4j.vpt=true
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> i4jv=0
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> install4j.appDir=/workspace/mint/jd2/
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> install4j.exeDir=/workspace/mint/jd2/
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> install4j.jvmDir=/workspace/mint/jd2/jre
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> install4j.launcherId=5977
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> install4j.swt=false
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.awt.printerjob=sun.print.PSPrinterJob
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.class.path=/workspace/mint/jd2/.install4j/i4jruntime.jar:/workspace/mint/jd2/JDownloader.jar
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.class.version=52.0
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.endorsed.dirs=/workspace/mint/jd2/jre/lib/endorsed
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.ext.dirs=/workspace/mint/jd2/jre/lib/ext:/usr/java/packages/lib/ext
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.home=/workspace/mint/jd2/jre
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.io.tmpdir=/tmp
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+--ID:1TS:1633252963763-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.runtime.name=Java(TM) SE Runtime Environment
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.runtime.version=1.8.0_66-b17
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.specification.name=Java Platform API Specification
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.specification.vendor=Oracle Corporation
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.specification.version=1.8
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.util.Arrays.useLegacyMergeSort=true
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.util.logging.manager=org.appwork.utils.logging2.extmanager.ExtLogManager
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.vendor=Oracle Corporation
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.vendor.url=http://java.oracle.com/
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.version=1.8.0_66
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.vm.info=mixed mode
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.vm.specification.name=Java Virtual Machine Specification
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.vm.specification.vendor=Oracle Corporation
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.vm.specification.version=1.8
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.vm.vendor=Oracle Corporation
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> java.vm.version=25.66-b17
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> jd.build.builddate=Fri Oct 01 18:01:17 CEST 2021
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> jd.build.buildtimestamp=1633104077115
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> jd.randomNumber=-4712086515078479084
+--ID:1TS:1633252963764-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.appworkutilsrevision=3588
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.jdbrowserrevision=44952
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.jdclosedrevision=783
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.jdownloaderrevision=45062
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.jdownloaderserveroptionsrevision=5095
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.jdownloaderupdaterrevision=5413
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.myjdownloaderclientrevision=44189
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> jd.revision.updateclientv2revision=1002
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> k=0dd0ecf7f742873d745106adea00b64a
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> line.separator=
+
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> org.appwork.LoggerFactory=org.appwork.utils.logging2.LogSourceRedirector
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> org.jdownloader.revision=JDownloader2
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> os.arch=amd64
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> os.name=Linux
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> os.version=5.4.0-1051-gke
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> path.separator=:
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> sun.arch.data.model=64
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> sun.boot.class.path=/workspace/mint/jd2/jre/lib/resources.jar:/workspace/mint/jd2/jre/lib/rt.jar:/workspace/mint/jd2/jre/lib/sunrsasign.jar:/workspace/mint/jd2/jre/lib/jsse.jar:/workspace/mint/jd2/jre/lib/jce.jar:/workspace/mint/jd2/jre/lib/charsets.jar:/workspace/mint/jd2/jre/lib/jfr.jar:/workspace/mint/jd2/jre/classes
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> sun.boot.library.path=/workspace/mint/jd2/jre/lib/amd64
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> sun.cpu.endian=little
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> sun.cpu.isalist=
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> sun.io.unicode.encoding=UnicodeLittle
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> sun.java.command=com.install4j.runtime.launcher.UnixLauncher launch 883f5673 /workspace/mint/jd2/error.log /workspace/mint/jd2/output.log org.jdownloader.update.launcher.JDLauncher
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> sun.java.launcher=SUN_STANDARD
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> sun.java2d.d3d=false
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> sun.jnu.encoding=UTF-8
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> sun.os.patch.level=unknown
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> sun.swing.enableImprovedDragGesture=true
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> uid=1_Jv5y0opW4laVK3DTbW3I5vu5CjWPkISZ6zbBjKR/XvA=
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> user.country=US
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> user.dir=/workspace/mint/jd2
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> user.home=/home/gitpod
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> user.language=en
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> user.name=gitpod
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> user.timezone=Etc/UTC
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> OS:LINUX|UBUNTU_FOCAL|64bit:true
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> CPU:X86|64bit:true
+--ID:1TS:1633252963765-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> JVM:18066017|1.8.0_66-b17|64bit:true
+--ID:1TS:1633252963773-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> VMArgs: [-Xmx1879m, -Dinstall4j.jvmDir=/workspace/mint/jd2/jre, -Dexe4j.moduleName=/workspace/mint/jd2/JDownloader2, -Dinstall4j.launcherId=5977, -Dinstall4j.swt=false, -Di4jv=0, -Di4jv=0, -Di4jv=0, -Di4jv=0, -Di4jv=0, -Xms64m, -Dsun.java2d.d3d=false, -Di4j.vpt=true]
+--ID:1TS:1633252963774-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> MaxMemory=1752694784bytes (1671Megabytes)
+--ID:1TS:1633252963774-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(mainStart)] -> JDownloader2
+--ID:1TS:1633252963774-10/3/21 9:22:43 AM -  [jd.SecondLevelLaunch(go)] -> Initialize JDownloader2
+--ID:1TS:1633252964015-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.settings.SilentModeSettings.json
+------------------------Thread: 34:Log.L.log-----------------------
+--ID:34TS:1633252964016-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.json
+--ID:34TS:1633252964482-10/3/21 9:22:44 AM -  [jd.SecondLevelLaunch$7(run)] -> Use 'AUTO' for default SSLSocketStreamFactory because: JSSE missing TLSv1.3 support! Java-18066017
+--ID:34TS:1633252964482-10/3/21 9:22:44 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.browsercommandline.json
+------------------------Thread: 1:Log.L.log-----------------------
+--ID:1TS:1633252964506-10/3/21 9:22:44 AM -  [jd.SecondLevelLaunch(go)] -> Initialisation finished
+------------------------Thread: 36:Log.L.log-----------------------
+--ID:36TS:1633252964661-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.controlling.packagizer.PackagizerSettings.json
+--ID:36TS:1633252964672-10/3/21 9:22:44 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.controlling.packagizer.PackagizerSettings.rulelist.json
+--ID:36TS:1633252964763-10/3/21 9:22:44 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/translate/JdownloaderTranslation.en.lng/null
+--ID:36TS:1633252964875-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/jd.controlling.downloadcontroller.DownloadControllerConfig.json
+--ID:36TS:1633252964890-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.gui.views.linkgrabber.addlinksdialog.LinkgrabberSettings.json
+--ID:36TS:1633252964902-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/jd.controlling.linkcollector.LinkCollectorConfig.json
+--ID:36TS:1633252964920-10/3/21 9:22:44 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /session = interface org.appwork.utils.net.httpserver.session.LoginAPIInterface
+--ID:36TS:1633252964924-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.api.RemoteAPIConfig.json
+--ID:36TS:1633252964929-10/3/21 9:22:44 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /events = interface org.appwork.remoteapi.events.EventsAPIInterface
+--ID:36TS:1633252964935-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.api.captcha.CaptchaMyJDownloaderRemoteSolverSettings.json
+--ID:36TS:1633252964940-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.controlling.filter.LinkFilterSettings.json
+--ID:36TS:1633252964945-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.json
+--ID:36TS:1633252964950-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.settings.AccountSettings.json
+--ID:36TS:1633252964956-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/jd.controlling.linkchecker.LinkCheckerConfig.json
+--ID:36TS:1633252964958-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/jd.controlling.linkcrawler.LinkCrawlerConfig.json
+--ID:36TS:1633252964963-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/jd.controlling.reconnect.ReconnectConfig.json
+--ID:36TS:1633252964968-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.controlling.ffmpeg.FFmpegSetup.json
+--ID:36TS:1633252964973-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.gui.shortcuts.ShortcutSettings.json
+--ID:36TS:1633252964976-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.settings.RtmpdumpSettings.json
+--ID:36TS:1633252964977-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.updatev2.LastChanceSettings.json
+--ID:36TS:1633252964978-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.appwork.utils.swing.dialog.ExtFileSystemViewSettings.json
+--ID:36TS:1633252964980-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/jd.controlling.faviconcontroller.FavIconsConfig.json
+--ID:36TS:1633252964982-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.settings.SoundSettings.json
+--ID:36TS:1633252964984-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.gui.notify.gui.BubbleNotifyConfig.json
+--ID:36TS:1633252964991-10/3/21 9:22:44 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/jd.controlling.captcha.CaptchaSettings.json
+--ID:36TS:1633252965006-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/jd.controlling.captcha.CaptchaSettings.qualityensurancerules.json
+--ID:36TS:1633252965012-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /captcha = interface org.jdownloader.api.captcha.CaptchaAPI
+--ID:36TS:1633252965014-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /captchaforward = interface org.jdownloader.captcha.api.CaptchaForwarderAPIInterface
+--ID:36TS:1633252965015-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /jd = interface org.jdownloader.api.jd.JDAPI
+--ID:36TS:1633252965018-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /downloads = interface org.jdownloader.api.downloads.DownloadsAPI
+--ID:36TS:1633252965027-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /downloadsV2 = interface org.jdownloader.api.downloads.v2.DownloadsAPIV2
+--ID:36TS:1633252965029-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /downloadcontroller = interface org.jdownloader.api.downloads.v2.DownloadWatchdogAPI
+--ID:36TS:1633252965048-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.domainrules.json
+--ID:36TS:1633252965056-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /config = interface org.jdownloader.api.config.AdvancedConfigManagerAPI
+--ID:36TS:1633252965060-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /toolbar = interface org.jdownloader.api.toolbar.JDownloaderToolBarAPI
+--ID:36TS:1633252965062-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /accounts = interface org.jdownloader.api.accounts.AccountAPI
+--ID:36TS:1633252965065-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /accountsV2 = interface org.jdownloader.api.accounts.v2.AccountAPIV2
+--ID:36TS:1633252965067-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /system = interface org.jdownloader.api.system.SystemAPI
+--ID:36TS:1633252965069-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /linkcollector = interface org.jdownloader.api.linkcollector.LinkCollectorAPI
+--ID:36TS:1633252965074-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /linkgrabberv2 = interface org.jdownloader.api.linkcollector.v2.LinkCollectorAPIV2
+--ID:36TS:1633252965077-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /content = interface org.jdownloader.api.content.ContentAPI
+--ID:36TS:1633252965079-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /contentV2 = interface org.jdownloader.api.content.v2.ContentAPIV2
+--ID:36TS:1633252965080-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /ui = interface org.jdownloader.api.ui.UIAPI
+--ID:36TS:1633252965081-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /polling = interface org.jdownloader.api.polling.PollingAPI
+--ID:36TS:1633252965084-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /extraction = interface org.jdownloader.api.extraction.ExtractionAPI
+--ID:36TS:1633252965086-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /linkcrawler = interface org.jdownloader.api.linkcrawler.LinkCrawlerAPI
+--ID:36TS:1633252965088-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /plugins = interface org.jdownloader.api.plugins.PluginsAPI
+--ID:36TS:1633252965092-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace / = interface org.jdownloader.api.cnl2.Cnl2APIBasics
+--ID:36TS:1633252965093-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /flash = interface org.jdownloader.api.cnl2.Cnl2APIFlash
+--ID:36TS:1633252965101-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /downloadevents = interface org.jdownloader.api.downloads.DownloadControllerEventPublisherInterface
+--ID:36TS:1633252965103-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /extensions = interface org.jdownloader.api.extensions.ExtensionsAPI
+--ID:36TS:1633252965104-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /update = interface org.jdownloader.api.update.UpdateAPI
+--ID:36TS:1633252965114-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /device = interface org.jdownloader.api.device.DeviceAPI
+--ID:36TS:1633252965115-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /reconnect = interface org.jdownloader.api.reconnect.ReconnectAPI
+--ID:36TS:1633252965120-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /log = interface org.jdownloader.api.logs.LogAPI
+--ID:36TS:1633252965127-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /dialogs = interface org.jdownloader.api.dialog.DialogApiInterface
+--ID:36TS:1633252965335-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.deviceconnectports.json
+------------------------Thread: 52:Log.L.log-----------------------
+--ID:52TS:1633252965346-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace / = interface org.jdownloader.api.cnl2.Cnl2APIBasics
+--ID:52TS:1633252965347-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Try to register API namespace /flash = interface org.jdownloader.api.cnl2.Cnl2APIFlash
+------------------------Thread: 36:Log.L.log-----------------------
+--ID:36TS:1633252965351-10/3/21 9:22:45 AM -  [jd.controlling.DelayWriteController(init)] -> DelayWriteMode: AUTO
+--ID:36TS:1633252965352-10/3/21 9:22:45 AM -  [jd.controlling.DelayWriteController(init)] -> DelayedWrites auto enabled because JDownloader is running in headless mode!
+------------------------Thread: 54:Log.L.log-----------------------
+--ID:54TS:1633252965352-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.AccountSettings.accounts.ejs
+------------------------Thread: 55:Log.L.log-----------------------
+--ID:55TS:1633252965353-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.jac.JACSolverConfig.json
+--ID:55TS:1633252965376-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.jac.JACSolverConfig.jacthreshold.json
+------------------------Thread: 53:Log.L.log-----------------------
+--ID:53TS:1633252965377-10/3/21 9:22:45 AM -  [org.jdownloader.extensions.LazyExtension(getClassLoader)] -> Use /workspace/mint/jd2/extensions/Extraction.jar classloader
+------------------------Thread: 52:Log.L.log-----------------------
+--ID:52TS:1633252965378-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(fine)] -> Start HTTP Server. 9666->9666|LocalHost:true
+------------------------Thread: 53:Log.L.log-----------------------
+--ID:53TS:1633252965380-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.extensions.extraction.ExtractionExtension.json
+------------------------Thread: 55:Log.L.log-----------------------
+--ID:55TS:1633252965384-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.dbc.DeathByCaptchaSettings.json
+--ID:55TS:1633252965385-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.dbc.DeathByCaptchaSettings.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+--ID:55TS:1633252965390-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.imagetyperz.ImageTyperzConfigInterface.json
+--ID:55TS:1633252965390-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.imagetyperz.ImageTyperzConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+--ID:55TS:1633252965395-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.cheapcaptcha.CheapCaptchaConfigInterface.json
+--ID:55TS:1633252965395-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.cheapcaptcha.CheapCaptchaConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+--ID:55TS:1633252965400-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.captchasolutions.CaptchaSolutionsConfigInterface.json
+--ID:55TS:1633252965401-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.captchasolutions.CaptchaSolutionsConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+------------------------Thread: 53:Log.L.log-----------------------
+--ID:53TS:1633252965404-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/extensions/extraction/translate/ExtractionTranslation.en.lng/null
+------------------------Thread: 55:Log.L.log-----------------------
+--ID:55TS:1633252965406-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.twocaptcha.TwoCaptchaConfigInterface.json
+--ID:55TS:1633252965406-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.twocaptcha.TwoCaptchaConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+--ID:55TS:1633252965410-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.antiCaptchaCom.AntiCaptchaComConfigInterface.json
+--ID:55TS:1633252965411-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.antiCaptchaCom.AntiCaptchaComConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+--ID:55TS:1633252965416-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.endcaptcha.EndCaptchaConfigInterface.json
+--ID:55TS:1633252965417-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.endcaptcha.EndCaptchaConfigInterface.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+--ID:55TS:1633252965428-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.captcha.v2.solver.solver9kw.Captcha9kwSettings.json
+--ID:55TS:1633252965432-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(info)] -> Overridden Config Key found public abstract boolean org.jdownloader.captcha.v2.solver.solver9kw.Captcha9kwSettings.isEnabled()<-->public abstract boolean org.jdownloader.captcha.v2.ChallengeSolverConfig.isEnabled()
+------------------------Thread: 54:Log.L.log-----------------------
+--ID:54TS:1633252965471-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/ddownload.com.json
+--ID:54TS:1633252965484-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/drop.download.json
+------------------------Thread: 53:Log.L.log-----------------------
+--ID:53TS:1633252965490-10/3/21 9:22:45 AM -  [org.jdownloader.extensions.LazyExtension(getClassLoader)] -> Use /workspace/mint/jd2/extensions/JDShutdown.jar classloader
+--ID:53TS:1633252965491-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/org.jdownloader.extensions.shutdown.ShutdownExtension.json
+--ID:53TS:1633252965493-10/3/21 9:22:45 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Load Translation file:/workspace/mint/jd2/translations/org/jdownloader/extensions/shutdown/translate/ShutdownTranslation.en.lng/null
+------------------------Thread: 54:Log.L.log-----------------------
+--ID:54TS:1633252965582-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/vidlox.me.json
+--ID:54TS:1633252965594-10/3/21 9:22:45 AM -  [org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields)] -> Class jd.plugins.hoster.VKontakteRuHoster has static immutable field: PROPERTY_GENERAL_TITLE
+--ID:54TS:1633252965595-10/3/21 9:22:45 AM -  [org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields)] -> Class jd.plugins.hoster.VKontakteRuHoster has static immutable field: PROPERTY_GENERAL_TITLE_PLAIN
+--ID:54TS:1633252965595-10/3/21 9:22:45 AM -  [org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields)] -> Class jd.plugins.hoster.VKontakteRuHoster has static immutable field: PROPERTY_GENERAL_DATE
+--ID:54TS:1633252965595-10/3/21 9:22:45 AM -  [org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields)] -> Class jd.plugins.hoster.VKontakteRuHoster has static immutable field: PROPERTY_GENERAL_UPLOADER
+--ID:54TS:1633252965595-10/3/21 9:22:45 AM -  [org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields)] -> Class jd.plugins.hoster.VKontakteRuHoster has static immutable field: PROPERTY_GENERAL_wall_post_id
+--ID:54TS:1633252965595-10/3/21 9:22:45 AM -  [org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields)] -> Class jd.plugins.hoster.VKontakteRuHoster has static immutable field: PROPERTY_VIDEO_LIST_ID
+--ID:54TS:1633252965595-10/3/21 9:22:45 AM -  [org.jdownloader.plugins.controller.PluginClassLoader$PluginClassLoaderChild(mapStaticFields)] -> Class jd.plugins.hoster.VKontakteRuHoster has static immutable field: PROPERTY_VIDEO_SELECTED_QUALITY
+--ID:54TS:1633252965607-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/vupload.com.json
+--ID:54TS:1633252965610-10/3/21 9:22:45 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/wolfstream.tv.json
+------------------------Thread: 76:Log.L.log-----------------------
+--ID:76TS:1633252981138-10/3/21 9:23:01 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.api.myjdownloader.MyJDownloaderSettings.customdeviceips.json
+------------------------Thread: 278:Log.L.log-----------------------
+--ID:278TS:1633253015479-10/3/21 9:23:35 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.gui.views.linkgrabber.addlinksdialog.LinkgrabberSettings.downloaddestinationhistory.json
+------------------------Thread: 297:Log.L.log-----------------------
+--ID:297TS:1633253019499-10/3/21 9:23:39 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.crawlerhostpluginblacklist.json
+--ID:297TS:1633253019500-10/3/21 9:23:39 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.crawlercrawlerpluginblacklist.json
+------------------------Thread: 301:Log.L.log-----------------------
+--ID:301TS:1633253019517-10/3/21 9:23:39 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/jd.controlling.linkcrawler.LinkCrawlerConfig.linkcrawlerrules.json
+------------------------Thread: 304:Log.L.log-----------------------
+--ID:304TS:1633253019859-10/3/21 9:23:39 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.controlling.filter.LinkFilterSettings.filterlist.json
+--ID:304TS:1633253022450-10/3/21 9:23:42 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/jd.controlling.linkcrawler.LinkCrawlerConfig.addretrycrawlertasks.json
+------------------------Thread: 1234:Log.L.log-----------------------
+--ID:1234TS:1633256577110-10/3/21 10:22:57 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.urlorder.json
+--ID:1234TS:1633256577113-10/3/21 10:22:57 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.settings.GeneralSettings.urldisplayorder.json
+------------------------Thread: 1239:Log.L.log-----------------------
+--ID:1239TS:1633256577593-10/3/21 10:22:57 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/xvideos.com.json
+------------------------Thread: 1288:Log.L.log-----------------------
+--ID:1288TS:1633256606548-10/3/21 10:23:26 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/jd.controlling.faviconcontroller.FavIconsConfig.failedhosts.json
+------------------------Thread: 1573:Log.L.log-----------------------
+--ID:1573TS:1633257264122-10/3/21 10:34:24 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/drive.google.com.json
+------------------------Thread: 1681:Log.L.log-----------------------
+--ID:1681TS:1633257348502-10/3/21 10:35:48 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/jd.controlling.authentication.AuthenticationControllerSettings.json
+--ID:1681TS:1633257348504-10/3/21 10:35:48 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/jd.controlling.authentication.AuthenticationControllerSettings.list.ejs
+------------------------Thread: 1931:Log.L.log-----------------------
+--ID:1931TS:1633257410324-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/1fichier.com.json
+--ID:1931TS:1633257410327-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/adulttime.com.json
+--ID:1931TS:1633257410338-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/alldebrid.com.json
+--ID:1931TS:1633257410338-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.AllDebridCom$AlldebridComConfig|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/alldebrid.com
+--ID:1931TS:1633257410340-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/pervcity.com.json
+--ID:1931TS:1633257410341-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/anonfiles.com.json
+--ID:1931TS:1633257410343-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/br-online.de.json
+--ID:1931TS:1633257410345-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/chip.de.json
+--ID:1931TS:1633257410346-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/cloudvideo.tv.json
+--ID:1931TS:1633257410347-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/czechav.com.json
+--ID:1931TS:1633257410349-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/datafilehost.com.json
+--ID:1931TS:1633257410351-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/debrid-link.fr.json
+--ID:1931TS:1633257410352-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/deltabit.co.json
+--ID:1931TS:1633257410354-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/deluxemusic.tv.json
+--ID:1931TS:1633257410355-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/douyin.com.json
+--ID:1931TS:1633257410357-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/dropbox.com.json
+--ID:1931TS:1633257410358-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/eporner.com.json
+--ID:1931TS:1633257410360-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/evilangel.com.json
+--ID:1931TS:1633257410361-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/facebook.com.json
+--ID:1931TS:1633257410362-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/fileboom.me.json
+--ID:1931TS:1633257410364-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/free-mp3-download.net.json
+--ID:1931TS:1633257410365-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/fshare.vn.json
+--ID:1931TS:1633257410366-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/gfycat.com.json
+--ID:1931TS:1633257410368-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/hitfile.net.json
+--ID:1931TS:1633257410369-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/hotlink.cc.json
+--ID:1931TS:1633257410371-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/issuu.com.json
+--ID:1931TS:1633257410374-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/julesjordan.com.json
+--ID:1931TS:1633257410374-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.JulesjordanCom$JulesjordanComConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/julesjordan.com
+--ID:1931TS:1633257410376-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/keep2share.cc.json
+--ID:1931TS:1633257410381-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/linksnappy.com.json
+--ID:1931TS:1633257410381-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.LinkSnappyCom$LinkSnappyComConfig|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/linksnappy.com
+--ID:1931TS:1633257410382-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/metart.com.json
+--ID:1931TS:1633257410384-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/mixloads.com.json
+--ID:1931TS:1633257410385-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/my.mail.ru.json
+--ID:1931TS:1633257410387-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/nitroflare.com.json
+--ID:1931TS:1633257410396-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/offcloud.com.json
+--ID:1931TS:1633257410396-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.OffCloudCom$OffCloudComPluginConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/offcloud.com
+--ID:1931TS:1633257410398-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/ok.ru.json
+--ID:1931TS:1633257410402-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/otr.datenkeller.net.json
+--ID:1931TS:1633257410402-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.OtrDatenkellerNet$OtrDatenKellerInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/otr.datenkeller.net
+--ID:1931TS:1633257410404-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/pixiv.net.json
+--ID:1931TS:1633257410405-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/CRAWLER/pluralsight.com.json
+--ID:1931TS:1633257410405-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/my.mail.ru.json
+--ID:1931TS:1633257410408-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/porndoe.com.json
+--ID:1931TS:1633257410410-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/pornerone.com.json
+--ID:1931TS:1633257410412-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/porntrex.com.json
+--ID:1931TS:1633257410414-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/proleech.link.json
+--ID:1931TS:1633257410416-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/publish2.me.json
+--ID:1931TS:1633257410417-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/rapidgator.net.json
+--ID:1931TS:1633257410419-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/real-debrid.com.json
+--ID:1931TS:1633257410420-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/redtube.com.json
+--ID:1931TS:1633257410424-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/rtbf.be.json
+--ID:1931TS:1633257410424-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.RtbfBe$RtbfBeConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/rtbf.be
+--ID:1931TS:1633257410425-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/rule34video.com.json
+--ID:1931TS:1633257410428-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/slideshare.net.json
+--ID:1931TS:1633257410428-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.SlideShareNet$SlideshareNetConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/slideshare.net
+--ID:1931TS:1633257410429-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/supervideo.tv.json
+--ID:1931TS:1633257410432-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/tele5.de.json
+--ID:1931TS:1633257410432-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.TeleFiveDe$Tele5DeConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/tele5.de
+--ID:1931TS:1633257410434-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/tezfiles.com.json
+--ID:1931TS:1633257410435-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/tiktok.com.json
+--ID:1931TS:1633257410436-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/tumblr.com.json
+--ID:1931TS:1633257410437-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/turbobit.net.json
+--ID:1931TS:1633257410439-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/tvnow.de.json
+--ID:1931TS:1633257410444-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/twitter.com.json
+--ID:1931TS:1633257410444-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.TwitterCom$TwitterConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/twitter.com
+--ID:1931TS:1633257410445-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/uploaded.net.json
+--ID:1931TS:1633257410447-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/HOSTER/upstream.to.json
+--ID:1931TS:1633257410449-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/uptobox.com.json
+--ID:1931TS:1633257410452-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/vidcloud.ru.json
+--ID:1931TS:1633257410452-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.VidcloudCo$VidcloudConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/vidcloud.ru
+--ID:1931TS:1633257410453-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/viki.com.json
+--ID:1931TS:1633257410457-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/x-art.com.json
+--ID:1931TS:1633257410457-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.XArtCom$XArtConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/x-art.com
+--ID:1931TS:1633257410459-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/xnxx.gold.json
+--ID:1931TS:1633257410461-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/xvideosharing.com.json
+--ID:1931TS:1633257410462-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/youjizz.com.json
+--ID:1931TS:1633257410467-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/youku.com.json
+--ID:1931TS:1633257410467-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.YoukuCom$YoukuComConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/youku.com
+--ID:1931TS:1633257410469-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/youporn.com.json
+--ID:1931TS:1633257410474-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> Prefer (merged) JSon Storage from File: /workspace/mint/jd2/cfg/plugins/youtube/Youtube.json
+--ID:1931TS:1633257410497-10/3/21 10:36:50 AM -  [org.appwork.storage.JsonKeyValueStorage(<init>)] -> CFG File does not exist: /workspace/mint/jd2/cfg/plugins/HOSTER/zdf.de.json
+--ID:1931TS:1633257410497-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.ZdfDeMediathek$ZdfmediathekConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/zdf.de
+--ID:1931TS:1633257410502-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.extensions.extraction.ExtractionExtension.blacklistpatterns.json
+--ID:1931TS:1633257410505-10/3/21 10:36:50 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Read Config(File): /workspace/mint/jd2/cfg/org.jdownloader.extensions.extraction.ExtractionExtension.passwordlist.json
+------------------------Thread: 1937:Log.L.log-----------------------
+--ID:1937TS:1633257413001-10/3/21 10:36:53 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.AllDebridCom$AlldebridComConfig|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/alldebrid.com
+--ID:1937TS:1633257413006-10/3/21 10:36:53 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.JulesjordanCom$JulesjordanComConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/julesjordan.com
+--ID:1937TS:1633257413009-10/3/21 10:36:53 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.LinkSnappyCom$LinkSnappyComConfig|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/linksnappy.com
+--ID:1937TS:1633257413015-10/3/21 10:36:53 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.OffCloudCom$OffCloudComPluginConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/offcloud.com
+--ID:1937TS:1633257413018-10/3/21 10:36:53 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.OtrDatenkellerNet$OtrDatenKellerInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/otr.datenkeller.net
+--ID:1937TS:1633257413020-10/3/21 10:36:53 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.RtbfBe$RtbfBeConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/rtbf.be
+--ID:1937TS:1633257413022-10/3/21 10:36:53 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.SlideShareNet$SlideshareNetConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/slideshare.net
+--ID:1937TS:1633257413024-10/3/21 10:36:53 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.TeleFiveDe$Tele5DeConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/tele5.de
+--ID:1937TS:1633257413027-10/3/21 10:36:53 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.TwitterCom$TwitterConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/twitter.com
+--ID:1937TS:1633257413029-10/3/21 10:36:53 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.VidcloudCo$VidcloudConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/vidcloud.ru
+--ID:1937TS:1633257413031-10/3/21 10:36:53 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.XArtCom$XArtConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/x-art.com
+--ID:1937TS:1633257413033-10/3/21 10:36:53 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.YoukuCom$YoukuComConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/youku.com
+--ID:1937TS:1633257413036-10/3/21 10:36:53 AM -  [org.appwork.loggingv3.LogV3(finer)] -> Init StorageHandler for Interface:jd.plugins.hoster.ZdfDeMediathek$ZdfmediathekConfigInterface|Path:/workspace/mint/jd2/cfg/plugins/HOSTER/zdf.de
+------------------------Thread: 47:Log.L.log-----------------------
+--ID:47TS:1633257460105-10/3/21 10:37:40 AM -  [org.appwork.loggingv3.LogV3(finest)] -> jd.controlling.downloadcontroller.DownloadWatchDog@5486498 State changed IDLE--1(683962022) -> RUNNING--1(1841751514)
+------------------------Thread: 2237:Log.L.log-----------------------
+--ID:2237TS:1633257465122-10/3/21 10:37:45 AM -  [org.appwork.loggingv3.LogV3(finest)] -> jd.controlling.downloadcontroller.DownloadWatchDog@5486498 State changed RUNNING--1(1841751514) -> STOPPING--1(716032207)
+--ID:2237TS:1633257465123-10/3/21 10:37:45 AM -  [org.appwork.loggingv3.LogV3(finest)] -> jd.controlling.downloadcontroller.DownloadWatchDog@5486498 State changed STOPPING--1(716032207) -> STOPPED_STATE--1(542483391)
+--ID:2237TS:1633257466985-10/3/21 10:37:46 AM -  [org.appwork.loggingv3.LogV3(finest)] -> jd.controlling.downloadcontroller.DownloadWatchDog@5486498 State changed (reset) STOPPED_STATE--1(542483391) -> IDLE--1(683962022)
+--ID:2237TS:1633257466986-10/3/21 10:37:46 AM -  [org.appwork.loggingv3.LogV3(finest)] -> jd.controlling.downloadcontroller.DownloadWatchDog@5486498 State changed IDLE--1(683962022) -> RUNNING--1(1841751514)
+------------------------Thread: 3906:Log.L.log-----------------------
+--ID:3906TS:1633257774370-10/3/21 10:42:54 AM -  [org.appwork.loggingv3.LogV3(finest)] -> jd.controlling.downloadcontroller.DownloadWatchDog@5486498 State changed RUNNING--1(1841751514) -> STOPPING--1(716032207)
+--ID:3906TS:1633257774371-10/3/21 10:42:54 AM -  [org.appwork.loggingv3.LogV3(finest)] -> jd.controlling.downloadcontroller.DownloadWatchDog@5486498 State changed STOPPING--1(716032207) -> STOPPED_STATE--1(542483391)

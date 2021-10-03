@@ -1,0 +1,6 @@
+------------------------Thread: 1577:FavIcons-----------------------
+--ID:1577TS:1633193333300-10/2/21 4:48:53 PM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Download FavIcon for recaptcha.net
+--ID:1577TS:1633193333344-10/2/21 4:48:53 PM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Could not download FavIcon for recaptcha.net
+------------------------Thread: 1563:FavIcons-----------------------
+--ID:1563TS:1633193332944-10/2/21 4:48:52 PM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Download FavIcon for gibit.xyz
+--ID:1563TS:1633193333349-10/2/21 4:48:53 PM -  [jd.controlling.faviconcontroller.FavIcons(downloadFavIcon)] -> Could not download FavIcon for gibit.xyz

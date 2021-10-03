@@ -1,0 +1,4 @@
+------------------------Thread: 53:org.jdownloader.extensions.ExtensionController.log-----------------------
+--ID:53TS:1633252965496-10/3/21 9:22:45 AM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController: init in149ms :2
+--ID:53TS:1633252965496-10/3/21 9:22:45 AM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController:Archive Extractor
+--ID:53TS:1633252965496-10/3/21 9:22:45 AM -  [org.jdownloader.extensions.ExtensionController(init)] -> @ExtensionController:JD Shutdown

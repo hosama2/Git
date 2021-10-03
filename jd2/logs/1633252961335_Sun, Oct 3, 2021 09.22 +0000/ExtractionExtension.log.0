@@ -1,0 +1,16 @@
+------------------------Thread: 53:ExtractionExtension.log-----------------------
+--ID:53TS:1633252965450-10/3/21 9:22:45 AM -  [org.jdownloader.extensions.extraction.multi.Multi(checkLibraries)] -> Try LibIDs: [Linux-amd64]
+--ID:53TS:1633252965450-10/3/21 9:22:45 AM -  [org.jdownloader.extensions.extraction.multi.Multi(initLibrary)] -> LibID found: Linux-amd64
+--ID:53TS:1633252965452-10/3/21 9:22:45 AM -  [org.jdownloader.extensions.extraction.multi.Multi(initLibrary)] -> Try LibID(Linux-amd64) Path: /workspace/mint/jd2/tmp/7zip->true
+--ID:53TS:1633252965489-10/3/21 9:22:45 AM -  [org.jdownloader.extensions.extraction.multi.Multi(isAvailable)] -> Supported SevenZipJBinding|LibID=Linux-amd64|Version=16.02-2.01|RAR5=true|CPU_ARCH=X86|OS_FAM=LINUX|OS=UBUNTU_FOCAL|64Bit_JVM=true|64Bit_ARCH=true|HW:null
+--ID:53TS:1633252965490-10/3/21 9:22:45 AM -  [org.jdownloader.extensions.AbstractExtension(init)] -> Init Duration: 79
+------------------------Thread: 3890:ExtractionExtension.log-----------------------
+--ID:3890TS:1633257768182-10/3/21 10:42:48 AM -  [org.jdownloader.extensions.extraction.ExtractionExtension(onNewArchive)] -> Archive:[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi]
+Type:ZIP_SINGLE
+Existing:DownloadLink:/workspace/mint/dl/<jd:default>/[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip|Complete:true
+Complete:true
+--ID:3890TS:1633257768182-10/3/21 10:42:48 AM -  [org.jdownloader.extensions.extraction.ExtractionExtension(onNewArchive)] -> Caller:Thread[Download: [AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip_http links,1,]|Archive:[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi]|Complete|Size:1
+--ID:3890TS:1633257768186-10/3/21 10:42:48 AM -  [org.jdownloader.extensions.extraction.ExtractionExtension(addToQueue)] -> Archive:[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi]
+Type:ZIP_SINGLE
+Existing:DownloadLink:/workspace/mint/dl/<jd:default>/[AnimeKaizoku] Life Lessons with Uramichi Oniisan 720p Eng Sub [Apognwsi].zip|Complete:true
+Complete:true

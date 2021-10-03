@@ -1,0 +1,6 @@
+------------------------Thread: 36:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:36TS:1633278964212-10/3/21 4:36:04 PM -  [jd.controlling.linkcollector.LinkCollector(<init>)] -> LinkChecker Enabled:true
+------------------------Thread: 45:jd.controlling.linkcollector.LinkCollector.log-----------------------
+--ID:45TS:1633278964212-10/3/21 4:36:04 PM -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Collect Lists
+--ID:45TS:1633278964215-10/3/21 4:36:04 PM -  [jd.controlling.linkcollector.LinkCollector(findAvailableCollectorLists)] -> Lists: [/workspace/mint/jd2/cfg/linkcollector9.zip, /workspace/mint/jd2/cfg/linkcollector8.zip, /workspace/mint/jd2/cfg/linkcollector7.zip, /workspace/mint/jd2/cfg/linkcollector6.zip, /workspace/mint/jd2/cfg/linkcollector5.zip, /workspace/mint/jd2/cfg/linkcollector4.zip]
+--ID:45TS:1633278964221-10/3/21 4:36:04 PM -  [jd.controlling.linkcollector.LinkCollector$17(run)] -> CollectorList found: 0/0

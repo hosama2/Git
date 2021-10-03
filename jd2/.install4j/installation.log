@@ -1,0 +1,890 @@
+[INFO] logger started at Sat Oct 02 16:15:46 UTC 2021
+[INFO] executable name: /workspace/mint/1.sh
+[INFO] install4j version: 6.0.4 (build 6130)
+[INFO] Properties: 
+-- listing properties --
+java.runtime.name=Java(TM) SE Runtime Environment
+exe4j.moduleName=/workspace/mint/1.sh
+sun.boot.library.path=/workspace/mint/1.sh.5634.dir/jre/lib...
+java.vm.version=25.66-b17
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http://java.oracle.com/
+path.separator=:
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+user.country=US
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+install4j.exeDir=/workspace/mint/
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/workspace/mint/1.sh.5634.dir
+java.runtime.version=1.8.0_66-b17
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+i4jv=0
+java.endorsed.dirs=/workspace/mint/1.sh.5634.dir/jre/lib...
+os.arch=amd64
+java.io.tmpdir=/tmp
+line.separator=
+
+java.vm.specification.vendor=Oracle Corporation
+os.name=Linux
+exe4j.totalDataLength=50606829
+sun.java2d.noddraw=true
+sun.jnu.encoding=UTF-8
+java.library.path=/usr/java/packages/lib/amd64:/usr/lib...
+java.specification.name=Java Platform API Specification
+java.class.version=52.0
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+os.version=5.4.0-1051-gke
+i4j.vpt=true
+user.home=/home/gitpod
+install4j.cwd=/workspace/mint
+user.timezone=Etc/UTC
+java.awt.printerjob=sun.print.PSPrinterJob
+java.specification.version=1.8
+install4j.jvmDir=/workspace/mint/1.sh.5634.dir/jre
+file.encoding=UTF-8
+user.name=gitpod
+java.class.path=i4jruntime.jar:user.jar:user/JDownloa...
+java.vm.specification.version=1.8
+sun.arch.data.model=64
+java.home=/workspace/mint/1.sh.5634.dir/jre
+sun.java.command=com.install4j.runtime.launcher.UnixLa...
+java.specification.vendor=Oracle Corporation
+user.language=en
+awt.toolkit=sun.awt.X11.XToolkit
+java.vm.info=mixed mode
+java.version=1.8.0_66
+java.ext.dirs=/workspace/mint/1.sh.5634.dir/jre/lib...
+sun.boot.class.path=/workspace/mint/1.sh.5634.dir/jre/lib...
+java.vendor=Oracle Corporation
+install4j.appDir=/workspace/mint/
+file.separator=/
+java.vendor.url.bug=http://bugreport.sun.com/bugreport/
+sun.cpu.endian=little
+sun.io.unicode.encoding=UnicodeLittle
+sun.font.fontmanager=sun.awt.X11FontManager
+sun.cpu.isalist=
+[INFO] System language 'en'
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6690]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_34
+       Property rollbackSupported: false
+       Execute action successful after 66 ms
+[INFO] com.install4j.runtime.beans.actions.misc.RequestPrivilegesAction [ID 13]: Execute action
+       Property failIfNotObtainedMac: true
+       Property failIfNotObtainedWin: true
+       Property failIfNotRootUnix: false
+       Property obtainIfAdminMac: false
+       Property obtainIfAdminWin: true
+       Property obtainIfNormalMac: false
+       Property obtainIfNormalWin: true
+       Property allRequested: false
+       Property rollbackSupported: false
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6619]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_35
+       Property rollbackSupported: false
+       Variable changed: proxylist=[][class java.util.ArrayList]
+       Execute action successful after 17 ms
+[INFO] org.appwork.install4j.DebugSupportAction [ID 8047]: Execute action
+       Property rollbackSupported: true
+       Execute action successful after 0 ms
+[INFO] org.appwork.install4j.ReadVarFileAction [ID 8048]: Execute action
+       Property rollbackSupported: true
+[ERROR] org.appwork.install4j.ReadVarFileAction [ID 8048]: Execute action not successful after 1 ms
+[INFO] org.appwork.install4j.WebLogger [ID 7215]: Execute action
+       Property proxyVoleEnabled: true
+       Property path: null
+       Property action: none/started
+       Property rollbackSupported: true
+       Variable changed: logID=7036f1936ec6fc2996ce36657b949a9e[class java.lang.String]
+       Execute action successful after 45 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 8046]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_37
+       Property rollbackSupported: false
+       Execute action successful after 0 ms
+[INFO] org.appwork.install4j.donate.DonateLoadDetailsAction [ID 8796]: Execute action
+       Property proxyVoleEnabled: true
+       Property serverBase: https://payments.appwork.org/
+       Property rollbackSupported: true
+       Variable changed: donateEnabled=false[class java.lang.Boolean]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.StartupScreen [ID 1]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: Show screen
+[ERROR] org.appwork.updatesys.transport.UpdateServerOfflineException: org.appwork.utils.net.BasicHTTP.BasicHTTPException: javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+org.appwork.updatesys.transport.UpdateServerOfflineException: org.appwork.utils.net.BasicHTTP.BasicHTTPException: javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.get(HttpClientImpl.java:352)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.get(HttpClientImpl.java:268)
+	at org.appwork.install4j.donate.DonateLoadDetailsAction$2.run(DonateLoadDetailsAction.java:116)
+Caused by: org.appwork.utils.net.BasicHTTP.BasicHTTPException: javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.download(BasicHTTP.java:279)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.download(BasicHTTP.java:151)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.internalGetWithProxy(HttpClientImpl.java:647)
+	at org.appwork.updatesys.client.defaultimpl.http.HttpClientImpl.get(HttpClientImpl.java:285)
+	... 2 more
+Caused by: javax.net.ssl.SSLHandshakeException: Received fatal alert: handshake_failure
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:192)
+	at sun.security.ssl.Alerts.getSSLException(Alerts.java:154)
+	at sun.security.ssl.SSLSocketImpl.recvAlert(SSLSocketImpl.java:2023)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:1125)
+	at sun.security.ssl.SSLSocketImpl.performInitialHandshake(SSLSocketImpl.java:1375)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1403)
+	at sun.security.ssl.SSLSocketImpl.startHandshake(SSLSocketImpl.java:1387)
+	at org.appwork.utils.net.httpconnection.JavaSSLSocketStreamFactory.create(JavaSSLSocketStreamFactory.java:224)
+	at org.appwork.utils.net.httpconnection.HTTPConnectionImpl.connect(HTTPConnectionImpl.java:682)
+	at org.appwork.utils.net.BasicHTTP.BasicHTTP.download(BasicHTTP.java:207)
+	... 5 more
+[INFO] Variable changed: donateServerBase=https://payments.appwork.org/[class java.lang.String]
+[INFO] org.appwork.install4j.WebLogger [ID 7218]: Execute action
+       Property proxyVoleEnabled: true
+       Property path: null
+       Property action: none/gui
+       Property rollbackSupported: true
+       Variable changed: logID=cffa808c14052a804a8482e0f3bfcf4f[class java.lang.String]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.screens.WelcomeScreen [ID 2]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.BannerFormScreen [ID 1214]: Show screen
+[INFO] com.install4j.runtime.beans.screens.BannerFormScreen [ID 1214]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 6099]: Show screen
+       checking writable with maximum
+       Variable changed: sys.installationDir=/workspace/mint/jd2[class java.lang.String]
+[INFO] com.install4j.runtime.beans.screens.InstallationDirectoryScreen [ID 6099]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.AdditionalConfirmationsScreen [ID 980]: Show screen
+       Variable changed: createDesktopLinkAction=true[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.AdditionalConfirmationsScreen [ID 980]: command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Show screen
+[INFO] com.install4j.runtime.beans.actions.InstallFilesAction [ID 9]: Execute action
+       Property checkFreeSpace: true
+       Property validateApplicationId: false
+       Property sizeCalculatorScript: null
+       Property installRuntime: true
+       Property saveDownloadedFiles: false
+       Property updateBundledJre: true
+       Property delay: false
+       Property triggerReboot: true
+       Property showFileNames: true
+       Property directoryResolverScript: null
+       Property fileFilterScript: null
+       Property rollbackSupported: true
+       Install file: /workspace/mint/jd2/jre/COPYRIGHT; size: 3244 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/LICENSE; size: 40 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/README; size: 46 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/THIRDPARTYLICENSEREADME-JAVAFX.txt; size: 110114 bytes; exists: false
+       File options set to: [fileTime: Tue Oct 06 20:00:19 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/THIRDPARTYLICENSEREADME.txt; size: 177094 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/Welcome.html; size: 955 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/bin/policytool; size: 7997 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/bin/java; size: 7734 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/bin/keytool; size: 7941 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/bin/rmiregistry; size: 7949 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/bin/unpack200; size: 228485 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/bin/tnameserv; size: 8181 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/bin/javaws; size: 138260 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/bin/pack200; size: 7957 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/bin/servertool; size: 7965 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/bin/jjs; size: 7941 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/bin/orbd; size: 8149 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/bin/rmid; size: 7941 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/bin/jcontrol; size: 6264 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/jfr/default.jfc; size: 20109 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/jfr/profile.jfc; size: 20065 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/calendars.properties; size: 1378 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/fontconfig.SuSE.10.properties.src; size: 16772 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/psfont.properties.ja; size: 2796 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/sound.properties; size: 1210 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fontconfig.RedHat.5.properties.src; size: 8841 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/tzdb.dat; size: 101673 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/images/icons/sun-java_HighContrastInverse.png; size: 3777 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/images/icons/sun-java_HighContrast.png; size: 3729 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/images/icons/sun-java.png; size: 4707 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/images/icons/sun-java_LowContrast.png; size: 4012 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/images/cursors/cursors.properties; size: 1274 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/images/cursors/invalid32x32.gif; size: 153 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/images/cursors/motif_CopyDrop32x32.gif; size: 158 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/images/cursors/motif_LinkNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/images/cursors/motif_LinkDrop32x32.gif; size: 162 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/images/cursors/motif_MoveDrop32x32.gif; size: 141 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/images/cursors/motif_MoveNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/images/cursors/motif_CopyNoDrop32x32.gif; size: 153 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/cmm/LINEAR_RGB.pf; size: 1044 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/cmm/CIEXYZ.pf; size: 51236 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/cmm/sRGB.pf; size: 3144 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/cmm/PYCC.pf; size: 274474 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/cmm/GRAY.pf; size: 632 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/splash@2x.gif; size: 15276 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/deploy/messages_de.properties; size: 3306 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/cautionshield.icns; size: 3588 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/splash.gif; size: 8590 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/mixcode_s.png; size: 3115 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/messages.properties; size: 2860 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/java-icon.ico; size: 29926 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/messages_fr.properties; size: 3409 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/messages_es.properties; size: 3600 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/messages_zh_CN.properties; size: 4072 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/messages_ja.properties; size: 6349 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/messages_it.properties; size: 3223 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/MixedCodeMainDialogJs.ui; size: 6110 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/messages_sv.properties; size: 3409 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/MixedCodeMainDialog.ui; size: 4507 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/messages_zh_HK.properties; size: 3752 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/messages_pt_BR.properties; size: 3348 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/messages_ko.properties; size: 5719 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/messages_zh_TW.properties; size: 3752 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy/ffjcext.zip; size: 13428 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/net.properties; size: 3070 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/meta-index; size: 2034 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/oblique-fonts/LucidaSansOblique.ttf; size: 253724 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/oblique-fonts/fonts.dir; size: 2115 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/oblique-fonts/LucidaSansDemiOblique.ttf; size: 91352 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/oblique-fonts/LucidaTypewriterBoldOblique.ttf; size: 63168 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/oblique-fonts/LucidaTypewriterOblique.ttf; size: 137484 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fontconfig.RedHat.5.bfc; size: 4532 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 555, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/fontconfig.bfc; size: 1678 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fontconfig.SuSE.11.properties.src; size: 16781 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/hijrah-config-umalqura.properties; size: 13962 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/management/jmxremote.password.template; size: 2856 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 444, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/management/snmp.acl.template; size: 3376 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/management/jmxremote.access; size: 3998 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/management/management.properties; size: 14097 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fonts/LucidaSansRegular.ttf; size: 698236 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fonts/LucidaTypewriterBold.ttf; size: 234068 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fonts/fonts.dir; size: 4041 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fonts/LucidaBrightDemiBold.ttf; size: 75144 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fonts/LucidaSansDemiBold.ttf; size: 317896 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fonts/LucidaBrightDemiItalic.ttf; size: 75124 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fonts/LucidaTypewriterRegular.ttf; size: 242700 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fonts/LucidaBrightItalic.ttf; size: 80856 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fonts/LucidaBrightRegular.ttf; size: 344908 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/LowContrast/16x16/apps/sun-javaws.png; size: 519 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/LowContrast/16x16/apps/sun-java.png; size: 519 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/LowContrast/16x16/apps/sun-jcontrol.png; size: 519 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-application-x-java-archive.png; size: 525 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 525 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/LowContrast/16x16/mimetypes/gnome-mime-text-x-java.png; size: 525 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/LowContrast/48x48/apps/sun-javaws.png; size: 1507 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/LowContrast/48x48/apps/sun-java.png; size: 1507 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/LowContrast/48x48/apps/sun-jcontrol.png; size: 1507 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-application-x-java-archive.png; size: 1948 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 1948 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/LowContrast/48x48/mimetypes/gnome-mime-text-x-java.png; size: 1948 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/hicolor/16x16/apps/sun-javaws.png; size: 383 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/hicolor/16x16/apps/sun-java.png; size: 383 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/hicolor/16x16/apps/sun-jcontrol.png; size: 383 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-application-x-java-archive.png; size: 783 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 783 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/hicolor/16x16/mimetypes/gnome-mime-text-x-java.png; size: 783 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/hicolor/48x48/apps/sun-javaws.png; size: 1439 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/hicolor/48x48/apps/sun-java.png; size: 1439 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/hicolor/48x48/apps/sun-jcontrol.png; size: 1439 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-application-x-java-archive.png; size: 3202 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 3202 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/hicolor/48x48/mimetypes/gnome-mime-text-x-java.png; size: 3202 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-javaws.png; size: 402 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-java.png; size: 402 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrastInverse/16x16/apps/sun-jcontrol.png; size: 402 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-application-x-java-archive.png; size: 473 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 473 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrastInverse/16x16/mimetypes/gnome-mime-text-x-java.png; size: 473 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-javaws.png; size: 3410 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-java.png; size: 3410 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrastInverse/48x48/apps/sun-jcontrol.png; size: 3410 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-application-x-java-archive.png; size: 2085 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 2085 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrastInverse/48x48/mimetypes/gnome-mime-text-x-java.png; size: 2085 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrast/16x16/apps/sun-javaws.png; size: 417 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrast/16x16/apps/sun-java.png; size: 417 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrast/16x16/apps/sun-jcontrol.png; size: 417 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-application-x-java-archive.png; size: 464 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 464 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrast/16x16/mimetypes/gnome-mime-text-x-java.png; size: 464 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrast/48x48/apps/sun-javaws.png; size: 3451 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrast/48x48/apps/sun-java.png; size: 3451 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrast/48x48/apps/sun-jcontrol.png; size: 3451 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-application-x-java-archive.png; size: 2088 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-application-x-java-jnlp-file.png; size: 2088 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/icons/HighContrast/48x48/mimetypes/gnome-mime-text-x-java.png; size: 2088 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/mime/packages/x-java-archive.xml; size: 1822 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/mime/packages/x-java-jnlp-file.xml; size: 412 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/applications/sun-java.desktop; size: 777 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/applications/sun-javaws.desktop; size: 619 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/desktop/applications/sun_java.desktop; size: 624 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fontconfig.SuSE.10.bfc; size: 6702 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 555, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/javafx.properties; size: 55 bytes; exists: false
+       File options set to: [fileTime: Tue Oct 06 20:00:19 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/jvm.hprof.txt; size: 4226 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/fontconfig.SuSE.11.bfc; size: 7032 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 555, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/classlist; size: 84311 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/fontconfig.RedHat.6.properties.src; size: 8735 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fontconfig.properties.src; size: 1938 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fontconfig.Turbo.bfc; size: 4668 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 555, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/psfontj2d.properties; size: 10393 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/flavormap.properties; size: 3901 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/logging.properties; size: 2455 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/jce.jar; size: 114730 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/locale/ko/LC_MESSAGES/sunw_java_plugin.mo; size: 2399 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/locale/it/LC_MESSAGES/sunw_java_plugin.mo; size: 2434 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/locale/zh.GBK/LC_MESSAGES/sunw_java_plugin.mo; size: 2002 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/locale/es/LC_MESSAGES/sunw_java_plugin.mo; size: 2477 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/locale/pt_BR/LC_MESSAGES/sunw_java_plugin.mo; size: 2420 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/locale/de/LC_MESSAGES/sunw_java_plugin.mo; size: 2483 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/locale/zh/LC_MESSAGES/sunw_java_plugin.mo; size: 2002 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/locale/ja/LC_MESSAGES/sunw_java_plugin.mo; size: 2415 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/locale/sv/LC_MESSAGES/sunw_java_plugin.mo; size: 2359 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/locale/ko.UTF-8/LC_MESSAGES/sunw_java_plugin.mo; size: 2753 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/locale/zh_HK.BIG5HK/LC_MESSAGES/sunw_java_plugin.mo; size: 2025 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/locale/zh_TW/LC_MESSAGES/sunw_java_plugin.mo; size: 2025 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/locale/zh_TW.BIG5/LC_MESSAGES/sunw_java_plugin.mo; size: 2025 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/locale/fr/LC_MESSAGES/sunw_java_plugin.mo; size: 2746 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/ext/sunec.jar; size: 39771 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/ext/sunpkcs11.jar; size: 250826 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/ext/meta-index; size: 1269 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:37:02 UTC 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/ext/sunjce_provider.jar; size: 278680 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/fontconfig.RedHat.6.bfc; size: 4250 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 555, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/currency.data; size: 4122 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/content-types.properties; size: 5916 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjpeg.so; size: 263985 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libsunec.so; size: 256702 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjsound.so; size: 7350 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libnpt.so; size: 14342 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libdcpr.so; size: 207604 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libj2gss.so; size: 47509 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjava.so; size: 225499 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libprism_common.so; size: 56917 bytes; exists: false
+       File options set to: [fileTime: Tue Oct 06 20:00:19 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libbci.so; size: 9594 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjavafx_font_t2k.so; size: 892265 bytes; exists: false
+       File options set to: [fileTime: Tue Oct 06 20:00:19 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libj2pcsc.so; size: 15884 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libzip.so; size: 124214 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libfxplugins.so; size: 151083 bytes; exists: false
+       File options set to: [fileTime: Tue Oct 06 20:00:19 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjavafx_font.so; size: 16935 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/liblcms.so; size: 413979 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libverify.so; size: 66472 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libunpack.so; size: 164183 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjsdt.so; size: 11678 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjsoundalsa.so; size: 81242 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libhprof.so; size: 177596 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libawt_headless.so; size: 37261 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libgstreamer-lite.so; size: 1774212 bytes; exists: false
+       File options set to: [fileTime: Tue Oct 06 20:00:19 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjawt.so; size: 7013 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libsplashscreen.so; size: 451215 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libmlib_image.so; size: 912788 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjaas_unix.so; size: 7652 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libj2pkcs11.so; size: 78224 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libt2k.so; size: 492629 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjfr.so; size: 25913 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libdeploy.so; size: 161767 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjfxmedia.so; size: 229428 bytes; exists: false
+       File options set to: [fileTime: Tue Oct 06 20:00:19 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libawt_xawt.so; size: 442405 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjavafx_font_pango.so; size: 24452 bytes; exists: false
+       File options set to: [fileTime: Tue Oct 06 20:00:19 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libresource.so; size: 9949 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libprism_es2.so; size: 62571 bytes; exists: false
+       File options set to: [fileTime: Tue Oct 06 20:00:19 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libawt.so; size: 772804 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libinstrument.so; size: 49341 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjsig.so; size: 11052 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libmanagement.so; size: 50145 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjdwp.so; size: 270293 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libfontmanager.so; size: 527566 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libkcms.so; size: 401494 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/server/Xusage.txt; size: 1423 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/server/libjvm.so; size: 16913022 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libavplugin-54.so; size: 50101 bytes; exists: false
+       File options set to: [fileTime: Tue Oct 06 20:00:19 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libdecora_sse.so; size: 73636 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjava_crw_demo.so; size: 25734 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libnet.so; size: 116037 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/jvm.cfg; size: 627 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjavafx_iio.so; size: 242127 bytes; exists: false
+       File options set to: [fileTime: Tue Oct 06 20:00:19 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libdt_socket.so; size: 22374 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/jli/libjli.so; size: 102352 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjavafx_font_freetype.so; size: 25939 bytes; exists: false
+       File options set to: [fileTime: Tue Oct 06 20:00:19 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libavplugin-53.so; size: 49474 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libprism_sw.so; size: 72950 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libnpjp2.so; size: 221519 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libglass.so; size: 226116 bytes; exists: false
+       File options set to: [fileTime: Tue Oct 06 20:00:19 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libjfxwebkit.so; size: 57436536 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libnio.so; size: 93038 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/amd64/libsctp.so; size: 28487 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/fontconfig.Turbo.properties.src; size: 9192 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/security/trusted.libraries; size: 0 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/security/local_policy.jar; size: 3527 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/security/javaws.policy; size: 98 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/security/java.security; size: 26207 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/security/US_export_policy.jar; size: 3026 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/security/blacklist; size: 4054 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/security/blacklisted.certs; size: 1188 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/security/cacerts; size: 99954 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/security/java.policy; size: 2466 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/jexec; size: 10584 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 755, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/man/ja_JP.UTF-8/man1/servertool.1; size: 9081 bytes; exists: false
+       File options set to: [fileTime: Wed Oct 07 00:36:47 UTC 2015, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/man/ja_JP.UTF-8/man1/unpack200.1; size: 5382 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/ja_JP.UTF-8/man1/orbd.1; size: 16092 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/ja_JP.UTF-8/man1/rmiregistry.1; size: 4557 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/ja_JP.UTF-8/man1/rmid.1; size: 19715 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/ja_JP.UTF-8/man1/java.1; size: 148688 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/ja_JP.UTF-8/man1/keytool.1; size: 111033 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/ja_JP.UTF-8/man1/jjs.1; size: 11365 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/ja_JP.UTF-8/man1/pack200.1; size: 14482 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/ja_JP.UTF-8/man1/javaws.1; size: 6641 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/ja_JP.UTF-8/man1/tnameserv.1; size: 17722 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/ja_JP.UTF-8/man1/policytool.1; size: 4020 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/man1/servertool.1; size: 7237 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/man1/unpack200.1; size: 4244 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/man1/orbd.1; size: 12180 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/man1/rmiregistry.1; size: 3449 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/man1/rmid.1; size: 15979 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/man1/java.1; size: 124490 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/man1/keytool.1; size: 86925 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/man1/jjs.1; size: 4932 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/man1/pack200.1; size: 11623 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/man1/javaws.1; size: 4897 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/man1/tnameserv.1; size: 15747 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/man/man1/policytool.1; size: 3235 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/plugin/desktop/sun_java.png; size: 4351 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/plugin/desktop/sun_java.desktop; size: 624 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/release; size: 525 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/deploy.jar; size: 2186979 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:19 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/jfxswt.jar; size: 33469 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:20 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/rt.jar; size: 65733021 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:15 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/jsse.jar; size: 629956 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:24 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/javaws.jar; size: 473805 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:16 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/ext/dnsns.jar; size: 8150 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:31 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/ext/nashorn.jar; size: 1975170 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:34 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/ext/jaccess.jar; size: 43839 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:40 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/ext/localedata.jar; size: 1174464 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:42 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/ext/jfxrt.jar; size: 18434886 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:31 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/ext/zipfs.jar; size: 67388 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:34 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/ext/cldrdata.jar; size: 3837561 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:40 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/management-agent.jar; size: 370 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:20 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/resources.jar; size: 3502032 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:21 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/plugin.jar; size: 941299 bytes; exists: false
+       Install file: /workspace/mint/jd2/jre/lib/jfr.jar; size: 553449 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:15 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/jre/lib/charsets.jar; size: 3131513 bytes; exists: false
+       File options set to: [fileTime: Thu Jan 14 14:22:23 UTC 2016, mode: 664, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/.install4j/883f5673.lprop; size: 59 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 19 09:10:36 UTC 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/.install4j/JDownloader2.png; size: 6081 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 19 09:10:36 UTC 2016, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/.install4j/JDownloader2Update.png; size: 9486 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/Uninstall JDownloader.png; size: 6081 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/b0fa7dea.lprop; size: 59 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 19 09:10:36 UTC 2016, mode: 644, overwriteMode: Always ask except for update, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/.install4j/e202d785.lprop; size: 206 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/s_14cflck.png; size: 13494 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 19 09:10:36 UTC 2016, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/JDownloader.jar; size: 2885367 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 19 09:10:36 UTC 2016, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/JDownloader2; size: 12198 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 19 09:10:36 UTC 2016, mode: 755, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/JDownloader2.vmoptions; size: 31 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 19 09:10:36 UTC 2016, mode: 644, overwriteMode: Never, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/JDownloader2Update; size: 12270 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 19 09:10:36 UTC 2016, mode: 755, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/JDownloader2Update.vmoptions; size: 31 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 19 09:10:36 UTC 2016, mode: 644, overwriteMode: Never, shared: false, uninstallMode: If created, but not for update, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/Uninstall JDownloader; size: 12972 bytes; exists: false
+       File options set to: [fileTime: Tue Jan 19 09:10:36 UTC 2016, mode: 700, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/.install4j/inst_jre.cfg; size: 34 bytes; exists: false
+       File options set to: [fileTime: Sat Oct 02 16:17:11 UTC 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/.install4j/pref_jre.cfg; size: 24 bytes; exists: false
+       File options set to: [fileTime: Sat Oct 02 16:17:11 UTC 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: If created, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/.install4j/i4jruntime.jar; size: 1364947 bytes; exists: false
+       File options set to: [fileTime: Sat Oct 02 16:17:11 UTC 2021, mode: 644, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/.install4j/MessagesDefault; size: 32917 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/i4jparams.conf; size: 89247 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/stats.properties; size: 266 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/user.jar; size: 156269 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/user/add.png; size: 601 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/user/bitcoin_large.png; size: 4113 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/user/paypal_large.png; size: 4473 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/user/paysafecard_large.png; size: 4249 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/user/proxyVole.jar; size: 203182 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/user/tafel_herz.png; size: 67374 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/user/tmp/pasc; size: 139 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/user/logs/1633191347265_Sat, Oct 2, 2021 16.15 +0000/Log.L.log.0.lck; size: 0 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/user/logs/1633191347265_Sat, Oct 2, 2021 16.15 +0000/Log.L.log.0; size: 3398 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/user/cfg/ProxySelector.proxies.json; size: 4 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/i4j_extf_0_69g5ss.utf8; size: 32917 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/i4j_extf_10_69g5ss_1kdboqw.ico; size: 187105 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/i4j_extf_1_69g5ss.utf8; size: 4822 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/i4j_extf_2_69g5ss.utf8; size: 35655 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/i4j_extf_3_69g5ss.utf8; size: 4326 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/i4j_extf_4_69g5ss_yklgyb.png; size: 9749 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/i4j_extf_5_69g5ss_14qfchv.png; size: 3683 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/i4j_extf_6_69g5ss_1jb375m.png; size: 3064 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/i4j_extf_7_69g5ss_1pcd4ys.png; size: 6081 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/i4j_extf_8_69g5ss_jbdzbb.png; size: 2037 bytes; exists: false
+       Install file: /workspace/mint/jd2/.install4j/i4j_extf_9_69g5ss_18t4isd.icns; size: 378914 bytes; exists: false
+       Execute action successful after 637 ms
+[INFO] org.appwork.install4j.WebLogger [ID 7072]: Execute action
+       Property proxyVoleEnabled: true
+       Property path: null
+       Property action: none/installed
+       Property rollbackSupported: true
+       Variable changed: logID=e925f27a339f11573e3462bc4fcb4aa7[class java.lang.String]
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetProgressAction [ID 6890]: Execute action
+       Property timerPeriod: 1000
+       Property progressChangeType: Set indeterminate state
+       Property timerMaxPercentValue: 100
+       Property percentValue: -1
+       Property rollbackSupported: false
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetMessageAction [ID 7781]: Execute action
+       Property statusMessage: Search old Installations
+       Property detailMessage: 
+       Property useStatus: true
+       Property useDetail: false
+       Property rollbackSupported: false
+       Execute action successful after 0 ms
+[INFO] org.appwork.install4j.SearchJD1Installation [ID 7779]: Execute action
+       Property rollbackSupported: true
+       Preset Config null
+       Search in Folder: /workspace/mint/.git
+       Search in Folder: /workspace/mint/.gitlab
+       Search in Folder: /workspace/mint/btfs
+       Search in Folder: /workspace/mint/dl
+       Search in Folder: /workspace/mint/jd2
+       Search in Folder: /workspace/mint/jd2/tmp
+       Search in Folder: /workspace/mint/jd2/jre
+       Search in Folder: /workspace/mint/jd2/.install4j
+       Search in Folder: /workspace/mint/mysterium-node
+       Search in Folder: /workspace/mint/noVNC
+       Search in Folder: /workspace/mint/1.sh.5634.dir
+       Search in Folder: /workspace/mint/jd2/tmp
+       Search in Folder: /workspace/mint/jd2/jre
+       Search in Folder: /workspace/mint/jd2/.install4j
+       Search in Folder: /home/gitpod/.oracle_jre_usage
+       Search in Folder: /home/gitpod/.pyenv
+       Search in Folder: /home/gitpod/.gitpod-code
+       Search in Folder: /home/gitpod/.java
+       Search in Folder: /home/gitpod/.cargo
+       Search in Folder: /home/gitpod/.rustup
+       Search in Folder: /home/gitpod/.bashrc.d
+       Search in Folder: /home/gitpod/.gem
+       Search in Folder: /home/gitpod/.rvm
+       Search in Folder: /home/gitpod/.gnupg
+       Search in Folder: /home/gitpod/.nvm
+       Search in Folder: /home/gitpod/.npm
+       Search in Folder: /home/gitpod/.config
+       Search in Folder: /home/gitpod/.m2
+       Search in Folder: /home/gitpod/.sdkman
+       Search in Folder: /home/gitpod/.cache
+       Search in Folder: /home/gitpod/go
+       Search in Folder: /home/gitpod/go-packages
+       Scripts found []
+       Best null
+       Variable changed: JD09_CONFIG=null
+       Execute action successful after 1 ms
+[INFO] org.appwork.install4j.updatesys.Webinstaller [ID 6420]: Execute action
+       Property proxyVoleEnabled: true
+       Property askTOKeepSettingsOnUninstall: true
+       Property updaterID: JDU
+       Property appID: JD
+       Property publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxKoqP5C4dw4Q+Tck6k+ib3Mi3GbkTKOc1mU+LhuBItSpMrc1HfCamEuL2KHl/S7vuh7Q2zi+xZWAkg/Nm2IK650/PMeDYMrsfwIJJNVtJbDUwr65W5Fu/Smn9CvOoo3+UYd+UVRdfjv81BRlPEudWjZUkJAwZV72hOcpAhmj1Y26RVuUk513EfFTTAXEbePwIPvUuzdSIFq2jH87ZDCVNebYUXOqHdNZVGlX93ipnXlYxs6Nlp84N7RtXIbtohGD/1FvCRy0vK+zXrNtOkHrVfBWCy/d9bnWSOGJ5qgFKp9yxRGQWz1fnr5uOjBhc07IpCGUfmW545GIFV/PJ1E37wIDAQAB
+       Property rollbackSupported: true
+       Variable changed: proxy=org.appwork.utils.net.httpconnection.HTTPProxyStorable@4a3e3e8b[class org.appwork.utils.net.httpconnection.HTTPProxyStorable]
+       Execute action successful after 9820 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetProgressAction [ID 6889]: Execute action
+       Property timerPeriod: 1000
+       Property progressChangeType: Set percentage value
+       Property timerMaxPercentValue: 100
+       Property percentValue: -1
+       Property rollbackSupported: false
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6886]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_43
+       Property rollbackSupported: false
+       Variable changed: proxylist=[][class java.util.ArrayList]
+       Execute action successful after 15 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6552]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_44
+       Property rollbackSupported: false
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.control.RunScriptAction [ID 6231]: Execute action
+       Property rollbackScript: null
+       Property script: com.install4j.script.I4jScript_Internal_45
+       Property rollbackSupported: false
+       Execute action successful after 1 ms
+[INFO] com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction [ID 351]: Execute action
+       Property files: [.]
+       Property rollbackSupported: false
+       Property sidOrAccountName: null
+       Property all: true
+       Property execute: true
+       Property read: true
+       Property write: true
+       Property group: Authenticated users
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction [ID 352]: Execute action
+       Property files: [.]
+       Property rollbackSupported: false
+       Property sidOrAccountName: null
+       Property all: true
+       Property execute: true
+       Property read: true
+       Property write: true
+       Property group: World
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction [ID 353]: Execute action
+       Property files: [.]
+       Property rollbackSupported: false
+       Property sidOrAccountName: null
+       Property all: true
+       Property execute: true
+       Property read: true
+       Property write: true
+       Property group: Administrators
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction [ID 354]: Execute action
+       Property files: [.]
+       Property rollbackSupported: false
+       Property sidOrAccountName: null
+       Property all: true
+       Property execute: true
+       Property read: true
+       Property write: true
+       Property group: Users
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetProgressAction [ID 5702]: Execute action
+       Property timerPeriod: 1000
+       Property progressChangeType: Set indeterminate state
+       Property timerMaxPercentValue: 100
+       Property percentValue: 0
+       Property rollbackSupported: false
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.control.SetMessageAction [ID 5704]: Execute action
+       Property statusMessage: Please wait. Completing Systemintegration.
+       Property detailMessage: 
+       Property useStatus: true
+       Property useDetail: false
+       Property rollbackSupported: false
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction [ID 10]: Execute action
+       Property categories: Network;Application
+       Property linkDirectory: 
+       Property programGroupEntryConfigs: []
+       Property programGroupName: JDownloader
+       Property uninstallerMenuName: JDownloader 2 Uninstaller
+       Property addDefaultLauncherLinks: true
+       Property addUninstaller: true
+       Property allUsers: false
+       Property failForSymlinksNotCreated: false
+       Property unixMenuEntries: true
+       Property unixSymlinks: true
+       Property rollbackSupported: true
+       Install file: /workspace/mint/jd2/JDownloader 2.desktop; size: 209 bytes; exists: false
+       File options set to: [fileTime: Sat Oct 02 16:17:21 UTC 2021, mode: 755, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Install file: /workspace/mint/jd2/JDownloader 2 Update & Rescue.desktop; size: 237 bytes; exists: false
+       File options set to: [fileTime: Sat Oct 02 16:17:21 UTC 2021, mode: 755, overwriteMode: Always, shared: false, uninstallMode: Always, delayIfNecessary: false]
+       Execute action successful after 6 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction [ID 11]: Execute action
+       Property iconSource: Installer icon
+       Property itemName: JDownloader 2
+       Property icon: null
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 36]: Execute action
+       Property mac: false
+       Property launcherId: 5977
+       Property macIconFile: i4j_extf_9_69g5ss_18t4isd.icns
+       Property macRole: Viewer
+       Property winAdditionalParameters: 
+       Property windowsIconFile: i4j_extf_10_69g5ss_1kdboqw.ico
+       Property restartFinder: false
+       Property extension: dlc
+       Property windows: true
+       Property selected: true
+       Property description: JDownloader Link Container
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Nothing to do
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 37]: Execute action
+       Property mac: false
+       Property launcherId: 5977
+       Property macIconFile: i4j_extf_9_69g5ss_18t4isd.icns
+       Property macRole: Viewer
+       Property winAdditionalParameters: 
+       Property windowsIconFile: i4j_extf_10_69g5ss_1kdboqw.ico
+       Property restartFinder: false
+       Property extension: jdc
+       Property windows: true
+       Property selected: true
+       Property description: JDownloader Linkbackup Format
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Nothing to do
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 39]: Execute action
+       Property mac: false
+       Property launcherId: 5977
+       Property macIconFile: i4j_extf_9_69g5ss_18t4isd.icns
+       Property macRole: Viewer
+       Property winAdditionalParameters: 
+       Property windowsIconFile: i4j_extf_10_69g5ss_1kdboqw.ico
+       Property restartFinder: false
+       Property extension: ccf
+       Property windows: true
+       Property selected: true
+       Property description: Cryptload Link Container
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Nothing to do
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 40]: Execute action
+       Property mac: false
+       Property launcherId: 5977
+       Property macIconFile: i4j_extf_9_69g5ss_18t4isd.icns
+       Property macRole: Viewer
+       Property winAdditionalParameters: 
+       Property windowsIconFile: i4j_extf_10_69g5ss_1kdboqw.ico
+       Property restartFinder: false
+       Property extension: rsdf
+       Property windows: true
+       Property selected: true
+       Property description: RSD Link Container
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Nothing to do
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 41]: Execute action
+       Property mac: false
+       Property launcherId: 5977
+       Property macIconFile: i4j_extf_9_69g5ss_18t4isd.icns
+       Property macRole: Viewer
+       Property winAdditionalParameters: 
+       Property windowsIconFile: i4j_extf_10_69g5ss_1kdboqw.ico
+       Property restartFinder: false
+       Property extension: metalink
+       Property windows: true
+       Property selected: true
+       Property description: Metalinks
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Nothing to do
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateFileAssociationAction [ID 8977]: Execute action
+       Property mac: false
+       Property launcherId: 5977
+       Property macIconFile: i4j_extf_9_69g5ss_18t4isd.icns
+       Property macRole: Viewer
+       Property winAdditionalParameters: 
+       Property windowsIconFile: i4j_extf_10_69g5ss_1kdboqw.ico
+       Property restartFinder: false
+       Property extension: meta4
+       Property windows: true
+       Property selected: true
+       Property description: Meta4 Metalinks
+       Property persistentProperties: {}
+       Property rollbackSupported: true
+       Nothing to do
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.desktop.CreateDesktopLinkAction [ID 3472]: Execute action
+       Property allUsers: false
+       Property runAsAdministrator: false
+       Property winIconFile: i4j_extf_10_69g5ss_1kdboqw.ico
+       Property startIn: .
+       Property macSingleBundleTarget: true
+       Property name: JDownloader
+       Property file: JDLauncher
+       Property arguments: 
+       Property description: 
+       Property rollbackSupported: true
+[ERROR] com.install4j.runtime.beans.actions.desktop.CreateDesktopLinkAction [ID 3472]: Desktop directory /home/gitpod/Desktop does not exist
+        Execute action not successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.registry.DeleteRegistryItemAction [ID 6887]: Execute action
+       Property registryRoot: HKEY_CURRENT_USER
+       Property onlyIfEmpty: false
+       Property keyName: Software\AppWork\JDownloader
+       Property valueName: installstatus
+       Property rollbackSupported: true
+       Execute action successful after 0 ms
+[INFO] com.install4j.runtime.beans.actions.registry.DeleteRegistryItemAction [ID 6888]: Execute action
+       Property registryRoot: HKEY_CURRENT_USER
+       Property onlyIfEmpty: false
+       Property keyName: Software\AppWork
+       Property valueName: 
+       Property rollbackSupported: true
+       Execute action successful after 0 ms
+[INFO] org.appwork.install4j.MoveOldInstallation [ID 7965]: Execute action
+       Property rollbackSupported: true
+       Preset Config null
+[ERROR] org.appwork.install4j.MoveOldInstallation [ID 7965]: Execute action not successful after 0 ms
+[INFO] com.install4j.runtime.beans.screens.InstallationScreen [ID 8]: Rollback barrier reached
+       command: move 1 screens, executing actions, checking condition
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: Show screen
+       Variable changed: executeLauncherAction=false[class java.lang.Boolean]
+[INFO] com.install4j.runtime.beans.screens.FinishedScreen [ID 12]: command: finish
+       cleaning up
+       Finished

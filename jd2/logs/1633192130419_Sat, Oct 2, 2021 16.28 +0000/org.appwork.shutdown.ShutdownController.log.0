@@ -1,0 +1,7 @@
+------------------------Thread: 33:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:33TS:1633192132553-10/2/21 4:28:52 PM -  [org.appwork.shutdown.ShutdownController(log)] -> Add ShutdownVetoListener:jd.controlling.downloadcontroller.DownloadWatchDog@516ad194:true
+--ID:33TS:1633192133052-10/2/21 4:28:53 PM -  [org.appwork.shutdown.ShutdownController(log)] -> Add ShutdownVetoListener:jd.controlling.linkcollector.LinkCollector@2cb237a5:true
+------------------------Thread: 74:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:74TS:1633192135432-10/2/21 4:28:55 PM -  [org.appwork.shutdown.ShutdownController(log)] -> Add ShutdownVetoListener:org.jdownloader.extensions.extraction.ExtractionExtension$3@74742074:true
+------------------------Thread: 92:org.appwork.shutdown.ShutdownController.log-----------------------
+--ID:92TS:1633192170983-10/2/21 4:29:30 PM -  [org.appwork.shutdown.ShutdownController(log)] -> Add ShutdownVetoListener:org.jdownloader.api.myjdownloader.MyJDownloaderController@67755fcb:true

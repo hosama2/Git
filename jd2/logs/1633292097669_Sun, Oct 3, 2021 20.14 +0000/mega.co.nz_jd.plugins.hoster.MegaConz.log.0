@@ -1,0 +1,1930 @@
+------------------------Thread: 650:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:650TS:1633293405084-10/3/21 8:36:45 PM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> StartDownloadMarker:1633293405083
+--ID:650TS:1633293405084-10/3/21 8:36:45 PM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> Start Download of:https://mega.nz/#!LJ9FyK7b!t88t6YBo2Wm_ABkSO7GikxujDF5Hddng9bgDb8fwoJQ | ID:1633293405083
+--ID:650TS:1633293405084-10/3/21 8:36:45 PM -  [jd.controlling.downloadcontroller.SingleDownloadController(download)] -> DownloadCandidate: DownloadCandidate:JD2Setup_x64.sh@mega.co.nz|Host mega.co.nz|Account:Plugin:mega.co.nz|Version:44507|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}
+------------------------Thread: 649:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:649TS:1633293405090-10/3/21 8:36:45 PM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/JD2Setup_x64.sh.encrypted.part|Root(s):[/workspace]|Requestor:null|RequestedSpace:224.55 MB|UsableSpace:1.06 TB
+------------------------Thread: 650:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:650TS:1633293405185-10/3/21 8:36:45 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.hoster.MegaConz.apiRequest(MegaConz.java:487)
+jd.plugins.hoster.MegaConz.requestFileInformation(MegaConz.java:766)
+jd.plugins.hoster.MegaConz.apiDownload(MegaConz.java:866)
+jd.plugins.hoster.MegaConz.handleFree(MegaConz.java:1074)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:10|BrowserParentID:-1|RequestID:1|URL:https://g.api.mega.co.nz/cs?id=1633293405091
+----------------Request Information-------------
+URL: https://g.api.mega.co.nz/cs?id=1633293405091
+URL-Parameter:
+   id : 1633293405091
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+ConnectIP: g.api.mega.co.nz/66.203.125.15:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+POST /cs?id=1633293405091 HTTP/1.1
+Host: g.api.mega.co.nz
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 39
+
+[ {
+  "p" : "LJ9FyK7b",
+  "a" : "g"
+} ]
+----------------Response Information------------
+Connection-Time: 16ms
+Request-Time: 26ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Content-Type: application/json
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, MEGA-Chrome-Antileak
+Access-Control-Expose-Headers: Original-Content-Length
+Access-Control-Max-Age: 86400
+Original-Content-Length: 118
+Content-Length: 118
+Connection: keep-alive
+------------------------------------------------
+
+
+--ID:650TS:1633293405185-10/3/21 8:36:45 PM -  [jd.http.Browser(loadConnection)] -> 
+BrowserID:10|RequestID:1|URL:https://g.api.mega.co.nz/cs?id=1633293405091
+----------------Request Content-------------
+[{"s":50621986,"at":"1cdPieD-StxXt-uAi5LWQ49oyL1TkPMHXkiNhEPmShSQ9Rw4GkvpvVc7vgvGc3Xn3eGFOThWbN8SA2xRhbVacA","msd":1}]
+
+--ID:650TS:1633293405189-10/3/21 8:36:45 PM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/JD2Setup_x64.sh.encrypted|Root(s):[/workspace]|Requestor:Thread[Download: JD2Setup_x64.sh_mega.co.nz,1,main]|RequestedSpace:176.28 MB|UsableSpace:1.06 TB
+--ID:650TS:1633293405264-10/3/21 8:36:45 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.hoster.MegaConz.apiRequest(MegaConz.java:487)
+jd.plugins.hoster.MegaConz.apiDownload(MegaConz.java:924)
+jd.plugins.hoster.MegaConz.handleFree(MegaConz.java:1074)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:10|BrowserParentID:-1|RequestID:2|URL:https://g.api.mega.co.nz/cs?id=1633293405193
+----------------Request Information-------------
+URL: https://g.api.mega.co.nz/cs?id=1633293405193
+URL-Parameter:
+   id : 1633293405193
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+ConnectIP: g.api.mega.co.nz/66.203.125.15:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+POST /cs?id=1633293405193 HTTP/1.1
+Host: g.api.mega.co.nz
+Referer: https://g.api.mega.co.nz/cs?id=1633293405091
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 67
+
+[ {
+  "p" : "LJ9FyK7b",
+  "a" : "g",
+  "g" : "1",
+  "ssl" : "2"
+} ]
+----------------Response Information------------
+Connection-Time: keep-Alive
+Request-Time: 70ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Content-Type: application/json
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, MEGA-Chrome-Antileak
+Access-Control-Expose-Headers: Original-Content-Length
+Access-Control-Max-Age: 86400
+Original-Content-Length: 475
+Content-Length: 475
+Connection: keep-alive
+------------------------------------------------
+
+
+--ID:650TS:1633293405264-10/3/21 8:36:45 PM -  [jd.http.Browser(loadConnection)] -> 
+BrowserID:10|RequestID:2|URL:https://g.api.mega.co.nz/cs?id=1633293405193
+----------------Request Content-------------
+[{"s":50621986,"at":"1cdPieD-StxXt-uAi5LWQ49oyL1TkPMHXkiNhEPmShSQ9Rw4GkvpvVc7vgvGc3Xn3eGFOThWbN8SA2xRhbVacA","msd":1,"tl":0,"g":"https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w","ip":["89.44.168.217","2001:678:25c:2216::217"]}]
+
+--ID:650TS:1633293405274-10/3/21 8:36:45 PM -  [jd.plugins.download.raf.OldRAFDownload(setResume)] -> Resumepoint not valid
+--ID:650TS:1633293405275-10/3/21 8:36:45 PM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> Connect...
+--ID:650TS:1633293405275-10/3/21 8:36:45 PM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> .....connectFirstRange
+--ID:650TS:1633293406122-10/3/21 8:36:46 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.OldRAFDownload.connectFirstRange(OldRAFDownload.java:337)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:198)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:168)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:229)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:128)
+jd.plugins.hoster.MegaConz.apiDownload(MegaConz.java:964)
+jd.plugins.hoster.MegaConz.handleFree(MegaConz.java:1074)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:11|BrowserParentID:10|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+
+----------------Response Information------------
+Connection-Time: 24ms
+Request-Time: 725ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Content-Length: 50621986
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:650TS:1633293406122-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(connectFirstRange)] -> FirstRange was openRange without any RangeRequest!
+--ID:650TS:1633293406122-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> 
+Caller: jd.plugins.download.raf.OldRAFDownload.connectFirstRange(OldRAFDownload.java:337)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:198)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:168)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:229)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:128)
+jd.plugins.hoster.MegaConz.apiDownload(MegaConz.java:964)
+jd.plugins.hoster.MegaConz.handleFree(MegaConz.java:1074)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:11|BrowserParentID:10|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+
+----------------Response Information------------
+Connection-Time: 24ms
+Request-Time: 725ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Content-Length: 50621986
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:650TS:1633293406123-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(startDownload)] -> Start Download
+------------------------Thread: 649:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:649TS:1633293406128-10/3/21 8:36:46 PM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/JD2Setup_x64.sh.encrypted|Root(s):[/workspace]|Requestor:Thread[Download: JD2Setup_x64.sh_mega.co.nz,1,main]|RequestedSpace:224.55 MB|UsableSpace:1.06 TB
+--ID:649TS:1633293406128-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(createOutputChannel)] -> createOutputChannel for /workspace/mint/dl/JD2Setup_x64.sh.encrypted
+------------------------Thread: 650:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:650TS:1633293406130-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(setupChunks)] -> Setup virgin download
+--ID:650TS:1633293406130-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Start Download in 10 chunks. Chunksize: 5062198
+--ID:650TS:1633293406137-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 0: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+--ID:650TS:1633293406137-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 1: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 662:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:662TS:1633293406137-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 0 : 0 - 5062197
+------------------------Thread: 650:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:650TS:1633293406137-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 2: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 663:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:663TS:1633293406137-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 1 : 5062198 - 10124395
+------------------------Thread: 650:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:650TS:1633293406138-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 3: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 664:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:664TS:1633293406138-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 2 : 10124396 - 15186593
+------------------------Thread: 665:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:665TS:1633293406138-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 3 : 15186594 - 20248791
+------------------------Thread: 662:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:662TS:1633293406137-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(copyConnection)] -> Takeover connection(no range) for Start:0|End:5062197
+------------------------Thread: 650:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:650TS:1633293406138-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 4: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+--ID:650TS:1633293406139-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 5: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 666:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:666TS:1633293406139-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 4 : 20248792 - 25310989
+------------------------Thread: 667:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:667TS:1633293406139-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 5 : 25310990 - 30373187
+------------------------Thread: 650:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:650TS:1633293406139-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 6: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 668:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:668TS:1633293406140-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 6 : 30373188 - 35435385
+------------------------Thread: 650:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:650TS:1633293406140-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 7: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 669:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:669TS:1633293406141-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 7 : 35435386 - 40497583
+------------------------Thread: 650:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:650TS:1633293406141-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 8: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+--ID:650TS:1633293406142-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 9: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 670:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:670TS:1633293406142-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 8 : 40497584 - 45559781
+------------------------Thread: 650:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:650TS:1633293406142-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.OldRAFDownload(waitForChunks)] -> Wait for chunks
+------------------------Thread: 671:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:671TS:1633293406142-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 9 : 45559782 - -1
+------------------------Thread: 663:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:663TS:1633293406322-10/3/21 8:36:46 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:12|BrowserParentID:10|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+Range: bytes=5062198-10124396
+
+----------------Response Information------------
+Connection-Time: 23ms
+Request-Time: 74ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 5062198-10124396/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:663TS:1633293406323-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 10124395!=10124396
+------------------------Thread: 662:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:662TS:1633293406694-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:662TS:1633293406694-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:662TS:1633293406694-10/3/21 8:36:46 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 0 5062198 bytes
+------------------------Thread: 663:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:663TS:1633293407021-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:663TS:1633293407022-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:663TS:1633293407022-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 1 5062199 bytes
+------------------------Thread: 669:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:669TS:1633293407121-10/3/21 8:36:47 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:14|BrowserParentID:10|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+Range: bytes=35435386-40497584
+
+----------------Response Information------------
+Connection-Time: 21ms
+Request-Time: 774ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 35435386-40497584/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:669TS:1633293407121-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 40497583!=40497584
+------------------------Thread: 670:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:670TS:1633293407124-10/3/21 8:36:47 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:15|BrowserParentID:10|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+Range: bytes=40497584-45559782
+
+----------------Response Information------------
+Connection-Time: 21ms
+Request-Time: 729ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 40497584-45559782/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:670TS:1633293407124-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 45559781!=45559782
+------------------------Thread: 668:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:668TS:1633293407130-10/3/21 8:36:47 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:16|BrowserParentID:10|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@1915d4fb|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+Range: bytes=30373188-35435386
+
+----------------Response Information------------
+Connection-Time: 193ms
+Request-Time: 597ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 30373188-35435386/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:668TS:1633293407130-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 35435385!=35435386
+------------------------Thread: 665:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:665TS:1633293407132-10/3/21 8:36:47 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:13|BrowserParentID:10|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@17fc07b2|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------ConnectionExceptions-------------------------
+0:gfs270n435.userstorage.mega.co.nz/89.44.168.217|java.io.EOFException(empty HTTP-Response)|retrySSL:Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle
+----------------Request-------------------------
+GET /dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+Range: bytes=15186594-20248792
+
+----------------Response Information------------
+Connection-Time: 186ms
+Request-Time: 600ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 15186594-20248792/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:665TS:1633293407132-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 20248791!=20248792
+------------------------Thread: 666:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:666TS:1633293407133-10/3/21 8:36:47 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:17|BrowserParentID:10|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@6da40828|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+Range: bytes=20248792-25310990
+
+----------------Response Information------------
+Connection-Time: 143ms
+Request-Time: 600ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 20248792-25310990/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:666TS:1633293407133-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 25310989!=25310990
+------------------------Thread: 664:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:664TS:1633293407134-10/3/21 8:36:47 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:19|BrowserParentID:10|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@78e69726|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+Range: bytes=10124396-15186594
+
+----------------Response Information------------
+Connection-Time: 102ms
+Request-Time: 542ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 10124396-15186594/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:664TS:1633293407134-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 15186593!=15186594
+------------------------Thread: 667:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:667TS:1633293407134-10/3/21 8:36:47 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:20|BrowserParentID:10|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@48a1a5|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+Range: bytes=25310990-30373188
+
+----------------Response Information------------
+Connection-Time: 104ms
+Request-Time: 490ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 25310990-30373188/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:667TS:1633293407134-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 30373187!=30373188
+------------------------Thread: 671:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:671TS:1633293407143-10/3/21 8:36:47 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:18|BrowserParentID:10|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@446b62b9|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/4_t3tYpHDj-ILQdBuTi7NNjgOiHWfbE0mYz2rHhAJxCflUTC2W6pAkOv2BlRNiixYaWVSkHN-lZl274vO5A2132N43k9IiieXUwBdVnSb953y6Ec2MMzjcJXsp6d7NUu6VSB4q9SdVvzXgKbzIBTo_6HUyE7WGbXgBj0X8bDmpfr3IMndDl52TDctPFyv_UCtB-ezm66-EvEIKQnrmvpvwYPZJkPZ_B-BtHihyLtQ1ncK3QyfkaDCyq37w
+Range: bytes=45559782-
+
+----------------Response Information------------
+Connection-Time: 103ms
+Request-Time: 600ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 45559782-50621985/50621986
+Content-Length: 5062204
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+------------------------Thread: 670:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:670TS:1633293407308-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:670TS:1633293407308-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:670TS:1633293407309-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 8 5062199 bytes
+------------------------Thread: 669:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:669TS:1633293407362-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:669TS:1633293407362-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:669TS:1633293407363-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 7 5062199 bytes
+------------------------Thread: 668:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:668TS:1633293407370-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:668TS:1633293407370-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:668TS:1633293407370-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 6 5062199 bytes
+------------------------Thread: 664:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:664TS:1633293407370-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:664TS:1633293407371-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:664TS:1633293407372-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 2 5062199 bytes
+------------------------Thread: 667:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:667TS:1633293407397-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:667TS:1633293407397-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+------------------------Thread: 666:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:666TS:1633293407397-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:666TS:1633293407398-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+------------------------Thread: 667:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:667TS:1633293407398-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 5 5062199 bytes
+------------------------Thread: 666:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:666TS:1633293407398-10/3/21 8:36:47 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 4 5062199 bytes
+------------------------Thread: 665:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:665TS:1633293408055-10/3/21 8:36:48 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:665TS:1633293408055-10/3/21 8:36:48 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:665TS:1633293408056-10/3/21 8:36:48 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 3 5062199 bytes
+------------------------Thread: 671:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:671TS:1633293410304-10/3/21 8:36:50 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:671TS:1633293410304-10/3/21 8:36:50 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:671TS:1633293410305-10/3/21 8:36:50 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 9 5062204 bytes
+------------------------Thread: 650:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:650TS:1633293410307-10/3/21 8:36:50 PM -  [jd.plugins.download.raf.OldRAFDownload(onChunksReady)] -> All connections closed:00s
+--ID:650TS:1633293410358-10/3/21 8:36:50 PM -  [jd.plugins.download.raf.OldRAFDownload(closeOutputChannel)] -> Buffers forced to disk:00s
+--ID:650TS:1633293410358-10/3/21 8:36:50 PM -  [jd.plugins.download.raf.OldRAFDownload(closeOutputChannel)] -> File closed:00s
+--ID:650TS:1633293410359-10/3/21 8:36:50 PM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> ExternalStop: false|VerifiedFilesize: 50621986|FileSize: 50621986|Loaded: 50621994
+--ID:650TS:1633293410359-10/3/21 8:36:50 PM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> VerifiedFilesize: 50621986 Loaded: 50621994
+--ID:650TS:1633293410359-10/3/21 8:36:50 PM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> ExternalStop: false|VerifiedFilesize: 50621986|FileSize: 50621986|Loaded: 50621994
+--ID:650TS:1633293410359-10/3/21 8:36:50 PM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> VerifiedFilesize: 50621986 Loaded: 50621994
+--ID:650TS:1633293410636-10/3/21 8:36:50 PM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> StopDownloadMarker:1633293405083
+------------------------Thread: 649:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:649TS:1633293410639-10/3/21 8:36:50 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Rename after Download?
+--ID:649TS:1633293410639-10/3/21 8:36:50 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Desired Path: /workspace/mint/dl/JD2Setup_x64.sh
+--ID:649TS:1633293410639-10/3/21 8:36:50 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Actually Used path: /workspace/mint/dl/JD2Setup_x64.sh
+------------------------Thread: 1278:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1278TS:1633293630049-10/3/21 8:40:30 PM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> StartDownloadMarker:1633293630049
+--ID:1278TS:1633293630049-10/3/21 8:40:30 PM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> Start Download of:https://mega.nz/#!LJ9FyK7b!t88t6YBo2Wm_ABkSO7GikxujDF5Hddng9bgDb8fwoJQ | ID:1633293630049
+--ID:1278TS:1633293630050-10/3/21 8:40:30 PM -  [jd.controlling.downloadcontroller.SingleDownloadController(download)] -> DownloadCandidate: DownloadCandidate:JD2Setup_x64.sh@mega.co.nz|Host mega.co.nz|Account:Plugin:mega.co.nz|Version:44507|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}
+------------------------Thread: 1276:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1276TS:1633293630053-10/3/21 8:40:30 PM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/JD2Setup x64/<jd:default>/JD2Setup_x64.sh.encrypted.part|Root(s):[/workspace]|Requestor:null|RequestedSpace:224.55 MB|UsableSpace:1.06 TB
+------------------------Thread: 1278:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1278TS:1633293630080-10/3/21 8:40:30 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.hoster.MegaConz.apiRequest(MegaConz.java:487)
+jd.plugins.hoster.MegaConz.requestFileInformation(MegaConz.java:766)
+jd.plugins.hoster.MegaConz.apiDownload(MegaConz.java:866)
+jd.plugins.hoster.MegaConz.handleFree(MegaConz.java:1074)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:22|BrowserParentID:-1|RequestID:1|URL:https://g.api.mega.co.nz/cs?id=1633293630053
+----------------Request Information-------------
+URL: https://g.api.mega.co.nz/cs?id=1633293630053
+URL-Parameter:
+   id : 1633293630053
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+ConnectIP: g.api.mega.co.nz/66.203.125.14:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+POST /cs?id=1633293630053 HTTP/1.1
+Host: g.api.mega.co.nz
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 39
+
+[ {
+  "p" : "LJ9FyK7b",
+  "a" : "g"
+} ]
+----------------Response Information------------
+Connection-Time: keep-Alive
+Request-Time: 25ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Content-Type: application/json
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, MEGA-Chrome-Antileak
+Access-Control-Expose-Headers: Original-Content-Length
+Access-Control-Max-Age: 86400
+Original-Content-Length: 118
+Content-Length: 118
+Connection: keep-alive
+------------------------------------------------
+
+
+--ID:1278TS:1633293630080-10/3/21 8:40:30 PM -  [jd.http.Browser(loadConnection)] -> 
+BrowserID:22|RequestID:1|URL:https://g.api.mega.co.nz/cs?id=1633293630053
+----------------Request Content-------------
+[{"s":50621986,"at":"1cdPieD-StxXt-uAi5LWQ49oyL1TkPMHXkiNhEPmShSQ9Rw4GkvpvVc7vgvGc3Xn3eGFOThWbN8SA2xRhbVacA","msd":1}]
+
+--ID:1278TS:1633293630084-10/3/21 8:40:30 PM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/JD2Setup x64/<jd:default>/JD2Setup_x64.sh.encrypted|Root(s):[/workspace]|Requestor:Thread[Download: JD2Setup_x64.sh_mega.co.nz,1,main]|RequestedSpace:176.28 MB|UsableSpace:1.06 TB
+--ID:1278TS:1633293630208-10/3/21 8:40:30 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.hoster.MegaConz.apiRequest(MegaConz.java:487)
+jd.plugins.hoster.MegaConz.apiDownload(MegaConz.java:924)
+jd.plugins.hoster.MegaConz.handleFree(MegaConz.java:1074)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:22|BrowserParentID:-1|RequestID:2|URL:https://g.api.mega.co.nz/cs?id=1633293630084
+----------------Request Information-------------
+URL: https://g.api.mega.co.nz/cs?id=1633293630084
+URL-Parameter:
+   id : 1633293630084
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+ConnectIP: g.api.mega.co.nz/66.203.125.14:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+POST /cs?id=1633293630084 HTTP/1.1
+Host: g.api.mega.co.nz
+Referer: https://g.api.mega.co.nz/cs?id=1633293630053
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 67
+
+[ {
+  "p" : "LJ9FyK7b",
+  "a" : "g",
+  "g" : "1",
+  "ssl" : "2"
+} ]
+----------------Response Information------------
+Connection-Time: keep-Alive
+Request-Time: 123ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Content-Type: application/json
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, MEGA-Chrome-Antileak
+Access-Control-Expose-Headers: Original-Content-Length
+Access-Control-Max-Age: 86400
+Original-Content-Length: 475
+Content-Length: 475
+Connection: keep-alive
+------------------------------------------------
+
+
+--ID:1278TS:1633293630208-10/3/21 8:40:30 PM -  [jd.http.Browser(loadConnection)] -> 
+BrowserID:22|RequestID:2|URL:https://g.api.mega.co.nz/cs?id=1633293630084
+----------------Request Content-------------
+[{"s":50621986,"at":"1cdPieD-StxXt-uAi5LWQ49oyL1TkPMHXkiNhEPmShSQ9Rw4GkvpvVc7vgvGc3Xn3eGFOThWbN8SA2xRhbVacA","msd":1,"tl":0,"g":"https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg","ip":["89.44.168.217","2001:678:25c:2216::217"]}]
+
+--ID:1278TS:1633293630209-10/3/21 8:40:30 PM -  [jd.plugins.download.raf.OldRAFDownload(setResume)] -> Resumepoint not valid
+--ID:1278TS:1633293630209-10/3/21 8:40:30 PM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> Connect...
+--ID:1278TS:1633293630209-10/3/21 8:40:30 PM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> .....connectFirstRange
+--ID:1278TS:1633293631132-10/3/21 8:40:31 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.OldRAFDownload.connectFirstRange(OldRAFDownload.java:337)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:198)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:168)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:229)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:128)
+jd.plugins.hoster.MegaConz.apiDownload(MegaConz.java:964)
+jd.plugins.hoster.MegaConz.handleFree(MegaConz.java:1074)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:23|BrowserParentID:22|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@5424d3a1|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+
+----------------Response Information------------
+Connection-Time: 102ms
+Request-Time: 797ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Content-Length: 50621986
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1278TS:1633293631132-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(connectFirstRange)] -> FirstRange was openRange without any RangeRequest!
+--ID:1278TS:1633293631132-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> 
+Caller: jd.plugins.download.raf.OldRAFDownload.connectFirstRange(OldRAFDownload.java:337)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:198)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:168)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:229)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:128)
+jd.plugins.hoster.MegaConz.apiDownload(MegaConz.java:964)
+jd.plugins.hoster.MegaConz.handleFree(MegaConz.java:1074)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:23|BrowserParentID:22|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@5424d3a1|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+
+----------------Response Information------------
+Connection-Time: 102ms
+Request-Time: 797ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Content-Length: 50621986
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1278TS:1633293631132-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(startDownload)] -> Start Download
+------------------------Thread: 1276:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1276TS:1633293631135-10/3/21 8:40:31 PM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/JD2Setup x64/<jd:default>/JD2Setup_x64.sh.encrypted|Root(s):[/workspace]|Requestor:Thread[Download: JD2Setup_x64.sh_mega.co.nz,1,main]|RequestedSpace:224.55 MB|UsableSpace:1.06 TB
+--ID:1276TS:1633293631135-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(createOutputChannel)] -> createOutputChannel for /workspace/mint/dl/JD2Setup x64/<jd:default>/JD2Setup_x64.sh.encrypted
+------------------------Thread: 1278:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1278TS:1633293631135-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(setupChunks)] -> Setup virgin download
+--ID:1278TS:1633293631135-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Start Download in 10 chunks. Chunksize: 5062198
+--ID:1278TS:1633293631136-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 0: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+--ID:1278TS:1633293631136-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 1: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1283:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1283TS:1633293631136-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 0 : 0 - 5062197
+------------------------Thread: 1284:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1284TS:1633293631136-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 1 : 5062198 - 10124395
+------------------------Thread: 1283:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1283TS:1633293631136-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(copyConnection)] -> Takeover connection(no range) for Start:0|End:5062197
+------------------------Thread: 1278:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1278TS:1633293631136-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 2: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+--ID:1278TS:1633293631137-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 3: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1285:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1285TS:1633293631137-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 2 : 10124396 - 15186593
+------------------------Thread: 1278:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1278TS:1633293631137-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 4: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1286:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1286TS:1633293631137-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 3 : 15186594 - 20248791
+------------------------Thread: 1278:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1278TS:1633293631138-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 5: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1287:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1287TS:1633293631138-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 4 : 20248792 - 25310989
+------------------------Thread: 1278:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1278TS:1633293631138-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 6: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1288:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1288TS:1633293631138-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 5 : 25310990 - 30373187
+------------------------Thread: 1278:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1278TS:1633293631138-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 7: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1289:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1289TS:1633293631138-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 6 : 30373188 - 35435385
+------------------------Thread: 1278:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1278TS:1633293631139-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 8: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1290:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1290TS:1633293631139-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 7 : 35435386 - 40497583
+------------------------Thread: 1291:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1291TS:1633293631139-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 8 : 40497584 - 45559781
+------------------------Thread: 1278:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1278TS:1633293631139-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 9: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+--ID:1278TS:1633293631139-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.OldRAFDownload(waitForChunks)] -> Wait for chunks
+------------------------Thread: 1292:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1292TS:1633293631139-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 9 : 45559782 - -1
+------------------------Thread: 1283:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1283TS:1633293631313-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1283TS:1633293631313-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1283TS:1633293631313-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 0 5062198 bytes
+------------------------Thread: 1284:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1284TS:1633293631345-10/3/21 8:40:31 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:24|BrowserParentID:22|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@7cbfe3b|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+Range: bytes=5062198-10124396
+
+----------------Response Information------------
+Connection-Time: 102ms
+Request-Time: 105ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 5062198-10124396/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1284TS:1633293631345-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 10124395!=10124396
+------------------------Thread: 1292:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1292TS:1633293631361-10/3/21 8:40:31 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:25|BrowserParentID:22|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@4ffa0c47|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+Range: bytes=45559782-
+
+----------------Response Information------------
+Connection-Time: 102ms
+Request-Time: 72ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 45559782-50621985/50621986
+Content-Length: 5062204
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1292TS:1633293631580-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1292TS:1633293631580-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1292TS:1633293631580-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 9 5062204 bytes
+------------------------Thread: 1284:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1284TS:1633293631617-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1284TS:1633293631617-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1284TS:1633293631617-10/3/21 8:40:31 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 1 5062199 bytes
+------------------------Thread: 1288:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1288TS:1633293632119-10/3/21 8:40:32 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:28|BrowserParentID:22|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@386d9c18|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+Range: bytes=25310990-30373188
+
+----------------Response Information------------
+Connection-Time: 101ms
+Request-Time: 682ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 25310990-30373188/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1288TS:1633293632119-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 30373187!=30373188
+------------------------Thread: 1287:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1287TS:1633293632120-10/3/21 8:40:32 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:32|BrowserParentID:22|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+Range: bytes=20248792-25310990
+
+----------------Response Information------------
+Connection-Time: 20ms
+Request-Time: 478ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 20248792-25310990/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1287TS:1633293632120-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 25310989!=25310990
+------------------------Thread: 1289:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1289TS:1633293632120-10/3/21 8:40:32 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:26|BrowserParentID:22|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------ConnectionExceptions-------------------------
+0:gfs270n435.userstorage.mega.co.nz/89.44.168.217|java.net.SocketException(Connection reset)|retrySSL:Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3
+----------------Request-------------------------
+GET /dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+Range: bytes=30373188-35435386
+
+----------------Response Information------------
+Connection-Time: 21ms
+Request-Time: 629ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 30373188-35435386/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1289TS:1633293632120-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 35435385!=35435386
+------------------------Thread: 1291:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1291TS:1633293632122-10/3/21 8:40:32 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:31|BrowserParentID:22|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+Range: bytes=40497584-45559782
+
+----------------Response Information------------
+Connection-Time: 18ms
+Request-Time: 536ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 40497584-45559782/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1291TS:1633293632122-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 45559781!=45559782
+------------------------Thread: 1286:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1286TS:1633293632122-10/3/21 8:40:32 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:27|BrowserParentID:22|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@57ad119e|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+Range: bytes=15186594-20248792
+
+----------------Response Information------------
+Connection-Time: 97ms
+Request-Time: 738ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 15186594-20248792/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1286TS:1633293632122-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 20248791!=20248792
+------------------------Thread: 1290:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1290TS:1633293632123-10/3/21 8:40:32 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:29|BrowserParentID:22|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+Range: bytes=35435386-40497584
+
+----------------Response Information------------
+Connection-Time: 20ms
+Request-Time: 633ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 35435386-40497584/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1290TS:1633293632124-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 40497583!=40497584
+------------------------Thread: 1285:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1285TS:1633293632124-10/3/21 8:40:32 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:30|BrowserParentID:22|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/k7z6f1Dun4GGvQcG4xLJM2Bo6LipOJEYPVg04pIpkJU-j89_eWMRCPFA4Aap5yxCxRAtUJ5lam272ny_AsSyYFaNcFGZnKjXA65_IAEKGZjoDPhI_fF3Z4EnUPB6SeeWxcBq1yd4DDLw80LnnbZkzDbUc51-QQi9aPTAOLsdN1pcutyW5V5aQhi-KvnInTlBP1ngBBjjPHJYtW4LGBfGAt-xxj1zqDw588gNl6Jxdl9vpUmg9uAj8MxtKg
+Range: bytes=10124396-15186594
+
+----------------Response Information------------
+Connection-Time: 20ms
+Request-Time: 582ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 10124396-15186594/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1285TS:1633293632124-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 15186593!=15186594
+------------------------Thread: 1287:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1287TS:1633293632345-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1287TS:1633293632345-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1287TS:1633293632346-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 4 5062199 bytes
+------------------------Thread: 1291:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1291TS:1633293632388-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1291TS:1633293632388-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1291TS:1633293632388-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 8 5062199 bytes
+------------------------Thread: 1289:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1289TS:1633293632424-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1289TS:1633293632424-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1289TS:1633293632425-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 6 5062199 bytes
+------------------------Thread: 1285:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1285TS:1633293632482-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1285TS:1633293632483-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1285TS:1633293632484-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 2 5062199 bytes
+------------------------Thread: 1288:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1288TS:1633293632497-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1288TS:1633293632497-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1288TS:1633293632498-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 5 5062199 bytes
+------------------------Thread: 1286:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1286TS:1633293632538-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1286TS:1633293632539-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1286TS:1633293632539-10/3/21 8:40:32 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 3 5062199 bytes
+------------------------Thread: 1290:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1290TS:1633293633621-10/3/21 8:40:33 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1290TS:1633293633621-10/3/21 8:40:33 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1290TS:1633293633622-10/3/21 8:40:33 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 7 5062199 bytes
+------------------------Thread: 1278:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1278TS:1633293633623-10/3/21 8:40:33 PM -  [jd.plugins.download.raf.OldRAFDownload(onChunksReady)] -> All connections closed:00s
+--ID:1278TS:1633293633713-10/3/21 8:40:33 PM -  [jd.plugins.download.raf.OldRAFDownload(closeOutputChannel)] -> Buffers forced to disk:00s
+--ID:1278TS:1633293633713-10/3/21 8:40:33 PM -  [jd.plugins.download.raf.OldRAFDownload(closeOutputChannel)] -> File closed:00s
+--ID:1278TS:1633293633713-10/3/21 8:40:33 PM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> ExternalStop: false|VerifiedFilesize: 50621986|FileSize: 50621986|Loaded: 50621994
+--ID:1278TS:1633293633713-10/3/21 8:40:33 PM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> VerifiedFilesize: 50621986 Loaded: 50621994
+--ID:1278TS:1633293633713-10/3/21 8:40:33 PM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> ExternalStop: false|VerifiedFilesize: 50621986|FileSize: 50621986|Loaded: 50621994
+--ID:1278TS:1633293633713-10/3/21 8:40:33 PM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> VerifiedFilesize: 50621986 Loaded: 50621994
+--ID:1278TS:1633293633973-10/3/21 8:40:33 PM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> StopDownloadMarker:1633293630049
+------------------------Thread: 1276:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1276TS:1633293633974-10/3/21 8:40:33 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Rename after Download?
+--ID:1276TS:1633293633974-10/3/21 8:40:33 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Desired Path: /workspace/mint/dl/JD2Setup x64/<jd:default>/JD2Setup_x64.sh
+--ID:1276TS:1633293633974-10/3/21 8:40:33 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Actually Used path: /workspace/mint/dl/JD2Setup x64/<jd:default>/JD2Setup_x64.sh
+------------------------Thread: 1860:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1860TS:1633293961259-10/3/21 8:46:01 PM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> StartDownloadMarker:1633293961259
+--ID:1860TS:1633293961259-10/3/21 8:46:01 PM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> Start Download of:https://mega.nz/#!LJ9FyK7b!t88t6YBo2Wm_ABkSO7GikxujDF5Hddng9bgDb8fwoJQ | ID:1633293961259
+--ID:1860TS:1633293961259-10/3/21 8:46:01 PM -  [jd.controlling.downloadcontroller.SingleDownloadController(download)] -> DownloadCandidate: DownloadCandidate:JD2Setup_x64.sh@mega.co.nz|Host mega.co.nz|Account:Plugin:mega.co.nz|Version:44507|Type:NONE|Account:null|Proxy:{
+  "proxy" : {
+    "proxy" : {
+      "username" : null,
+      "password" : null,
+      "port" : 80,
+      "address" : null,
+      "type" : "NONE",
+      "preferNativeImplementation" : false,
+      "resolveHostName" : false,
+      "connectMethodPrefered" : false
+    },
+    "rangeRequestsSupported" : true,
+    "filter" : null,
+    "pac" : false,
+    "reconnectSupported" : true,
+    "enabled" : true
+  },
+  "banlist" : "[]",
+  "class" : "jd.controlling.proxy.NoProxySelector"
+}
+------------------------Thread: 1858:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1858TS:1633293961263-10/3/21 8:46:01 PM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/JD2Setup x64/JD2Setup_x64.sh.encrypted.part|Root(s):[/workspace]|Requestor:null|RequestedSpace:224.55 MB|UsableSpace:1.06 TB
+------------------------Thread: 1860:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1860TS:1633293961294-10/3/21 8:46:01 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.hoster.MegaConz.apiRequest(MegaConz.java:487)
+jd.plugins.hoster.MegaConz.requestFileInformation(MegaConz.java:766)
+jd.plugins.hoster.MegaConz.apiDownload(MegaConz.java:866)
+jd.plugins.hoster.MegaConz.handleFree(MegaConz.java:1074)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:35|BrowserParentID:-1|RequestID:1|URL:https://g.api.mega.co.nz/cs?id=1633293961263
+----------------Request Information-------------
+URL: https://g.api.mega.co.nz/cs?id=1633293961263
+URL-Parameter:
+   id : 1633293961263
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+ConnectIP: g.api.mega.co.nz/66.203.125.13:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+POST /cs?id=1633293961263 HTTP/1.1
+Host: g.api.mega.co.nz
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 39
+
+[ {
+  "p" : "LJ9FyK7b",
+  "a" : "g"
+} ]
+----------------Response Information------------
+Connection-Time: keep-Alive
+Request-Time: 30ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Content-Type: application/json
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, MEGA-Chrome-Antileak
+Access-Control-Expose-Headers: Original-Content-Length
+Access-Control-Max-Age: 86400
+Original-Content-Length: 118
+Content-Length: 118
+Connection: keep-alive
+------------------------------------------------
+
+
+--ID:1860TS:1633293961295-10/3/21 8:46:01 PM -  [jd.http.Browser(loadConnection)] -> 
+BrowserID:35|RequestID:1|URL:https://g.api.mega.co.nz/cs?id=1633293961263
+----------------Request Content-------------
+[{"s":50621986,"at":"1cdPieD-StxXt-uAi5LWQ49oyL1TkPMHXkiNhEPmShSQ9Rw4GkvpvVc7vgvGc3Xn3eGFOThWbN8SA2xRhbVacA","msd":1}]
+
+--ID:1860TS:1633293961297-10/3/21 8:46:01 PM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/JD2Setup x64/JD2Setup_x64.sh.encrypted|Root(s):[/workspace]|Requestor:Thread[Download: JD2Setup_x64.sh_mega.co.nz,1,main]|RequestedSpace:176.28 MB|UsableSpace:1.06 TB
+--ID:1860TS:1633293961465-10/3/21 8:46:01 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.hoster.MegaConz.apiRequest(MegaConz.java:487)
+jd.plugins.hoster.MegaConz.apiDownload(MegaConz.java:924)
+jd.plugins.hoster.MegaConz.handleFree(MegaConz.java:1074)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:35|BrowserParentID:-1|RequestID:2|URL:https://g.api.mega.co.nz/cs?id=1633293961297
+----------------Request Information-------------
+URL: https://g.api.mega.co.nz/cs?id=1633293961297
+URL-Parameter:
+   id : 1633293961297
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+ConnectIP: g.api.mega.co.nz/66.203.125.13:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+POST /cs?id=1633293961297 HTTP/1.1
+Host: g.api.mega.co.nz
+Referer: https://g.api.mega.co.nz/cs?id=1633293961263
+Content-Type: text/plain;charset=UTF-8
+Content-Length: 67
+
+[ {
+  "p" : "LJ9FyK7b",
+  "a" : "g",
+  "g" : "1",
+  "ssl" : "2"
+} ]
+----------------Response Information------------
+Connection-Time: keep-Alive
+Request-Time: 168ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Content-Type: application/json
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: Content-Type, MEGA-Chrome-Antileak
+Access-Control-Expose-Headers: Original-Content-Length
+Access-Control-Max-Age: 86400
+Original-Content-Length: 475
+Content-Length: 475
+Connection: keep-alive
+------------------------------------------------
+
+
+--ID:1860TS:1633293961466-10/3/21 8:46:01 PM -  [jd.http.Browser(loadConnection)] -> 
+BrowserID:35|RequestID:2|URL:https://g.api.mega.co.nz/cs?id=1633293961297
+----------------Request Content-------------
+[{"s":50621986,"at":"1cdPieD-StxXt-uAi5LWQ49oyL1TkPMHXkiNhEPmShSQ9Rw4GkvpvVc7vgvGc3Xn3eGFOThWbN8SA2xRhbVacA","msd":1,"tl":0,"g":"https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw","ip":["89.44.168.217","2001:678:25c:2216::217"]}]
+
+--ID:1860TS:1633293961466-10/3/21 8:46:01 PM -  [jd.plugins.download.raf.OldRAFDownload(setResume)] -> Resumepoint not valid
+--ID:1860TS:1633293961466-10/3/21 8:46:01 PM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> Connect...
+--ID:1860TS:1633293961466-10/3/21 8:46:01 PM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> .....connectFirstRange
+--ID:1860TS:1633293962043-10/3/21 8:46:02 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.OldRAFDownload.connectFirstRange(OldRAFDownload.java:337)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:198)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:168)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:229)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:128)
+jd.plugins.hoster.MegaConz.apiDownload(MegaConz.java:964)
+jd.plugins.hoster.MegaConz.handleFree(MegaConz.java:1074)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:36|BrowserParentID:35|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+
+----------------Response Information------------
+Connection-Time: 20ms
+Request-Time: 463ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Content-Length: 50621986
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1860TS:1633293962043-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(connectFirstRange)] -> FirstRange was openRange without any RangeRequest!
+--ID:1860TS:1633293962043-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(connect)] -> 
+Caller: jd.plugins.download.raf.OldRAFDownload.connectFirstRange(OldRAFDownload.java:337)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:198)
+jd.plugins.download.raf.OldRAFDownload.connect(OldRAFDownload.java:168)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:229)
+jd.plugins.BrowserAdapter.openDownload(BrowserAdapter.java:128)
+jd.plugins.hoster.MegaConz.apiDownload(MegaConz.java:964)
+jd.plugins.hoster.MegaConz.handleFree(MegaConz.java:1074)
+jd.plugins.PluginForHost.handle(PluginForHost.java:1235)
+jd.controlling.downloadcontroller.SingleDownloadController.download(SingleDownloadController.java:433)
+jd.controlling.downloadcontroller.SingleDownloadController.run(SingleDownloadController.java:615)
+BrowserID:36|BrowserParentID:35|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+
+----------------Response Information------------
+Connection-Time: 20ms
+Request-Time: 463ms
+----------------Response------------------------
+HTTP/1.1 200 OK
+Content-Length: 50621986
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1860TS:1633293962043-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(startDownload)] -> Start Download
+------------------------Thread: 1858:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1858TS:1633293962046-10/3/21 8:46:02 PM -  [jd.controlling.downloadcontroller.DiskSpaceManager(handle)] -> DiskSpaceManager:Result:OK|File:/workspace/mint/dl/JD2Setup x64/JD2Setup_x64.sh.encrypted|Root(s):[/workspace]|Requestor:Thread[Download: JD2Setup_x64.sh_mega.co.nz,1,main]|RequestedSpace:224.55 MB|UsableSpace:1.06 TB
+--ID:1858TS:1633293962046-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(createOutputChannel)] -> createOutputChannel for /workspace/mint/dl/JD2Setup x64/JD2Setup_x64.sh.encrypted
+------------------------Thread: 1860:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1860TS:1633293962047-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(setupChunks)] -> Setup virgin download
+--ID:1860TS:1633293962047-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Start Download in 10 chunks. Chunksize: 5062198
+--ID:1860TS:1633293962047-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 0: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+--ID:1860TS:1633293962047-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 1: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1862:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1862TS:1633293962047-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 0 : 0 - 5062197
+--ID:1862TS:1633293962047-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(copyConnection)] -> Takeover connection(no range) for Start:0|End:5062197
+------------------------Thread: 1860:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1860TS:1633293962047-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 2: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1863:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1863TS:1633293962047-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 1 : 5062198 - 10124395
+------------------------Thread: 1860:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1860TS:1633293962048-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 3: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1864:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1864TS:1633293962049-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 2 : 10124396 - 15186593
+------------------------Thread: 1860:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1860TS:1633293962049-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 4: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1865:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1865TS:1633293962049-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 3 : 15186594 - 20248791
+------------------------Thread: 1860:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1860TS:1633293962049-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 5: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1866:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1866TS:1633293962050-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 4 : 20248792 - 25310989
+------------------------Thread: 1860:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1860TS:1633293962050-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 6: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1867:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1867TS:1633293962050-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 5 : 25310990 - 30373187
+------------------------Thread: 1860:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1860TS:1633293962050-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 7: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1868:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1868TS:1633293962050-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 6 : 30373188 - 35435385
+------------------------Thread: 1860:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1860TS:1633293962051-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 8: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1869:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1869TS:1633293962051-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 7 : 35435386 - 40497583
+------------------------Thread: 1860:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1860TS:1633293962051-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(setupVirginStart)] -> Setup chunk 9: Thread[DownloadChunkRAF:JD2Setup_x64.sh,1,main]
+------------------------Thread: 1870:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1870TS:1633293962051-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 8 : 40497584 - 45559781
+------------------------Thread: 1860:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1860TS:1633293962052-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.OldRAFDownload(waitForChunks)] -> Wait for chunks
+------------------------Thread: 1871:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1871TS:1633293962052-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Start Chunk 9 : 45559782 - -1
+------------------------Thread: 1863:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1863TS:1633293962264-10/3/21 8:46:02 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:37|BrowserParentID:35|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+Range: bytes=5062198-10124396
+
+----------------Response Information------------
+Connection-Time: 20ms
+Request-Time: 113ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 5062198-10124396/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1863TS:1633293962264-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 10124395!=10124396
+------------------------Thread: 1865:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1865TS:1633293962304-10/3/21 8:46:02 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:38|BrowserParentID:35|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+Range: bytes=15186594-20248792
+
+----------------Response Information------------
+Connection-Time: 21ms
+Request-Time: 100ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 15186594-20248792/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1865TS:1633293962305-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 20248791!=20248792
+------------------------Thread: 1868:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1868TS:1633293962333-10/3/21 8:46:02 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:39|BrowserParentID:35|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+Range: bytes=30373188-35435386
+
+----------------Response Information------------
+Connection-Time: 20ms
+Request-Time: 76ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 30373188-35435386/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1868TS:1633293962333-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 35435385!=35435386
+------------------------Thread: 1862:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1862TS:1633293962486-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1862TS:1633293962486-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1862TS:1633293962486-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 0 5062198 bytes
+------------------------Thread: 1865:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1865TS:1633293962559-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1865TS:1633293962560-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1865TS:1633293962560-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 3 5062199 bytes
+------------------------Thread: 1868:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1868TS:1633293962592-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1868TS:1633293962593-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1868TS:1633293962593-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 6 5062199 bytes
+------------------------Thread: 1863:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1863TS:1633293962716-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1863TS:1633293962716-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1863TS:1633293962716-10/3/21 8:46:02 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 1 5062199 bytes
+------------------------Thread: 1864:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1864TS:1633293963039-10/3/21 8:46:03 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:43|BrowserParentID:35|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+Range: bytes=10124396-15186594
+
+----------------Response Information------------
+Connection-Time: 19ms
+Request-Time: 591ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 10124396-15186594/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1864TS:1633293963039-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 15186593!=15186594
+------------------------Thread: 1866:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1866TS:1633293963039-10/3/21 8:46:03 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:42|BrowserParentID:35|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+Range: bytes=20248792-25310990
+
+----------------Response Information------------
+Connection-Time: 21ms
+Request-Time: 633ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 20248792-25310990/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1866TS:1633293963039-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 25310989!=25310990
+------------------------Thread: 1870:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1870TS:1633293963040-10/3/21 8:46:03 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:40|BrowserParentID:35|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@263b448b|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------ConnectionExceptions-------------------------
+0:gfs270n435.userstorage.mega.co.nz/89.44.168.217|java.io.EOFException(empty HTTP-Response)|retrySSL:Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle
+----------------Request-------------------------
+GET /dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+Range: bytes=40497584-45559782
+
+----------------Response Information------------
+Connection-Time: 98ms
+Request-Time: 575ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 40497584-45559782/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+--ID:1870TS:1633293963041-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 45559781!=45559782
+------------------------Thread: 1869:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1869TS:1633293963059-10/3/21 8:46:03 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:45|BrowserParentID:35|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@6f9b06d5|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+Range: bytes=35435386-40497584
+
+----------------Response Information------------
+Connection-Time: 98ms
+Request-Time: 511ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 35435386-40497584/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+------------------------Thread: 1867:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1867TS:1633293963059-10/3/21 8:46:03 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:41|BrowserParentID:35|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+SSLCipher: AutoSwitch|JVM|Protocol:TLSv1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+Range: bytes=25310990-30373188
+
+----------------Response Information------------
+Connection-Time: 20ms
+Request-Time: 703ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 25310990-30373188/50621986
+Content-Length: 5062199
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+------------------------Thread: 1869:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1869TS:1633293963059-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 40497583!=40497584
+------------------------Thread: 1871:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1871TS:1633293963059-10/3/21 8:46:03 PM -  [jd.http.Browser(openRequestConnection)] -> 
+Caller: jd.plugins.download.raf.RAFChunk.copyConnection(RAFChunk.java:177)
+jd.plugins.download.raf.RAFChunk.run0(RAFChunk.java:528)
+jd.plugins.download.raf.RAFChunk.run(RAFChunk.java:509)
+BrowserID:44|BrowserParentID:35|RequestID:1|URL:https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+----------------Request Information-------------
+URL: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+SSLCipher: AutoSwitch|BouncyCastle Security Provider v1.69|org.bouncycastle.tls.crypto.impl.bc.BcTlsCrypto@34e5dc72|Protocol:TLS 1.2|CipherSuite:TLS_RSA_WITH_AES_128_CBC_SHA|[Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=(Reset)enable AES_128_GCM for TLS1.2/TLS1.3, Factory:org.jdownloader.net.AutoBCSSLSocketStreamFactory@16ffcb95=fallback BouncyCastle]
+ConnectIP: gfs270n435.userstorage.mega.co.nz/89.44.168.217:443
+Connection-Timeout: 20000ms
+Read-Timeout: 60000ms
+----------------Request-------------------------
+GET /dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw HTTP/1.1
+Host: gfs270n435.userstorage.mega.co.nz
+Referer: https://gfs270n435.userstorage.mega.co.nz/dl/stIu6HKA5aSEbgfCkXlcf5AWP1TNfr7blJmV8G0Q-pXCx-LEITC4snCY6wQBx1DmZ_8UnkuFPNrA2A_VS0U4VdkgbvuIKkbuOidaWA-d60_9VA2R3jyzXQza1jWukUJDHpyUe8rj7mUqdBEqpavPi-GbYE7Fl8xupx4bSFKTapiA4-aS3n-7co9bNNeFQb4cCtY71jBW7S0_7uctwd_FKFCkp2dybjCICk0zllbkoexUWtmgH83ALuzfDw
+Range: bytes=45559782-
+
+----------------Response Information------------
+Connection-Time: 104ms
+Request-Time: 555ms
+----------------Response------------------------
+HTTP/1.1 206 Partial Content
+Content-Range: bytes 45559782-50621985/50621986
+Content-Length: 5062204
+Content-Type: application/octet-stream
+Content-Disposition: attachment
+Cache-Control: private
+Cache-Control: no-store
+Content-Transfer-Encoding: binary
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Headers: MEGA-Chrome-Antileak
+Access-Control-Max-Age: 86400
+------------------------------------------------
+
+
+------------------------Thread: 1867:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1867TS:1633293963059-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> EndByte missmatch(1)! 30373187!=30373188
+------------------------Thread: 1864:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1864TS:1633293963254-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1864TS:1633293963255-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1864TS:1633293963255-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 2 5062199 bytes
+------------------------Thread: 1870:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1870TS:1633293963321-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1870TS:1633293963321-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1870TS:1633293963322-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 8 5062199 bytes
+------------------------Thread: 1867:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1867TS:1633293963360-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1867TS:1633293963360-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1867TS:1633293963360-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 5 5062199 bytes
+------------------------Thread: 1866:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1866TS:1633293963402-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1866TS:1633293963402-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1866TS:1633293963402-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 4 5062199 bytes
+------------------------Thread: 1871:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1871TS:1633293963408-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1871TS:1633293963408-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1871TS:1633293963409-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 9 5062204 bytes
+------------------------Thread: 1869:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1869TS:1633293963674-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> reached artificial EOF
+--ID:1869TS:1633293963674-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(download)] -> ExternalAbort: false
+--ID:1869TS:1633293963674-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.RAFChunk(run0)] -> Chunk finished 7 5062199 bytes
+------------------------Thread: 1860:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1860TS:1633293963675-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.OldRAFDownload(onChunksReady)] -> All connections closed:00s
+--ID:1860TS:1633293963818-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.OldRAFDownload(closeOutputChannel)] -> Buffers forced to disk:00s
+--ID:1860TS:1633293963819-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.OldRAFDownload(closeOutputChannel)] -> File closed:00s
+--ID:1860TS:1633293963819-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> ExternalStop: false|VerifiedFilesize: 50621986|FileSize: 50621986|Loaded: 50621994
+--ID:1860TS:1633293963819-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> VerifiedFilesize: 50621986 Loaded: 50621994
+--ID:1860TS:1633293963819-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> ExternalStop: false|VerifiedFilesize: 50621986|FileSize: 50621986|Loaded: 50621994
+--ID:1860TS:1633293963819-10/3/21 8:46:03 PM -  [jd.plugins.download.raf.OldRAFDownload(handleErrors)] -> VerifiedFilesize: 50621986 Loaded: 50621994
+--ID:1860TS:1633293964112-10/3/21 8:46:04 PM -  [jd.controlling.downloadcontroller.SingleDownloadController(run)] -> StopDownloadMarker:1633293961259
+------------------------Thread: 1858:mega.co.nz_jd.plugins.hoster.MegaConz-----------------------
+--ID:1858TS:1633293964113-10/3/21 8:46:04 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Rename after Download?
+--ID:1858TS:1633293964113-10/3/21 8:46:04 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Desired Path: /workspace/mint/dl/JD2Setup x64/JD2Setup_x64.sh
+--ID:1858TS:1633293964113-10/3/21 8:46:04 PM -  [jd.controlling.downloadcontroller.DownloadWatchDog$27(execute)] -> Actually Used path: /workspace/mint/dl/JD2Setup x64/JD2Setup_x64.sh

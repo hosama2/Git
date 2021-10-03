@@ -1,0 +1,7 @@
+{
+  "preferreconnectenabled" : false,
+  "usepremiumapienabled" : true,
+  "smallfileswaitinterval" : 10,
+  "prefersslenabled" : true,
+  "maxpremiumchunks" : 3
+}

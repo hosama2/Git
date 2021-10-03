@@ -1,0 +1,6 @@
+# install4j response file for JDownloader 2.0
+createDesktopLinkAction$Boolean=true
+executeLauncherAction$Boolean=false
+sys.adminRights$Boolean=false
+sys.installationDir=/workspace/mint/jd2
+sys.languageId=en
